@@ -8,13 +8,28 @@ The purpose of this project is to extract tables from wikipedia pages. We have t
 The extracted data must be well structured and exported in the CSV format.
 
 <b><h1>Prerequisites</h1></b>
-<p>You need to install Eclipse as a devleppoment tool.</p>
-
-<h1>Authors</h1>
+<p>You need to install Eclipse or Intellij as a devleppoment tool.</p>
+<p>
+  
+ <h2> Starting the project with eclipse IDE</h2>
+1. On github, run the 'clone and download' button and copy the link
+2.launch eclipse
+	File->Import
+3-Select the folder Git
+	->Project from Git
+5-Select 'Clone URL'
+4-Paste the link on the URL text box
+5-Select master only->Next->Next->Next->Finish
+6-Wait the end of building Workspace
+Note: No need to download maven dependencies,
+Eclipse will do it alone.
+7-Run the project.
+</p>
+<h1>Members of group</h1>
 <ul>
-<li>Chepkasova Anastasiia</li>
-<li>FAll Elhadji Gora</li>
-<li>Le Lec Jean-Loup</li>
-<li>Ibn Mrabet Mohamed</li>
-<li>Yao Linda</li>
+<li>Abdourahmane BAH</li>
+<li>Oklin KONE</li>
+<li>Olivier KOKO</li>
+<li>Seydou BAKAYOKO</li>
+<li>Fabrice Stra</li>
 <ul>
