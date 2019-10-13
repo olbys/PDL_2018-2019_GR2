@@ -4,3 +4,8 @@
 .classpath
 .project
 *.jar
+/.iml
+.iml
+/.idea/
+.idea/
+/.setting/
