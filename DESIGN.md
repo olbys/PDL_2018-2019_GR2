@@ -30,5 +30,5 @@ This diagram will present a diagram of the use of classes for the different case
 
 # Package diagram 
 
-![Pack Diagram Schema](.settings/pdl.jpeg)
+![Pack Diagram Schema](.settings/pdl.jpg)
 <br/>
