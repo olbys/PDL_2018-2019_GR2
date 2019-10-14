@@ -1,3 +1,4 @@
+<h1>INSTALL</h1>
 <p>  
  <h2> Starting the project with eclipse IDE</h2>
 1. On github, run the 'clone and download' button and copy the link
