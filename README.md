@@ -13,9 +13,9 @@ A program to extract tables from wikipedia pages and generate their CSV.
  ### Some useful links:
  
 - [install.md](https://github.com/olbys/PDL_2018-2019_GR2/install.md)
-- [design.md](https://github.com/olbys/PDL_2018-2019_GR2/design.md)
-- [examples.md](https://github.com/olbys/PDL_2018-2019_GR2/examples.md)
-- [Running the tests](https://github.com/olbys/PDL_2018-2019_GR2/tests) 
+- [design.md](DESIGN.md)
+- [examples.md]("")
+- [Running the tests]("") 
 
 
  ### Authors :construction_worker: 
