@@ -77,9 +77,6 @@ public class BenchTest {
 	    br.close();	    
 	    assertEquals(nurl, 336);
 	    
-
-
-
 	}
 
 	private String mkCSVFileName(String url, int n) {
