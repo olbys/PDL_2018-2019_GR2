@@ -1,4 +1,4 @@
-#INSTALL#
+# INSTALL
 <p>  
  <h2> Starting the project with eclipse IDE</h2>
 <ol>
