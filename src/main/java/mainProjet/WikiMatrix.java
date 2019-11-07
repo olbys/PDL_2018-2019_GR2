@@ -56,7 +56,7 @@ public class WikiMatrix {
 		}
 		System.out.println(utils.Messages.MESSAGEDEFIN);
 
-		System.out.println(utils.Messages.PATIENT);// Patientez..
+		//System.out.println(utils.Messages.PATIENT);// Patientez..
 		/*
 		ExtractionToHTML eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
 		eth.getContentHtml();*/
