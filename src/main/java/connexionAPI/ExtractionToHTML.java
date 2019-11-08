@@ -1,14 +1,13 @@
 
 package connexionAPI;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.URL;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class ExtractionToHTML {
 	private String url;
