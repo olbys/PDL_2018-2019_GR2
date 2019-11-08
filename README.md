@@ -1,35 +1,32 @@
-PDL_2018-2019_GR2
+# PDL_2019-2020 : Improve PDL_2018-2019_GR2
+## Wikipedia Matrix
+A program to extract tables from wikipedia pages and generate their CSV.
+ Have a look at the [documentation](https://github.com/olbys/PDL_2018-2019_GR2/docs) to find additional information.
 
-Wikipedia Matrix
+  ### Features:
 
-<b><h1>Getting Started</h1></b>
+- [x] Extract tables from wikipedia pages via HTML and via Wikitext
+- [ ] Structure and export data in csv format
+- [ ] Evaluate the extractors
+- [ ] Build a truth-ground => The extraction is good? we validate it : we create a way to edit the csv file
 
-The purpose of this project is to extract tables from wikipedia pages. We have two ways to extract: via HTML and via Wikitext.
-The extracted data must be well structured and exported in the CSV format.
+ ### Some useful links:
+ 
+- [install.md](INSTALL.md)
+- [design.md](DESIGN.md)
+- [examples.md]("")
+- [Running the tests]("") 
 
-<b><h1>Prerequisites</h1></b>
-<p>You need to install Eclipse or Intellij as a devleppoment tool.</p>
-<p>
-  
- <h2> Starting the project with eclipse IDE</h2>
-1. On github, run the 'clone and download' button and copy the link
-<br>2.launch eclipse
-	File->Import
-<br>3-Select the folder Git
-	->Project from Git
-<br>4-Select 'Clone URL'
-<br>5-Paste the link on the URL text box
-<br>6-Select master only->Next->Next->Next->Finish
-<br>7-Wait the end of building Workspace
-<br>7-Run the project.
-<br/><b>Note: No need to download maven dependencies,
-Eclipse will do it alone.</b>
-</p>
-<h1>Members of group</h1>
-<ul>
-<li>Abdourahmane BAH</li>
-<li>Oklin KONE</li>
-<li>Olivier KOKO</li>
-<li>Seydou BAKAYOKO</li>
-<li>Fabrice Stra</li>
-<ul>
+
+ ### Authors :construction_worker: 
+1. Jean-Olivier KOKO
+2. Fabrice TRA
+3. Seydou BAKAYOKO
+4. Abdourahmane BAH
+5. Oklin KONE
+
+### Examples
+> For very soon
+
+> Stay connected
+
