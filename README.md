@@ -1,20 +1,32 @@
-PDL_2018-2019_GR2
+# PDL_2019-2020 : Improve PDL_2018-2019_GR2
+## Wikipedia Matrix
+A program to extract tables from wikipedia pages and generate their CSV.
+ Have a look at the [documentation](https://github.com/olbys/PDL_2018-2019_GR2/docs) to find additional information.
 
-Wikipedia Matrix
+  ### Features:
 
-<b><h1>Getting Started</h1></b>
+- [x] Extract tables from wikipedia pages via HTML and via Wikitext
+- [ ] Structure and export data in csv format
+- [ ] Evaluate the extractors
+- [ ] Build a truth-ground => The extraction is good? we validate it : we create a way to edit the csv file
 
-The purpose of this project is to extract tables from wikipedia pages. We have two ways to extract: via HTML and via Wikitext.
-The extracted data must be well structured and exported in the CSV format.
+ ### Some useful links:
+ 
+- [install.md](INSTALL.md)
+- [design.md](DESIGN.md)
+- [examples.md]("")
+- [Running the tests]("") 
 
-<b><h1>Prerequisites</h1></b>
-<p>You need to install Eclipse as a devleppoment tool.</p>
 
-<h1>Authors</h1>
-<ul>
-<li>Chepkasova Anastasiia</li>
-<li>FAll Elhadji Gora</li>
-<li>Le Lec Jean-Loup</li>
-<li>Ibn Mrabet Mohamed</li>
-<li>Yao Linda</li>
-<ul>
+ ### Authors :construction_worker: 
+1. Jean-Olivier KOKO
+2. Fabrice TRA
+3. Seydou BAKAYOKO
+4. Abdourahmane BAH
+5. Oklin KONE
+
+### Examples
+> For very soon
+
+> Stay connected
+
