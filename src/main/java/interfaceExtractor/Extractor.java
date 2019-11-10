@@ -2,11 +2,7 @@ package interfaceExtractor;
 
 public interface Extractor {
     
-    /**
-     * vérifie sur l'url correspond à un lien wikipedia 
-     * @return boolean 
-     */
-     boolean isWikipediaUrl();
+    
      
      /**
       * vérifie sur l'url est valide cas où le code http response different de 200 
