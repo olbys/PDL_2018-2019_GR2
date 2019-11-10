@@ -15,6 +15,7 @@ import connexionAPI.ExtractionToWiki;
 
 public class BenchTest {
 	
+	
 	/*
 	*  the challenge is to extract as many relevant tables as possible
 	*  and save them into CSV files  

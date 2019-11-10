@@ -14,7 +14,8 @@ import connexionAPI.ExtractionToHTML;
 public class ExtractionToHTMLTest {
 	ExtractionToHTML eth;
         
-       
+    
+	/*
 	
 	@Test
 	public void testGetContentHtml() {
@@ -57,5 +58,6 @@ public class ExtractionToHTMLTest {
 			e.printStackTrace();
 		}
 	}
+	*/
 
 }

@@ -1,34 +1,33 @@
 
 package connexionAPI;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import abstractClass.AbstractExtractor;
-import interfaceExtractor.Extractor;
-
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class ExtractionToHTML extends AbstractExtractor{
-	private String url;
+	
+	public ExtractionToHTML() {};
+	public ExtractionToHTML(String _url) {
+	  super(_url);
+	}
+	
+ 
+	
 
-	public ExtractionToHTML(String url) {
-		this.url = url;
-	}
-	public ExtractionToHTML() {
-	}
 
-	public static void main(String[] args) {
-		//ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
-		//html.getContentHtml();
-	}
-
-	public void setUrl(String url) {
-		this.url = url;
-	}
+	
+	
+	//## ------------------- REFACTORING EN MEME TEMPS DE L'IMPLEMENTATION ------------------
+	
+	
+	
 
 	/**
 	 * Cette fonction cr�e un fichier un CSV contenant les donn�es des tableaux
@@ -38,6 +37,7 @@ public class ExtractionToHTML extends AbstractExtractor{
 	 *            l'adresse de la page que nous voulons exploiter
 	 * @throws IOException
 	 */
+	
 	public void getContentHtml() {// trouver un meilleur nom pour cette fonction
 		System.out.println("Debut de l'extraction :");
 
@@ -181,14 +181,8 @@ public class ExtractionToHTML extends AbstractExtractor{
 			e.printStackTrace();
 		}
 	}
-	public boolean urlIsValid() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-	public boolean connexionDone() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
+
 
 
 }

@@ -1,45 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package connexionAPITest;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Jean Olivier Koko
- */
-public class ExtractorTest {
-    
-    public ExtractorTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
+import org.junit.Test;
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+import connexionAPI.ExtractionToHTML;
+import interfaceExtractor.Extractor;
+
+public class ExtractorTest {
+
+	@Test
+	public void testIsUrlValid() {
+		Extractor extractor =  new ExtractionToHTML("http://www.google.com");
+		assertFalse("url must be no valid" , extractor.isUrlValid());
+		extractor =  new ExtractionToHTML("https://en.wikipedia.org/wiki/Loi_des_Douze_Tables");
+		assertTrue(" url must be valid", extractor.isUrlValid());
+	}
+
+	@Test
+	public void testIsConnectionOn() {
+		
+	}
+
 }

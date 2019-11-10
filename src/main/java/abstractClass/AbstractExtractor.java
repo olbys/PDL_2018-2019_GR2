@@ -1,36 +1,53 @@
 package abstractClass;
 
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import interfaceExtractor.Extractor;
 
 public abstract class AbstractExtractor implements Extractor {
- private String url;
+	
+	protected String url;
  
+
+	public AbstractExtractor(String _url) {
+		 this.url = _url; 
+	 }
+	
+	public AbstractExtractor() {
+		
+	}
+	
+	
+
+	public String getUrl() {
+		return this.url;
+	}
+	
+	
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	
+	/**
+	 * Test si l'url de l'extractor est valide 
+	 */
+	public boolean isUrlValid() {
+		String pattern = "http(s)?://en.wikipedia.org/wiki/";
+        Pattern regPat = Pattern.compile(pattern , Pattern.CASE_INSENSITIVE);
+        Matcher matcher = regPat.matcher(this.url);
+      return matcher.find();
+		    
+	}
+	
+	
+	/**
+	 * Test si la connection est etablir pour faire l'extraction 
+	 */
 	public boolean isConnectionOn() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
-	public boolean isWikipediaUrl(String url) {
-		String s=url.substring(0,24);
-		if(s=="https://fr.wikipedia.org/"||s=="https://fr.wikipedia.org/") {
-			return true;
-		}
-		return false;
-	}
-
-	public boolean isUrlValid(String url) {
-		
-		try {
-			URL s= new URL(url);
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return false;
-	}
      
 }

@@ -30,11 +30,21 @@ import  java.io. * ;
 
 
 public class ExtractionToWiki extends AbstractExtractor{
-
-	private String url;
+	
+	public ExtractionToWiki(String _url) {
+		super(_url);
+	}
 	
 	public ExtractionToWiki() {
+		
 	}
+	
+	
+
+	
+	
+	
+	
 	
 	// Fonction pour essayeer de Parcer le wikiText avec Parse
 	public static void getTabeWiki(String chaine) {// que fait cette fonction?
@@ -156,6 +166,7 @@ public class ExtractionToWiki extends AbstractExtractor{
 		  return  newTitre;
 	}
 	
+	
 	public void insertionDonnesTableauWikiDansFichierCSV(Document doc) {
 
 		ExtractionToHTML et1 = new ExtractionToHTML();
@@ -181,36 +192,8 @@ public class ExtractionToWiki extends AbstractExtractor{
 		et1.pourTousLesTableaux(doc, titreformater);
 	}
 
-	public static void main(String[] args) throws Exception {
 
-		//String Url1 = "https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
-		String Url1 = "Comparison_of_Canon_EOS_digital_cameras";
-		//String Url3 = "Liste_des_pays_par_PIB_nominal";
-
-		//String Url3 = "https://fr.wikipedia.org//w/api.php?action=parse&page=Liste_des_pays_par_PIB_nominal&prop=wikitext&format=json";
-		String ulrwiki = getUrlFormatRequeteJson(Url1);         
-		String list1 = getContenuePage(ulrwiki);
-		String formatWiki = getTableFormatwikitext(list1);
-		Document doc = null; //
-
-		//doc = Jsoup.connect(WikiModel.toHtml(formatWiki)).get();
-		doc = Jsoup.parse(WikiModel.toHtml(formatWiki));
-		System.out.println(doc);
-		FileWriter fichierCsv = creationFichierCsv(doc,Url1);
-		ExtractionToHTML et1 = new ExtractionToHTML();
-		et1.pourTousLesTableaux(doc, Url1);
-	}
-
-	public boolean urlIsValid() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	public boolean connexionDone() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
+	
 
 
 
