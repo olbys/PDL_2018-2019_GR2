@@ -6,10 +6,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import abstractClass.AbstractExtractor;
+import interfaceExtractor.Extractor;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class ExtractionToHTML {
+public class ExtractionToHTML extends AbstractExtractor{
 	private String url;
 
 	public ExtractionToHTML(String url) {
@@ -36,7 +39,7 @@ public class ExtractionToHTML {
 	 * @throws IOException
 	 */
 	public void getContentHtml() {// trouver un meilleur nom pour cette fonction
-		System.out.println("D�but de l'extraction :");
+		System.out.println("Debut de l'extraction :");
 
 		// r�cup�ration des donn�es d'une page wikip�dia dans un Document
 		Document doc = getHtmlJsoup(this.url);
@@ -177,6 +180,14 @@ public class ExtractionToHTML {
 			System.out.println("erreur lors de la fermeture du fichier .CSV");
 			e.printStackTrace();
 		}
+	}
+	public boolean urlIsValid() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public boolean connexionDone() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 

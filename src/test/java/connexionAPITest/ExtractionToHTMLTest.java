@@ -46,7 +46,7 @@ public class ExtractionToHTMLTest {
 		
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
 		eth.getContentHtml();
-		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
+		File file = new File("fichierCSV\\Loi_des_Douze_Tables.csv");
 		try {
 			Scanner in = new Scanner(file);
 			in.useDelimiter("\n");
