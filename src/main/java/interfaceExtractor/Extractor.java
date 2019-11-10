@@ -3,17 +3,23 @@ package interfaceExtractor;
 public interface Extractor {
     
     /**
-     * vérifie sur l'url correspond au lien en.wikipedia.org/wiki/ 
+     * vérifie sur l'url correspond à un lien wikipedia 
      * @return boolean 
      */
-     boolean urlIsValid();
-    
-     /**
-      *  verifie si la connexion http a pu s'etablir 
-      * @return boolean  
-      */
-     boolean connexionDone();
+     boolean isWikipediaUrl();
      
+     /**
+      * vérifie sur l'url est valide cas où le code http response different de 200 
+      * @return boolean 
+      */
+     boolean isUrlValid();
+     /**
+      * verifie si la connection est active
+      * @return boolean
+      */
+     boolean isConnectionOn();
+
+	
     
      
      
