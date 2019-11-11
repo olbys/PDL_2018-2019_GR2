@@ -1,7 +1,12 @@
 package abstractClass;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.net.ssl.HttpsURLConnection;
 
 import interfaceExtractor.Extractor;
 
@@ -46,6 +51,20 @@ public abstract class AbstractExtractor implements Extractor {
 	 * Test si la connection est etablir pour faire l'extraction 
 	 */
 	public boolean isConnectionOn() {
+		
+		try {
+			
+			if(!this.isUrlValid()) {
+				return false;
+			}
+			
+			 URL une_url = new URL(this.url);
+			 HttpURLConnection test_connexion = (HttpURLConnection) une_url.openConnection();
+			 return (test_connexion.getResponseCode() == HttpURLConnection.HTTP_OK || HttpURLConnection.HTTP_MOVED_PERM == test_connexion.getResponseCode()  );
+		} catch(Exception e ) {
+			
+		};
+		
 		return false;
 	}
 

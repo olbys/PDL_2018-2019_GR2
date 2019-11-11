@@ -13,18 +13,27 @@ import abstractClass.AbstractExtractor;
 
 public class ExtractionToHTML extends AbstractExtractor{
 	
+	//## ------------------- REFACTORING EN MEME TEMPS DE L'IMPLEMENTATION ------------------
+	
 	public ExtractionToHTML() {};
+	
 	public ExtractionToHTML(String _url) {
 	  super(_url);
 	}
 	
+	
+	public static void main(String[] args ) {
+		
+		ExtractionToHTML  extractor =  new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua");
+		System.out.println(extractor.isConnectionOn());
+	}
+	
+	
+	//## ------------------- End - REFACTORING EN MEME TEMPS DE L'IMPLEMENTATION  ------------
+	
  
 	
-
-
 	
-	
-	//## ------------------- REFACTORING EN MEME TEMPS DE L'IMPLEMENTATION ------------------
 	
 	
 	
