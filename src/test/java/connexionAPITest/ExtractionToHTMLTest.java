@@ -13,16 +13,32 @@ import connexionAPI.ExtractionToHTML;
 
 public class ExtractionToHTMLTest {
 	ExtractionToHTML eth;
-        
-    
-	/*
+        	
+	@Test
+	public void testCreateCsvFileFromHtml1() {
+		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
+		Document doc = eth.extractDataTablesIntoHtmlFormat();
+		int nbFile = eth.createCsvFiles(doc);
+		File file = new File("output\\html\\Loi des Douze Tables0.csv");
+		assertTrue("fichier existe", file.exists());
+		assertEquals(nbFile, 1);
+	}
 	
 	@Test
-	public void testGetContentHtml() {
-		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-		eth.getContentHtml();
-		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
-		assertTrue("fichier existe", file.exists());
+	public void testCreateCsvFileFromHtml2() {
+		eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
+		Document doc = eth.extractDataTablesIntoHtmlFormat();
+		int n = eth.createCsvFiles(doc);
+		File file=null;
+		for(int i = 1;i<6;i++) {
+			if(i == 1) {
+				file = new File("output\\html\\Comparison of Norwegian Bokmål and Standard Danish.csv");
+			}else {
+				file = new File("output\\html\\Comparison of Norwegian Bokmål and Standard Danish"+i+".csv");	
+			}
+			assertTrue("fichier existe", file.exists());
+			assertEquals(n, 9);
+		}
 	}
 
 	@Test
@@ -43,21 +59,12 @@ public class ExtractionToHTMLTest {
 		}
 	}
 	@Test
-	public void testInsertionDonnesTableauDansFichierCSV2() {
+	public void testNumberOfFilesCreated() {
 		
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-		eth.getContentHtml();
-		File file = new File("fichierCSV\\Loi_des_Douze_Tables.csv");
-		try {
-			Scanner in = new Scanner(file);
-			in.useDelimiter("\n");
-			String str = in.next();
-			in.close();
-			assertEquals("Corpus de lois;", str);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+		Document doc = eth.extractDataTablesIntoHtmlFormat();
+		int n = eth.createCsvFiles(doc);
+		assertEquals(n, 1);
 	}
-	*/
 
 }
