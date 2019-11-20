@@ -41,8 +41,8 @@ public class WikiMatrix {
 		}
 		if (choix.equals("1")) {
 			ExtractionToHTML eth = new ExtractionToHTML(url);
-			
-			System.out.print(eth.getHtmlJsoup(url));
+			eth.createCsvFiles(eth.getHtmlJsoup(url));
+			//System.out.print(eth.getHtmlJsoup(url));
 			// Patientez..
 
 		} else if (choix.equals("2")) {

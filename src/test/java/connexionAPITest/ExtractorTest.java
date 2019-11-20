@@ -9,7 +9,7 @@ import interfaceExtractor.Extractor;
 
 public class ExtractorTest {
 
-	@Test
+	//@Test
 	public void testIsUrlValid() {
 		Extractor extractor =  new ExtractionToHTML("http://www.google.com");
 		assertFalse("url must be no valid" , extractor.isUrlValid());
@@ -17,7 +17,7 @@ public class ExtractorTest {
 		assertTrue(" url must be valid", extractor.isUrlValid());
 	}
 
-	@Test
+	//@Test
 	public void testIsConnectionOn() {
 		 Extractor extractor =  new ExtractionToHTML("http://www.google.com");
 	    	 assertFalse("url must be no valid" , extractor.isConnectionOn());

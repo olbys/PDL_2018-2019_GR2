@@ -13,31 +13,32 @@ import connexionAPI.ExtractionToHTML;
 
 public class ExtractionToHTMLTest {
 	ExtractionToHTML eth;
+	static int NUMBER_OF_VALIDE_FILE_TO_CREATE;
         	
-	@Test
+	//@Test
 	public void testCreateCsvFileFromHtml1() {
+		NUMBER_OF_VALIDE_FILE_TO_CREATE=0;
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
 		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int nbFile = eth.createCsvFiles(doc);
-		File file = new File("output\\html\\Loi des Douze Tables0.csv");
-		assertTrue("fichier existe", file.exists());
-		assertEquals(nbFile, 1);
+		int numberOfCreatedFile = eth.createCsvFiles(doc);
+		assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
 	}
 	
-	@Test
+	//@Test
 	public void testCreateCsvFileFromHtml2() {
 		eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
+		NUMBER_OF_VALIDE_FILE_TO_CREATE = 6;
 		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int n = eth.createCsvFiles(doc);
+		int numberOfCreatedFile = eth.createCsvFiles(doc);
 		File file=null;
-		for(int i = 1;i<6;i++) {
-			if(i == 1) {
+		for(int i = 0;i<=numberOfCreatedFile;i++) {
+			if(i < 1) {
 				file = new File("output\\html\\Comparison of Norwegian Bokmål and Standard Danish.csv");
 			}else {
 				file = new File("output\\html\\Comparison of Norwegian Bokmål and Standard Danish"+i+".csv");	
 			}
 			assertTrue("fichier existe", file.exists());
-			assertEquals(n, 9);
+			assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
 		}
 	}
 
@@ -58,13 +59,22 @@ public class ExtractionToHTMLTest {
 			assertTrue(e instanceof IllegalArgumentException);
 		}
 	}
-	@Test
+	//@Test
 	public void testNumberOfFilesCreated() {
-		
+		NUMBER_OF_VALIDE_FILE_TO_CREATE=0;
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
 		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int n = eth.createCsvFiles(doc);
-		assertEquals(n, 1);
+		int numberOfCreatedFile = eth.createCsvFiles(doc);
+		assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
 	}
-
+	
+	//@Test
+	public void testNumberOfFilesCreated2() {
+		eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Chernobyl_and_other_radioactivity_releases");
+		NUMBER_OF_VALIDE_FILE_TO_CREATE=3;
+		Document doc = eth.extractDataTablesIntoHtmlFormat();
+		int numberOfCreatedFile = eth.createCsvFiles(doc);
+		assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
+	}
+	
 }
