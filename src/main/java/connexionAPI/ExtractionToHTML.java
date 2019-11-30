@@ -145,21 +145,21 @@ public class ExtractionToHTML {
 		if(doc!=null) {
 			if(doc.select("table")!=null) {
 
-				for (Element table : doc.select("table")) {
+					}
+                                for (Element table : doc.select("table")) {
 
-					if (table.className().contains("wikitable")) {
+                                    if (table.className().contains("wikitable")) {
 
-						for (Element row : table.select("tr")) {
-							String ligneDunTableau = "";
-							for(Element th : row.select("th")) {
-								ligneDunTableau += th.text().trim() + ";";
-							}
-							for (Element td : row.select("td")) {
-								ligneDunTableau += td.text().trim() + ";";
-								for(Element th : td.select("th")) {
-									ligneDunTableau += th.text().trim() + ";";
-								}
-							}
+                                        for (Element row : table.select("tr")) {
+                                            String ligneDunTableau = "";
+                                            for(Element th : row.select("th")) {
+                                                ligneDunTableau += th.text().trim() + ";";
+                                            }
+                                            for (Element td : row.select("td")) {
+                                                ligneDunTableau += td.text().trim() + ";";
+                                                for(Element th : td.select("th")) {
+                                                    ligneDunTableau += th.text().trim() + ";";
+                                                }
 							try {
 								fileWriter.append(ligneDunTableau);
 								fileWriter.append("\n");
