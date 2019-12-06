@@ -15,6 +15,7 @@ import connexionAPI.ExtractionToWiki;
 
 public class BenchTest {
 	
+	
 	/*
 	*  the challenge is to extract as many relevant tables as possible
 	*  and save them into CSV files  
@@ -58,8 +59,6 @@ public class BenchTest {
 	       // "Comparison_of_operating_system_kernels-2.csv"
 	       //Continuer a reflechir!!!!
 	       extractHtml.pourTousLesTableaux(doc, "output\\html\\"+csvFileName);
-	       
-	       
 	       // TODO: the HTML extractor should save CSV files into output/HTML
 	       // see outputDirHtml 
 	       
@@ -77,9 +76,6 @@ public class BenchTest {
 	    br.close();	    
 	    assertEquals(nurl, 336);
 	    
-
-
-
 	}
 
 	private String mkCSVFileName(String url, int n) {

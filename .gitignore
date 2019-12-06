@@ -15,6 +15,7 @@ hs_err_pid*
 .idea/
 *.iml
 *.iws
+/.idea/
 
 # Maven
 log/
@@ -29,3 +30,11 @@ bin/
 build/
 /bin1/
 java/build/**
+
+*.gitignore
+/src/main/java/apiconnexion/
+/src/bin/
+/target/
+*.classpath
+/output/
+/inputdata/
