@@ -36,5 +36,4 @@ java/build/**
 /src/bin/
 /target/
 *.classpath
-/output/
 /inputdata/
