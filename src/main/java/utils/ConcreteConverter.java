@@ -1,10 +1,12 @@
 package utils;
 
 
-import InterfaceExtractor.Extractor;
+
+
 import abstractClass.Converter;
 import connexionAPI.*;
 import createfileCSV.GestionnaireCSV;
+import interfaceExtractor.Extractor;
 
 public class ConcreteConverter extends Converter {
 	

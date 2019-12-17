@@ -5,11 +5,25 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 
 import com.opencsv.*;
 
 public class GestionnaireCSV {
+	
+	
+	public void addHeader(String titreMatrice, String header, String data) throws IOException{
+
+		FileWriter fileWriter = new FileWriter(titreMatrice+".csv");
+		fileWriter.append(header);
+		addDatas(data, fileWriter);
+	}
+	
+	public void addDatas(String data, FileWriter fileWriter) throws IOException{
+		fileWriter.append(data);
+		fileWriter.close();
+	}
 	
 	/**
 	 * Extract the filename from url
@@ -132,20 +146,8 @@ public class GestionnaireCSV {
 			} catch (Exception e2) {
 				e2.printStackTrace();
 			}
-		}	
-import java.io.FileWriter;
-import java.io.IOException;
-
-public class GestionnaireCSV {
-	public void addHeader(String titreMatrice, String header, String data) throws IOException{
-
-		FileWriter fileWriter = new FileWriter(titreMatrice+".csv");
-		fileWriter.append(header);
-		addDatas(data, fileWriter);
-	}
-	
-	public void addDatas(String data, FileWriter fileWriter) throws IOException{
-		fileWriter.append(data);
-		fileWriter.close();
+		}
 	}
 }
+
+

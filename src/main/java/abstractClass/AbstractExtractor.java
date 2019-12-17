@@ -20,7 +20,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import InterfaceExtractor.Extractor;
+import interfaceExtractor.Extractor;
 import createfileCSV.GestionnaireCSV;
 import utils.Messages;
 
@@ -46,7 +46,7 @@ public abstract class AbstractExtractor implements Extractor {
 	public List<String> getUrlsFromFile() throws IOException{
 		File file = new File(Messages.URLS_FILE_PATH);
 		BufferedReader br = new BufferedReader(new FileReader(file));
-	    List<String> urls=new ArrayList<>();
+	    List<String> urls=new ArrayList<String>();
 	    String url;
 	    while ((url = br.readLine()) != null) {
 	    	urls.add(url);
@@ -74,7 +74,7 @@ public abstract class AbstractExtractor implements Extractor {
 		return false;
 	}
 	
-	@Override
+	
 	public Elements ignoredClasses(Elements tableElements) {
 		String[] currentTableClasses;
 		for (Element currentTable : tableElements) {
@@ -94,7 +94,7 @@ public abstract class AbstractExtractor implements Extractor {
 		return tableElements.not("."+Messages.CLASS_TO_REMOVE);
 	}
 	
-	@Override
+	
 	public Elements extractTables(Document doc, String url) throws IOException, HttpStatusException {
 		Elements tableElements = null;
 		if (!isUrlValid(url)) {
@@ -150,7 +150,8 @@ public abstract class AbstractExtractor implements Extractor {
 		}
 		return tableElements;
 	}
-	@Override
+	
+	
 	public Elements ignoredElements(String tag, Elements tableElements) {
 		
 		for (Element currentTable : tableElements) {
@@ -190,7 +191,7 @@ public abstract class AbstractExtractor implements Extractor {
 		return tableElements.not("."+Messages.CLASS_TO_REMOVE);
 	}
 	
-	@Override
+	
 	public Elements ignoreTablesWithLessRows(Elements tableElements, int numberOfRows) {
 		for (Element currentTable : tableElements) {
 			Elements currentTableRowElements = currentTable.select("tr");

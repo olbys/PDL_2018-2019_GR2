@@ -13,11 +13,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import InterfaceExtractor.Extractor;
+ 
 import connexionAPI.ExtractionToHTML;
 import connexionAPI.ExtractionToWiki;
 import createfileCSV.GestionnaireCSV;
+import interfaceExtractor.Extractor;
 import utils.Messages;
 
 public abstract class Converter {
@@ -119,7 +119,7 @@ public abstract class Converter {
 	 *  
 	 */
 		public void convertToCsv(Document doc, String baseUrl, String pageTitle, String filePath) throws HttpStatusException {
-			List<String> data = new ArrayList<>();
+			List<String> data = new ArrayList<String>();
 			String line = "";
 			String filename;
 			StringBuilder currentTdText;
