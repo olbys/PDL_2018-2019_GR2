@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import connexionAPI.ExtractionToHTML;
+import connexionAPI.ExtractionToHTML; 
 import connexionAPI.ExtractionToWiki;
 import utils.ConcreteConverter;
 import utils.Messages;
