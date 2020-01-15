@@ -1,11 +1,16 @@
 package mainProjet;
 
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 import connexionAPI.ExtractionToHTML;
 import connexionAPI.ExtractionToWiki;
+import utils.ConcreteConverter;
+import utils.Messages;
 
 public class WikiMatrix {
 
@@ -30,39 +35,21 @@ public class WikiMatrix {
 				e.printStackTrace();
 			}
 		}
-		System.out.println(utils.Messages.DEMANDERURL);
-		String url = "";
-		String newURLJson ="";
-		try {
-			url = br.readLine();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		if (choix.equals("1")) {
-			ExtractionToHTML eth = new ExtractionToHTML(url);
-			eth.createCsvFiles(eth.getHtmlJsoup(url));
-			//System.out.print(eth.getHtmlJsoup(url));
-			// Patientez..
-
+			ExtractionToHTML extHtml = new ExtractionToHTML();
+			ConcreteConverter c=new ConcreteConverter(extHtml);
+			System.out.println(Messages.PATIENT);
+			assertDoesNotThrow(()->extHtml.getConverter().convertAllToCSVformat(Messages.HTML_OUTPUT_DIR));
+			System.out.println(Messages.MESSAGEDEFIN);
 		} else if (choix.equals("2")) {
-			ExtractionToWiki eth = new ExtractionToWiki();
-			try {
-			newURLJson = eth.getTitreUrl(url);
-			System.out.print(eth.getdocumentToFormatHtmp(newURLJson));
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			ExtractionToWiki extWiki = new ExtractionToWiki();
+			ConcreteConverter c2=new ConcreteConverter(extWiki);
+			System.out.println(Messages.PATIENT);
+			assertDoesNotThrow(()->extWiki.getConverter().convertAllToCSVformat(Messages.WIKI_OUTPUT_DIR));
+			System.out.println(Messages.MESSAGEDEFIN);
 		}
-		System.out.println(utils.Messages.MESSAGEDEFIN);
-
-		System.out.println(utils.Messages.PATIENT);// Patientez..
-		/*
-		ExtractionToHTML eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
-		eth.getContentHtml();*/
 
 	}
 
 }
-// faire une verification de l'url, elle doit commencer par
-// 'https://en.wikipedia.org/wiki/'

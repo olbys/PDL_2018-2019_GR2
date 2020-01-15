@@ -1,80 +1,133 @@
 package connexionAPITest;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+import java.io.IOException;
 
 import org.jsoup.nodes.Document;
-import org.junit.Test;
+import org.jsoup.select.Elements;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 
+import Exception.PageNotFoundException;
+import InterfaceExtractor.Extractor;
 import connexionAPI.ExtractionToHTML;
+import createfileCSV.GestionnaireCSV;
+import utils.Messages;
 
-public class ExtractionToHTMLTest {
-	ExtractionToHTML eth;
-	static int NUMBER_OF_VALIDE_FILE_TO_CREATE;
-        	
-	//@Test
-	public void testCreateCsvFileFromHtml1() {
-		NUMBER_OF_VALIDE_FILE_TO_CREATE=0;
-		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int numberOfCreatedFile = eth.createCsvFiles(doc);
-		assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
+
+class ExtractionToHTMLTest {
+
+	private ExtractionToHTML extractor;
+	
+	@BeforeEach
+	public void setup() {
+		extractor = new ExtractionToHTML();
 	}
 	
-	//@Test
-	public void testCreateCsvFileFromHtml2() {
-		eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
-		NUMBER_OF_VALIDE_FILE_TO_CREATE = 6;
-		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int numberOfCreatedFile = eth.createCsvFiles(doc);
-		File file=null;
-		for(int i = 0;i<=numberOfCreatedFile;i++) {
-			if(i < 1) {
-				file = new File("output\\html\\Comparison of Norwegian Bokmål and Standard Danish.csv");
-			}else {
-				file = new File("output\\html\\Comparison of Norwegian Bokmål and Standard Danish"+i+".csv");	
-			}
-			assertTrue("fichier existe", file.exists());
-			assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
-		}
+	@Test
+	@DisplayName("Comparison_of_Android_e-book_reader_software")
+	@Tag("robustness")
+	public void testComparison_of_Exchange_ActiveSync_clients() throws IOException {
+		Document doc = extractor.getDocumentFromHtml("en", "Comparison_of_Android_e-book_reader_software");
+		Elements tables= extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL+"Comparison_of_Android_e-book_reader_software");
+		assertEquals(6, tables.size());	 
 	}
+	
 
 	@Test
-	public void testGetHtmlJsoup() {
-		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-		Document doc = this.eth.getHtmlJsoup("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-		assertTrue("getHtmljsoup doit retourner une instance de document", doc instanceof Document);
-	}
-
-	@Test
-	public void testGetHtmlJsoupParamShouldNotBeNull() {
-		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
+	@DisplayName("test converts all files to csv")
+	@Tag("robustness")
+	public void testConvertAllFromHtmlToCSV()
+	{
 		try {
-			this.eth.getHtmlJsoup(null);
-			fail("L'url n'est pas valide");
-		} catch (Exception e) {
-			assertTrue(e instanceof IllegalArgumentException);
+		assertTrue(new File(Messages.HTML_OUTPUT_DIR).isDirectory());
+		assertDoesNotThrow(()-> extractor.getConverter().convertAllToCSVformat(Messages.HTML_OUTPUT_DIR));
+		}catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
-	//@Test
-	public void testNumberOfFilesCreated() {
-		NUMBER_OF_VALIDE_FILE_TO_CREATE=0;
-		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int numberOfCreatedFile = eth.createCsvFiles(doc);
-		assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
+	
+	@Test
+	@DisplayName("Comparison_of_e-book_formats)")
+	@Tag("robustness")
+	public void testComparison_of_audio_player_software() throws IOException, PageNotFoundException {
+		Document doc = extractor.getDocumentFromHtml("en", "Comparison_of_e-book_formats");
+		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_e-book_formats");
+		assertEquals(31, tables.size());
 	}
 	
-	//@Test
-	public void testNumberOfFilesCreated2() {
-		eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Chernobyl_and_other_radioactivity_releases");
-		NUMBER_OF_VALIDE_FILE_TO_CREATE=3;
-		Document doc = eth.extractDataTablesIntoHtmlFormat();
-		int numberOfCreatedFile = eth.createCsvFiles(doc);
-		assertEquals(numberOfCreatedFile, NUMBER_OF_VALIDE_FILE_TO_CREATE);
+	@Test
+	@DisplayName("Comparison_of_SSH_clients")
+	public void testComparison_of_SSH_clients() throws IOException, PageNotFoundException{
+		Document doc =extractor.getDocumentFromHtml("en", "Comparison_of_SSH_clients");
+		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_SSH_clients");
+		assertEquals(3, tables.size());
 	}
 	
+	@Test
+	@DisplayName("Comparison_of_TLS_implementations") 
+	public void testComparison_of_TLS_implementations() throws IOException, PageNotFoundException {
+		Document doc = extractor.getDocumentFromHtml("en", "Comparison_of_TLS_implementations");
+		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_TLS_implementations");
+		assertEquals(18, tables.size());
+	}
+	
+	@Test
+	@DisplayName("Test Python_(langage)")
+	public void testComparison_of_PythonLangage() throws IOException, PageNotFoundException {
+		Document doc =extractor.getDocumentFromHtml("fr", "Python_(langage)");
+		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Python_(langage)");
+		assertEquals(0, tables.size());
+	}
+	
+	@Test
+	@AfterAll
+	@DisplayName("Test validity of all CSV file extracted by HtmlExtractor ")
+	public static void testAreCsvFilesValidFromHtml() {
+		GestionnaireCSV gestionnaire=new GestionnaireCSV();
+		File[] files = null;
+		int counter = 0;
+		File wikiDirectory = null;
+		try {
+			wikiDirectory = new File(Messages.HTML_OUTPUT_DIR);
+			assertTrue(wikiDirectory.isDirectory());
+			files = wikiDirectory.listFiles();
+			for(File f : files) {
+				System.out.println("filename : "+f.getName()+" is valid : "+gestionnaire.isCsvFileValid(f, ','));
+				assertTrue(gestionnaire.isCsvFileValid(f, ','));
+				counter++;
+			}
+		} catch (Exception e) {
+		}
+		System.out.println("total CSV Valid files extracted : "+counter);
+		
+	}	
+	
+	@Test
+	@DisplayName("Test validity of all CSV file extracted by WikiExtractor ")
+	public void testAreCsvFilesValidFromWiki() {
+		GestionnaireCSV gestionnaire=new GestionnaireCSV();
+		File[] files = null;
+		int counter = 0;
+		File wikiDirectory = null;
+		try {
+			wikiDirectory = new File(Messages.WIKI_OUTPUT_DIR);
+			assertTrue(wikiDirectory.isDirectory());
+			files = wikiDirectory.listFiles();
+			for(File f : files) {
+				System.out.println("filename : "+f.getName()+" is valid : "+gestionnaire.isCsvFileValid(f, ','));
+				assertTrue(gestionnaire.isCsvFileValid(f, ','));
+				counter++;
+			}
+		} catch (Exception e) {
+		}
+		System.out.println("total CSV Valid files extracted : "+counter);
+		
+	}
 }

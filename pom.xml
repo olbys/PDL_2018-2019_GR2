@@ -29,13 +29,13 @@
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
-			<version>1.9.1</version>
+			<version>1.11.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20090211</version>
+			<version>20180813</version>
 		</dependency>
 		<dependency>
 			<groupId>com.bitplan</groupId>
@@ -54,11 +54,21 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>4.0</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/info.bliki.wiki/bliki-core -->
 		<dependency>
 		    <groupId>info.bliki.wiki</groupId>
 		    <artifactId>bliki-core</artifactId>
 		    <version>3.0.19</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.mylyn.docs</groupId>
+			<artifactId>org.eclipse.mylyn.wikitext.mediawiki</artifactId>
+			<version>3.0.28</version>
 		</dependency>
 	</dependencies>
 </project>

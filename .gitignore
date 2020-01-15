@@ -11,12 +11,6 @@ hs_err_pid*
 .project
 .settings/
 
-# Intellij
-.idea/
-*.iml
-*.iws
-/.idea/
-
 # Maven
 log/
 target/
@@ -31,9 +25,9 @@ build/
 /bin1/
 java/build/**
 
-*.gitignore
 /src/main/java/apiconnexion/
 /src/bin/
 /target/
 *.classpath
+/output/
 /inputdata/
