@@ -81,21 +81,37 @@ public class ExtractionToHTML extends AbstractExtractor{
 		FileWriter fileWriter = null;
 		int numberOfFileCreated = 0;
 		try {
+                    
+                    
+                  
+                     
+                        boolean isExtractable = false;
 			for (Element table : doc.select("table")) {
 				String tab = table.toString();
-				if(numberOfFileCreated == 0) {
-				if(tab.contains("th") && tab.contains("/th")) {
-					fileWriter = new FileWriter("output\\html\\" + titre.first().text() + ".csv");
-					this.inserHtmlTableToCsvFile(table, fileWriter);
-					numberOfFileCreated++;
-				}
-				}else {
-					if(tab.contains("th") && tab.contains("/th")) {
-						fileWriter = new FileWriter("output\\html\\" + titre.first().text() + numberOfFileCreated + ".csv");
-						this.inserHtmlTableToCsvFile(table, fileWriter);
-						numberOfFileCreated ++;
-					}
-				}
+                                
+                                 System.out.println("Important//////");
+                                 System.out.println(table.attributes().get("class"));
+                                 System.out.println("Important [][][]");
+                                 
+                                 isExtractable = table.attributes().get("class").contains("wikitable");
+                                 
+                                 if(isExtractable){  
+                                     
+                                    if(numberOfFileCreated == 0) {
+                                        // tester si la table a extrait la classe wikitable                            
+                                    if(tab.contains("th") && tab.contains("/th")) {
+                                            fileWriter = new FileWriter("output\\html\\" + titre.first().text() + ".csv");
+                                            this.inserHtmlTableToCsvFile(table, fileWriter);
+                                            numberOfFileCreated++;
+                                    }
+                                    }else {
+                                            if(tab.contains("th") && tab.contains("/th")) {
+                                                    fileWriter = new FileWriter("output\\html\\" + titre.first().text() + numberOfFileCreated + ".csv");
+                                                    this.inserHtmlTableToCsvFile(table, fileWriter);
+                                                    numberOfFileCreated ++;
+                                            }
+                                    }
+                               }
 			}
 		} catch (IOException e) {
 			System.out.println("Erreur lors de la création du fichier .CSV");
@@ -107,6 +123,7 @@ public class ExtractionToHTML extends AbstractExtractor{
 	public void pourTousLesTableaux(Document doc, String csvFileName) {
 		this.createCsvFiles(doc);
 	}
+        
 	public void inserHtmlTableToCsvFile(Element table, FileWriter fileWriter){
 		String tab=table.toString();
 		System.out.println(tab);
@@ -143,7 +160,7 @@ public class ExtractionToHTML extends AbstractExtractor{
 		        e.getStackTrace();
 		    }	
 	}
-<<<<<<< HEAD
+
 
 
 	public void insertionDonnesTableauDansFichierCSV(Document doc, FileWriter fileWriter) {
@@ -174,8 +191,17 @@ public class ExtractionToHTML extends AbstractExtractor{
 								System.out.println("erreur lors de l'ajout d'une ligne dans le fichier .CSV");
 								e.printStackTrace();
 							}
-=======
-	public void second(Element table, FileWriter fileWriter) {
+                                            }
+                                        }
+                                    }
+                                }
+                }
+        }
+                                      
+                                            
+	
+        
+        public void second(Element table, FileWriter fileWriter) {
 		     if (table.className().contains("wikitable")) {
 	             for (Element row : table.select("tr")) {
 	                 String ligneDunTableau = "";
@@ -201,14 +227,14 @@ public class ExtractionToHTML extends AbstractExtractor{
 						} catch (IOException e) {
 							System.out.println("Erreur lors de l'ajout d'une ligne dans le fichier .CSV");
 							e.printStackTrace();
->>>>>>> e0b48b5c1c236267df5b9eefbee173b53bb6bf1d
 						}
 	                 }
 	             }
 		     }
 		}
-	private boolean isValideTable(Element table) {
-		
+        
+        
+	private boolean isValideTable(Element table) {	
 		return true;
 	}
 }
