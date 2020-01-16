@@ -1,0 +1,17 @@
+Implementation,TPM support,Hardware token support,Objects identified via
+Botan,<ref name="Botan 1.11.26"/>,[null],[null]
+cryptlib,[null],[null],User-defined label
+GnuTLS,[null],[null],RFC7512 PKCS #11 URLs<ref name=pkcs11urls>[//tools.ietf.org/html/rfc7512 RFC 7512]</ref>
+JSSE,[null],[null],[null]
+LibreSSL,[null],[null],Custom method
+MatrixSSL,[null],[null],[null]
+mbed TLS,[null],[null],Custom method
+NSS,[null],[null],[null]
+OpenSSL,[null],<ref name=libp11></ref>,RFC7512 PKCS #11 URLs<ref name=pkcs11urls/>
+RSA BSAFE Micro-Edition Suite,[null],[null],User-defined label
+RSA BSAFE SSL-J,[null],[null],[null]
+SChannel,[null],[null],UUID  User-defined label
+Secure Transport,[null],[null],[null]
+wolfSSL,[null],[null],[null]
+[added],[added],[added],[added]
+Implementation,TPM support,Hardware token support,Objects identified via

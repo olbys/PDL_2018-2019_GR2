@@ -1,0 +1,16 @@
+NMDC Client,FOSS,Software license,Active,Windows,Linux,Mac OS X,Other OS,GUI,CLI,Other UI,Programming language,Based on
+MLDonkey,Yes,GNU GPL,No,Yes,Yes,Yes,No,Yes,Yes,WebUI,OCaml  C  assembly,[null]
+Shareaza,Yes,GNU GPL,Yes,Yes,No,No,No,Yes,Unknown,Unknown,C++,[null]
+NeoModus Direct Connect,No,Proprietary Freeware,No,Yes,Yes,No,No,Yes,No,No,Visual Basic  C++,[null]
+ShakesPeer,Yes,GNU GPL,No,No,No,Yes,No,Yes,No,No,C,[null]
+Valknut,Yes,GNU GPL,No,No,Yes,No,FreeBSD,Yes,No,No,C++,[null]
+DCTC,Yes,GNU GPL,No,[null],[null],[null],[null],No,No,Yes,C++,[null]
+DC#,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C#,[null]
+LDCC,Yes,GNU GPLv2,No,No,Yes,No,No,No,No,Yes,C,[null]
+DCDM++,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
+fulDC,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
+RevConnect,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
+CzDC,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
+EiskaltDC,Yes,GNU GPL,No,No,Yes,Yes,FreeBSD,Yes,No,No,C++,Valknut
+ncdc,Yes,MIT Licence,Yes,No,Yes,Yes,FreeBSD,No,Yes,No,C,[null]
+NMDC Client,FOSS,Software license,Active,Windows,Linux,Mac OS X,Other OS,GUI,CLI,Other UI,Programming language,Based on

@@ -1,0 +1,32 @@
+Software,Maintainer,Category,Development status,ArchitectureOCS,High-Performance/ High-Throughput Computing,License,Platforms supported,Cost,Paid support available
+Accelerator,Altair,Job Scheduler,actively developed,Master/worker distributed,HPC/HTC,Proprietary,Linux  Windows,Cost,Yes
+Amoeba,[null],[null],No active development,[null],[null],MIT,[null],[null],[null]
+Base One Foundation Component Library,[null],[null],[null],[null],[null],Proprietary,[null],[null],[null]
+DIET,INRIA  SysFera  Open Source,All in one,[null],GridRPC  SPMD  Hierarchical and distributed architecture  CORBA,HTC/HPC,CeCILL,Unix-like  Mac OS X  AIX,Free,[null]
+Enduro/X,Mavimax  Ltd.,Job/Data Scheduler,actively developed,SOA Grid,HTC/HPC/HA,GPLv2 or Commercial,Linux  FreeBSD  MacOS  Solaris  AIX,Free / Cost,Yes
+Ganglia,[null],Monitoring,actively developed,[null],[null],BSD,Unix  Linux  Windows NT/XP/2000/2003/2008  FreeBSD  NetBSD  OpenBSD  DragonflyBSD  Mac OS X  Solaris  AIX  IRIX  Tru64  HPUX.,Free,[null]
+Globus Toolkit,Globus Alliance  Argonne National Laboratory,Job/Data Scheduler,actively developed,SOA Grid,[null],[null],Linux,Free,[null]
+Grid MP,Univa (formerly United Devices),Job Scheduler,no active development,Distributed master/worker,HTC/HPC,Proprietary,Windows  Linux  Mac OS X  Solaris,Cost,[null]
+Apache Mesos,Apache,[null],actively developed,[null],[null],Apache license v2.0,Linux,Free,Yes
+Moab Cluster Suite,Adaptive Computing,Job Scheduler,actively developed,[null],HPC,Proprietary,Linux  Mac OS X  Windows  AIX  OSF/Tru-64  Solaris  HP-UX  IRIX  FreeBSD & other UNIX platforms,Cost,Yes
+NetworkComputer,Runtime Design Automation,[null],actively developed,[null],HTC/HPC,Proprietary,Unix-like  Windows,Cost,[null]
+OpenHPC,OpenHPC project,all in one,actively developed,[null],HPC,[null],Linux (CentOS),Free,No
+OpenLava,Teraproc,Job Scheduler,actively developed,Master/Worker  multiple admin/submit nodes,HTC/HPC,GPL,Linux,Free,Yes
+PBS Pro,Altair,Job Scheduler,actively developed,Master/worker distributed with fail-over,HPC/HTC,AGPL or Proprietary,Linux  Windows,Free or Cost,Yes
+Proxmox Virtual Environment,Proxmox Server Solutions,Complete,actively developed,[null],[null],Open-source AGPLv3,Linux  Windows  other operating systems are known to work and are community supported,Free,Yes
+Rocks Cluster Distribution,Open Source/NSF grant,All in one,actively developed,[null],HTC/HPC,OpenSource,CentOS,Free,[null]
+Popular Power,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ProActive,INRIA  ActiveEon  Open Source,All in one,actively developed,Master/Worker  SPMD  Distributed Component Model  Skeletons,HTC/HPC,GPL,Unix-like  Windows  Mac OS X,Free,[null]
+RPyC,Tomer Filiba,[null],actively developed,[null],[null],MIT License,*nix/Windows,Free,[null]
+SLURM,SchedMD,Job Scheduler,actively developed,[null],HPC/HTC,GPL,Linux/*nix,Free,Yes
+Spectrum LSF,IBM,Job Scheduler,actively developed,Master node with failover/exec clients  multiple admin/submit nodes  Suite addOns,HPC/HTC,Proprietary,Unix  Linux  Windows,Cost and Academic - model - Academic  Express  Standard  Advanced and Suites,Yes
+Oracle Grid Engine,Univa,Job Scheduler,active Development moved to Univa Grid Engine,Master node/exec clients  multiple admin/submit nodes,HPC/HTC,Proprietary,*nix/Windows,Cost,[null]
+Son of Grid Engine,Open Source,Job Scheduler,[null],Master node/exec clients  multiple admin/submit nodes,HPC/HTC,Various,Linux,[null],[null]
+SynfiniWay,Fujitsu,[null],actively developed,[null],HPC/HTC,?,Unix  Linux  Windows,Cost,[null]
+TrinityX Cluster Manager,ClusterVision,All in one,actively developed,Master node/exec clients  multiple admin/submit nodes,HPC/HTC,GPLv2,Linux (RHEL/CentOS),Free or cost,Yes
+TORQUE Resource Manager,Adaptive Computing,Job Scheduler,actively developed,[null],[null],Proprietary,Linux  *nix,Cost,Yes
+UniCluster,Univa,All in One,Functionality and development moved to UniCloud (see above),[null],[null],[null],[null],Free,Yes
+UNICORE,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Univa Grid Engine,Univa,Job Scheduler,actively developed,Master node/exec clients  multiple admin/submit nodes,HPC/HTC,Proprietary,*nix/Windows,Cost,[null]
+Xgrid,Apple Computer,[null],[null],[null],[null],[null],[null],[null],[null]
+Software,Maintainer,Category,Development status,Architecture,High-Performance/ High-Throughput Computing,License,Platforms supported,Cost,Paid support available

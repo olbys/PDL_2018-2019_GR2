@@ -1,0 +1,153 @@
+Vehicle,Origin,Manufacturer,Mass to ... (kg),Launches,Date of flight
+LEO,GTO,Other,First,Last,[added]
+Antares 110–130,[null],Orbital,<ref name=gunter-antares />,[null],to SSO
+Ariane 1,[null],Aérospatiale,[null],<ref name="GSP-OldAriane"></ref>,[null]
+Ariane 2,[null],Aérospatiale,[null],<ref name="GSP-OldAriane"/>,[null]
+Ariane 3,[null],Aérospatiale,[null],<ref name="GSP-OldAriane"/>,[null]
+Ariane 4 40,[null],Aérospatiale,<ref name="GSP-OldAriane"/>,[null],to SSO
+Ariane 4 42L,[null],Aérospatiale,<ref name="GSP-OldAriane"/>,[null],to SSO
+Ariane 4 42P,[null],Aérospatiale,<ref name="GSP-OldAriane"/>,[null],to SSO
+Ariane 4 44L,[null],Aérospatiale,<ref name="GSP-OldAriane"/>,[null],to SSO
+Ariane 4 44LP,[null],Aérospatiale,<ref name="GSP-OldAriane"/>,[null],to SSO
+Ariane 4 44P,[null],Aérospatiale,<ref name="GSP-OldAriane"/>,[null],to SSO
+Ariane 5 G,[null],EADS Astrium,<ref name="gsp-ariane5"/>,<ref name="gsp-ariane5"/>,[null]
+Ariane 5 G+,[null],EADS Astrium,[null],<ref name="gsp-ariane5"/>,[null]
+Ariane 5 GS,[null],EADS Astrium,<ref></ref>,<ref name="gsp-ariane5"/>,[null]
+Ariane 5 ES,[null],EADS Astrium,<ref name="ariane5-manual" />,<ref name="gsp-ariane5"/>,[null]
+ASLV,[null],ISRO<ref></ref>,<ref name="gsp-aslv" />,[null],[null]
+Athena I,[null],Lockheed Martin,<ref></ref>,[null],[null]
+Athena II,[null],Lockheed Martin,<ref>NASA  Athena Mission Planner’s Guide 26 August 2012</ref>,[null],[null]
+Atlas-Centaur,[null],Lockheed,<ref></ref>,<ref></ref>,[null]
+Atlas G,[null],Lockheed,<ref name="GSP-AC"/>,[null],to HCO<ref name="GSP-AC"/>
+Atlas H/MSD,[null],Lockheed,<ref>astronautix.com  Atlas H </ref>,[null],[null]
+Atlas I,[null],Lockheed Martin,<ref name="GSP-AC"/>,<ref name="GSP-AC"/>,[null]
+Atlas II,[null],Lockheed Martin,<ref name="GSP-AC"/>,[null],to HCO<ref name="GSP-AC"/>
+Atlas IIA,[null],Lockheed Martin,<ref name="GSP-AC"/>,[null],to HCO<ref name="GSP-AC"/>
+Atlas IIAS,[null],Lockheed Martin,<ref name="GSP-AC"/>,[null],to HCO<ref name="GSP-AC"/>
+Atlas IIIA,[null],Lockheed Martin,<ref name="GSP-AC"/>,[null],to HCO<ref name="GSP-AC"/>
+Atlas IIIB/DEC,}},Lockheed Martin,<ref name="GSP-AC"></ref>,<ref name="GSP-AC"/>,[null]
+Atlas IIIB/SEC,[null],Lockheed Martin,<ref>astronautix.com  Atlas IIIB </ref>,<ref name="GSP-AC"/>,[null]
+Black Arrow,}},RAE,<ref>Encyclopedia Astronautica  Black Arrow </ref>,[null],[null]
+Commercial Titan III,[null],Martin Marietta,<ref>astronautix.com  Titan III </ref>,[null],[null]
+Delta 0300,[null],[null],[null],<ref></ref>,to SSO<ref></ref>
+Delta 0900,[null],McDonnell Douglas,<ref name="EA-D0900"></ref>,[null],to SSO<ref name="GSP-Delta"/>
+Delta 1410,[null],McDonnell Douglas,<ref></ref>,[null],[null]
+Delta 1604,[null],McDonnell Douglas,<ref></ref>,[null],[null]
+Delta 1900,[null],McDonnell Douglas,<ref name="GSP-Delta"/>,[null],[null]
+Delta 1910,[null],McDonnell Douglas,<ref></ref>,[null],[null]
+Delta 1913,[null],McDonnell Douglas,<ref></ref>,[null],[null]
+Delta 1914,[null],McDonnell Douglas,[null],<ref></ref>,[null]
+Delta 2310,[null],McDonnell Douglas,<ref></ref>,[null],[null]
+Delta 2313,[null],McDonnell Douglas,[null],[null],to GEO<ref></ref>
+Delta 2910,[null],McDonnell Douglas,<ref name="GSP-Delta"/>,[null],[null]
+Delta 2913,[null],McDonnell Douglas,<ref name="EA-D2913"></ref>,<ref name="EA-D2913"/>,[null]
+Delta 2914,[null],McDonnell Douglas,[null],<ref name="GSP-Delta"/>,[null]
+Delta 3910,[null],McDonnell Douglas,<ref name="GSP-Delta"/>,with PAM-D,[null]
+Delta 3913,[null],McDonnell Douglas,<ref></ref>,[null],[null]
+Delta 3914,[null],McDonnell Douglas,[null],<ref name="GSP-Delta"/>,[null]
+Delta 3920,[null],McDonnell Douglas,<ref name="GSP-Delta"/>,with PAM-D,[null]
+Delta 3924,[null],McDonnell Douglas,[null],<ref name="GSP-Delta"/>,[null]
+Delta 4925,[null],McDonnell Douglas,<ref name="EA-D4000"></ref>,<ref name="GSP-Delta"/>,[null]
+Delta 5920,[null],McDonnell Douglas,<ref name="EA-D5000"></ref>,[null],[null]
+Delta II 6920,[null],McDonnell Douglas,<ref name="GSP-Delta"/>,[null],[null]
+Delta II 6925,[null],McDonnell Douglas,[null],<ref name="GSP-Delta"/>,[null]
+Delta II 7320,[null],Boeing IDS / ULA,<ref name="GSP-Delta"/>,[null],to SSO
+Delta II 7326,[null],Boeing IDS,[null],<ref name="GSP-Delta"/>,to TLI 629 to HCO
+Delta II 7420,[null],ULA,<ref name="GSP-Delta"/>,[null],to SSO
+Delta II 7425,[null],Boeing IDS,[null],<ref name="GSP-Delta"/>,to HCO
+Delta II 7426,[null],Boeing IDS,[null],<ref name="GSP-Delta"/>,to TLI 711 to HCO
+Delta II 7920,[null],Boeing IDS / ULA,<ref name="GSP-Delta"/>,[null],to SSO
+Delta II 7925,[null],Boeing IDS / ULA,[null],<ref name="GSP-Delta"/>,to TLI 1.265 to HCO
+Delta II-H 7920H,[null],Boeing IDS / ULA,<ref name="GSP-Delta"/>,[null],[null]
+Delta II-H 7925H,[null],Boeing IDS / ULA,[null],[null],to HCO<ref name="GSP-Delta"/>
+Delta III 8930,[null],Boeing IDS,<ref name="GSP-Delta"/>,[null],[null]
+Delta IV M,[null],Boeing IDS,<ref name=d4ppg/>,[null],to polar
+Delta IV M+(4.2),[null],ULA,<ref name=d4ppg/>,[null],to polar
+Delta IV M+(5.2),[null],ULA,<ref name=d4ppg/>,[null],to polar
+Delta IV M+(5.4),[null],ULA,<ref name=d4ppg/>,[null],to polar
+Diamant,[null],SEREB,<ref></ref><ref>Space Skyrocket  Diamant  retrieved 19 December 2015</ref>,[null],[null]
+Dnepr,[null],Yuzhmash,<ref name="GSP-Dnepr"></ref>,[null],[null]
+Energia,[null],NPO Energia,<ref name="Energia"/>,[null],to GEO<ref name="Energia"/> 32.000 to TLI<ref name="Energia"/>
+Energia-Buran,[null],NPO Energia (Launcher) NPO Molniya (Orbiter),<ref name="Energia"></ref>,[null],[null]
+Falcon 1,[null],SpaceX,<ref name=gsp-falcon1></ref>,[null],[null]
+Falcon 9 v1.0,[null],SpaceX,<ref name=spacex-falcon9-2011></ref>,<ref name="spacex-falcon9-2011"/>,[null]
+Falcon 9 v1.1,[null],SpaceX,<ref name=spacex-falcon9-2014></ref>,<ref name="spacex-falcon9-2014"/>,[null]
+Feng Bao 1,[null],Shanghai Bureau No.2,<ref>Feng Bao 1  part of CZ family</ref>,[null],[null]
+GSLV Mk.I(a),[null],ISRO,<ref name=GSLV-ISRO></ref>,<ref name=GSP-GSLV />,[null]
+GSLV Mk.I(b),[null],ISRO,<ref name=GSLV-ISRO />,<ref name=GSP-GSLV />,[null]
+GSLV Mk.I(c),[null],ISRO,<ref name=GSLV-ISRO />,[null],[null]
+H-I,[null],Mitsubishi,<ref></ref>,[null],[null]
+H-II / IIS,[null],Mitsubishi,<ref>astronautix.com  H-2 </ref>,<ref name="GSP-H2" />,[null]
+H-IIA 2022,[null],Mitsubishi,[null],<ref name="GSP-H2A"/>,[null]
+H-IIA 2024,[null],Mitsubishi,<ref>astronautix.com H-IIA 2024 </ref>,<ref name="GSP-H2A"/>,[null]
+J-I,[null],Nissan Motors<ref name=Nissan/>,<ref></ref>,[null],[null]
+Kaituozhe-1,[null],CALT,<ref>astronautix.com Kaituozhe-1  also called KY-1 </ref>,[null],[null]
+Kosmos-3M,[null],NPO Polyot,<ref></ref>,[null],[null]
+Lambda 4S,[null],Nissan Motors<ref name=Nissan></ref>,<ref name=ISAS/>,[null],[null]
+Long March 1,[null],CALT,<ref>astronautix.com  Long March 1  also called CZ-1</ref>,[null],[null]
+Long March 1D,[null],CALT,<ref>astronautix.com  Long March 1D (CZ-1D) </ref>,[null],[null]
+[null],[null],CALT,<ref>astronautix.com Long March 2A – CZ-2A </ref>,[null],[null]
+Long March 2E,[null],CALT,<ref name=cz-2 />,[null],[null]
+Long March 3,[null],CALT,<ref name=cz-3 />,[null],[null]
+Long March 3B,[null],CALT,<ref name="LM3AUserManual" />,[null],to SSO
+Long March 4A,[null],CALT,[null],[null],[null]
+M-V,[null],<ref name=Nissan/> (1997–2000) <ref name=IHIAERO/> (2000–2006),<ref name=ISAS/>,[null],[null]
+Molniya,[null],RSC Energia,<ref>astronautix.com  Encyclopedia Astronautica  Molniya 8K78M </ref>,[null],[null]
+Molniya-M,[null],RSC Energia,<ref></ref>,[null],[null]
+Mu-3C,[null],Nissan Motors<ref name=Nissan/>,<ref name=ISAS/>,[null],[null]
+Mu-3H,[null],Nissan Motors<ref name=Nissan/>,<ref name=ISAS/>,[null],[null]
+Mu-3S,[null],Nissan Motors<ref name=Nissan/>,<ref name=ISAS/>,[null],[null]
+Mu-3SII,[null],Nissan Motors<ref name=Nissan/>,<ref name=ISAS/>,[null],[null]
+Mu-4S,[null],Nissan Motors<ref name=Nissan/>,<ref name=ISAS></ref>,[null],[null]
+N1,[null],NPO Energia,<ref name="refN1-1"/><ref name="refN1-2"/><ref name="refN1-3"/>,[null],[null]
+N-I,[null],Mitsubishi,<ref>astronautix.com  N-I- Delta </ref>,[null],[null]
+N-II,[null],Mitsubishi,<ref>astronautix.com  Encyclopedia Astronautica  N-2 </ref>,[null],[null]
+Naro-1,[null],KARI/Khrunichev,<ref></ref>,[null],[null]
+Paektusan,[null],KCST,<ref>Korea  By Christoph Bluth </ref>,[null],[null]
+Polyot,[null],RSC Energia,[null],[null],[null]
+Proton-K,[null],Khrunichev,<ref>Encyclopedia Astronautica  Proton-K </ref>,<ref></ref>,[null]
+PSLV-G,[null],ISRO,<ref name="GSP-PSLV" />,[null],to SSO
+Rokot,[null],Khrunichev,<ref name=GSP-Rokot></ref>,[null],to SSO
+Saturn I,[null],Chrysler (S-I)<br />Douglas (S-IV),<ref>astronautix.com  Saturn I </ref>,[null],[null]
+Saturn IB,[null],Chrysler (S-IB)<br />Douglas (S-IVB),<ref>Encyclopedia Astronautica  Saturn IB </ref>,[null],[null]
+Saturn V,[null],Boeing (S-IC) North American (S-II) Douglas (S-IVB),<ref name="Space-Launch Capabilities"></ref><ref name="Report of the Synthesis Group"></ref>,[null],to TLI<ref name="Rocket and Space Technology"/>
+Scout,[null],US Air Force/NASA,<ref></ref>,[null],[null]
+Shtil',[null],Makeyev,280–420<ref></ref>,[null],[null]
+SLV,[null],ISRO,<ref name="slv-3"></ref>,[null],[null]
+Soyuz,[null],RSC Energia,[null],[null],[null]
+Soyuz-FG,[null],TsSKB-Progress,<ref name="Soyuz-FG"></ref>,[null],[null]
+Soyuz-L,[null],RSC Energia,[null],[null],[null]
+Soyuz-M,[null],RSC Energia,[null],[null],[null]
+Soyuz-U,[null],TsSKB-Progress,from Baikonour<ref name="soyuz-u launch vehicle"></ref> from Plesetsk<ref name="soyuz-u launch vehicle"/>,[null],[null]
+Soyuz-U2,[null],TsSKB-Progress,[null],[null],[null]
+Space Shuttle,[null],ATK (SRBs) Martin Marietta (External tank) Rockwell (Orbiter),[null],with IUS<ref name="gsp-shuttle"></ref> with PAM-D<ref></ref> }},to escape with IUS<ref name="gsp-shuttle" />
+Sputnik 8K71PS,[null],RSC Energia,<ref></ref>,[null],[null]
+Sputnik 8A91,[null],RSC Energia,[null],[null],[null]
+Start-1,[null],MITT,[null],[null],to SSO<ref></ref>
+Strela,[null],Khrunichev,<ref></ref>,[null],[null]
+Titan II GLV,[null],Martin Marietta,<ref>astronautix.com  Titan II GLV </ref>,[null],[null]
+Titan II(23)G,[null],Martin Marietta,<ref>astronautix.com  Titan 23G </ref>,[null],[null]
+Titan IIIA,[null],Martin Marietta,<ref>Encyclopedia Astronautica  Titan 3A </ref>,[null],[null]
+Titan IIIB,[null],Martin Marietta,<ref>Encyclopedia Astronautica  Titan 3B </ref>,[null],[null]
+Titan IIIC,[null],Martin Marietta,<ref>astronautix.com  Titan IIIC </ref>,[null],[null]
+Titan IIID,[null],Martin Marietta,<ref>astronautix.com  Titan IIID </ref>,[null],[null]
+Titan IIIE,[null],Martin Marietta,<ref>astronautix.com  Titan IIIE </ref>,[null],[null]
+Titan 34D,[null],Martin Marietta,<ref>astronautix.com  Titan 34D </ref>,[null],[null]
+Titan IVA,[null],Martin Marietta,<ref name="gsp-titan"></ref>,with IUS,to SSO<ref name="gsp-titan"/> to GSO with Centaur to escape with IUS }}
+Titan IVB,[null],Lockheed Martin,<ref name="titan4"></ref>,<ref name="titan4" /> (9.000 with upper stage),[null]
+Tsyklon-2A,[null],Yuzhmash,<ref>astronautix.com  Tsyklon-2A </ref>,[null],[null]
+Tsyklon-2,[null],Yuzhmash,<ref>astronautix.com  Tsyklon-2 </ref>,[null],[null]
+Tsyklon-3,[null],Yuzhmash,<ref>nasaspaceflight.com  Tsyklon-3</ref>,[null],[null]
+Vanguard,[null],Martin,<ref>astronautix.com  vanguard </ref>,[null],[null]
+Vector-R,[null],Vector Space Systems,<ref name=vector-space-com></ref>,[null],[null]
+Vector-H,[null],Vector Space Systems,<ref name=gsp-vector></ref>,[null],[null]
+VLS-1,[null],AEB  IAE,<ref></ref>,[null],[null]
+Volna,[null],Makeyev,<ref></ref>,[null],[null]
+Voskhod,[null],RSC Energia,<ref>Handbook of Space Engineering  Archaeology  and Heritage by Ann Darrin  Beth L. O'Leary  page 116</ref>,[null],[null]
+Vostok-L,[null],RSC Energia,[null],[null],to TLI<ref></ref>
+Vostok-K,[null],RSC Energia,<ref name="Spacecraft - Vostok"></ref>,[null],[null]
+Vostok-2,[null],RSC Energia,<ref name="Spacecraft - Vostok"/>,[null],[null]
+Vostok-2M,[null],RSC Energia,<ref></ref>,[null],[null]
+Soyuz/Vostok,[null],RSC Energia,<ref>astronautix.com  Soyuz/Vostok </ref>,[null],[null]
+Zenit-2,[null],Yuzhnoye,<ref name="slr_zenit"></ref>,[null],[null]
+Zenit-2M / 2SLB,[null],Yuzhnoye,<ref name="slr_zenit"/>,[null],[null]

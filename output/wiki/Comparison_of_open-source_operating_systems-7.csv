@@ -1,0 +1,29 @@
+Name,RAID,quota,Resource access control,encryption,other special file system features
+Linux,[null],[null],Unix  ACL  MAC,[null],LVM  EVMS
+FreeBSD,[null],[null],Unix  ACL  MAC,[null],GEOM  snapshots  background fsck  user-mountable file systems
+OpenBSD,[null],[null],Unix,[null],[null]
+NetBSD,[null],[null],Unix  Veriexec,[null],Snapshots  Journaling
+DragonFly BSD,[null],[null],Unix,[null],HAMMER  Snapshots  Checksumming  Deduplication
+OpenSolaris  illumos,[null],[null],Unix  ACL  MAC,[null],Solaris Volume Manager  ZFS  snapshots  transparent data repair
+AuroraUX,[null],[null],Unix  ACL  MAC,[null],Solaris Volume Manager  ZFS  snapshots  transparent data repair
+Darwin  OpenDarwin,[null],[null],Unix  ACL,[null],[null]
+MINIX,[null],[null],Unix,[null],[null]
+FreeDOS,[null],[null],[null],[null],[null]
+Genode,[null],[null],[null],[null],Per-process virtual file-system layer
+KolibriOS,[null],[null],[null],[null],[null]
+MenuetOS,[null],[null],[null],[null],[null]
+GNU,[null],[null],Unix,[null],[null]
+ReactOS,[null],[null],[null],[null],[null]
+L4  Fiasco  Pistachio,[null],[null],[null],[null],[null]
+Plan 9,[null],[null],Unix-like  no root,[null],snapshots  venti archival storage  per-process namespace  user-mountable file systems
+AROS,[null],[null],[null],[null],[null]
+Syllable,[null],[null],Unix,[null],64-bit  journaling  extended file attributes
+Inferno,[null],[null],Unix-like  no root,[null],per-process namespace  user-mountable file systems
+FreeRTOS,[null],[null],[null],[null],[null]
+eCos,[null],[null],[null],[null],[null]
+RTEMS,[null],[null],[null],[null],[null]
+HelenOS,[null],[null],[null],[null],[null]
+E/OS,[null],[null],Unix,[null],[null]
+K42,[added],[added],[added],[added],[added]
+UnixLite -->,[added],[added],[added],[added],[added]
+Name,RAID,quota,Resource access control,encryption,other special file system features

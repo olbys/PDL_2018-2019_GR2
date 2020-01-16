@@ -1,0 +1,4 @@
+IDE,License,Windows,Linux,macOS,Other platforms,Editor,Debugger,GUI builder,Profiler,Browsers
+Allegro Common Lisp,[null],[null],[null],[null],FreeBSD  HP-UX  AIX  Solaris  Tru64 UNIX,[null],[null],[null],[null],Class browser  Systems  Definitions
+LispWorks,[null],[null],[null],[null],FreeBSD  HP-UX  Solaris,[null],[null],[null],[null],Class browser  Functions  Errors  Processes  Symbols  Systems
+SLIME (Emacs),[null],[null],[null],[null],DragonFly BSD  FreeBSD  HP-UX  AIX  IRIX  DOS  NetBSD  OpenBSD  OpenVMS  OS/2  Solaris  other Unix,[null],[null],[null],[null],Class browser  Errors  Symbols

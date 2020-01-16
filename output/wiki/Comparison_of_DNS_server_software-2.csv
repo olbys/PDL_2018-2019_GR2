@@ -1,0 +1,18 @@
+Server,BSD,Solaris,Linux,Mac OS X,Windows
+BIND,[null],[null],[null],[null],[null]
+Microsoft DNS,[null],[null],[null],[null],[null]
+djbdns,[null],[null],[null],[null],[null]
+Dnsmasq,[null],[null],[null],[null],[null]
+Simple DNS Plus,[null],[null],[null],[null],[null]
+NSD,[null],[null],[null],[null],[null]
+Knot DNS,[null],[null],[null],[null],[null]
+Knot Resolver,[null],[null],[null],[null],[null]
+PowerDNS,[null],http://www.solaris4you.dk/dnsservSS.html,[null],[null],[null]
+MaraDNS,[null],http://www.solaris4you.dk/dnsservSS.html,[null],[null],[null]
+pdnsd,[null],<ref> "pdnsd was started on Linux  and has since been ported to FreeBSD (and Cygwin and Darwin). 90% of the source code should be easily portable to POSIX- and BSD-compatible systems  provided that those systems support the POSIX threads (pthreads). The rest might need OS-specific rewrites."</ref>,[null],[null],[null]
+Posadis,[null],[null],[null],[null],http://posadis.sourceforge.net/
+Unbound,[null],[null],[null],[null],[null]
+Cisco Network Registrar,[null],[null],[null],[null],[null]
+YADIFA,[null],[null],[null],[null],[null]
+Secure64 DNS Authority,[null],[null],[null],[null],[null]
+Secure64 DNS Cache,[null],[null],[null],[null],[null]

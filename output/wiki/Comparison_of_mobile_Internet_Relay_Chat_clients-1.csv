@@ -1,0 +1,16 @@
+Client,Primary developers,Cost,Software license,User interface,Programming language,Computing platform,Website
+AndroidChat<ref name="Rough"></ref>,[null],[null],GNU GPL,TUI  GUI,Java,Android,https://code.google.com/p/androidchat/
+Mobile Colloquy,Kiji Roshi,[null],BSD License,GUI,Objective-C,iOS,http://colloquy.mobi
+fIRC,Laurence Muller,[null],GNU GPL,GUI,Java,Android,https://code.google.com/p/firc-chat/
+Igloo,Jordan Koch,[null],[null],GUI,Swift,iOS,https://iglooirc.com/
+IRCCloud,IRCCloud Ltd.,<ref>Free version is limited to: 2 connections outside their IRC server; 2 hours of persistent connection while idle (after the first 7 days); 100MB drag and drop file sharing; low-priority support; and no access to passworded servers.</ref>,Apache 2.0,GUI,Objective-C  Java,iOS  Android,https://www.irccloud.com/
+jmIrc,Juho Vähä-Herttua,[null],GNU GPL,GUI,Java,Java ME,http://jmirc.sourceforge.net/
+k-IRC,Armond Avanes,[null],GNU GPL,GUI,Java,Java ME,https://web.archive.org/web/20090331201338/http://sourceforge.net/projects/kirc/
+microirc,[null],[null],GNU GPL,GUI,C ?,Windows Mobile 5 (and above),https://code.google.com/p/microirc/
+Virca,[null],[null],GNU GPL,TUI,Java,Java ME,http://www.vidarholen.net/contents/virca/
+wIRC,[null],[null],GNU GPL,GUI,C & JavaScript,WebOS,http://www.webos-internals.org/wiki/Application:WIRC
+WLIrc,Sverre Kristian Valskrå,[null],GNU LGPL,GUI,Java,Java ME,http://wirelessirc.sourceforge.net/
+Yaaic,Sebastian Kaspari,[null],GNU GPL,GUI,Java,Android,http://www.yaaic.org/
+Simple IRC,The Linux Geek,[null],GNU GPL,GUI,Java,Android,http://github.com/jcjordyn130/simpleirc
+zsIRC,Gargaj,[null],3-clause BSD,GUI,C++,Windows Mobile,http://www.zsIRC.com
+Client,Primary developers,Cost,Software license,User interface,Programming language,Computing platform,Website

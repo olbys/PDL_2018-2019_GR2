@@ -1,0 +1,9 @@
+Concept,memory efficiency,multiple type document,small-sized content,use simultaneously different application,easy to view all document labels of same type document,Applications
+Single document interface,[null],[null],[null],[null],depends on Window System,Inkscape
+Single document window splitting,[null],[null],[null],[null],depends on Window System,[null]
+MDI: Overlappable windows,[null],[null],[null],[null],depends on Application,Opera
+MDI: Tabbed document interface,[null],[null],[null],[null],[null],gedit  Firefox
+MDI: Window splitting,[null],[null],[null],[null],[null],[null]
+MDI: IDE-style interface,[null],[null],[null],[null],[null],Eclipse
+Controlled Single Document Interface,[null],[null],[null],[null],depends on Window System,GIMP
+[added],[added],[added],[added],[added],[added],[added]

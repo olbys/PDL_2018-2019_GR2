@@ -1,0 +1,41 @@
+Name,Author,First public release,Stable version,Cost,Software license,Based framework,Written in
+AIMP,AIMP DevTeam,[null],[null],[null],[null],BASS audio library (decoder),Delphi
+Amarok,Mark Kretschmann,[null],[null],[null],[null],via Phonon: GStreamer  xine  MPlayer  VLC  DirectShow  QuickTime,C++
+Aqualung,Tom Szilagyi et al.,[null],0.9beta11,[null],[null],[null],C
+aTunes,Alex Aranda et al.,[null],[null],[null],[null],[null],Java
+Audacious,Audacious Development Team,[null],[null],[null],[null],XMMS based,C  C++ (GTK+)
+Banshee,Aaron Bockover,[null],[null],[null],[null],GStreamer,C#
+Clementine,Clementine Team,[null],[null],[null],[null],GStreamer,C++ (Qt)
+cmus,Timo Hirvonen,[null],[null],[null],[null],[null],C
+Cog,Vincent Spader,[null],[null],[null],[null],[null],Objective-C
+Exaile,Adam Olsen,[null],[null],[null],[null],GStreamer,Python (GTK+)
+Ecoute,Louka Desroziers & Julien Sagot,[null],3.0.8,(until version 4),[null],AV Foundation & QuickTime,Objective-C
+Flash MP3 Player,Reality Software,[null],1.00,[null],[null],[null],[null]
+foobar2000,Peter Pawlowski,[null],[null],[null],(core) <br />BSD (SDK),[null],C++
+Guayadeque Music Player,Juan Rios,[null],0.4.5,[null],[null],GStreamer,C++ (wxWidgets  wxSqlite)
+iTunes,Apple Inc.,[null],[null],[null],[null],QuickTime,[null]
+JRiver Media Center,JRiver  Inc.,[null],[null],[null],[null],JRiver code,C++
+JuK,Scott Wheeler,[null],[null],[null],[null],[null],C++
+MediaMonkey Standard,Ventis Media Inc.,[null],[null],[null],[null],[null],Delphi  C
+MediaMonkey Gold,Ventis Media Inc.,[null],[null],[null],[null],[null],Delphi  C
+MediaMonkey Lifetime,Ventis Media Inc.,[null],[null],[null],[null],[null],[null]
+Groove Music,Microsoft,[null],[null],[null],[null],[null],[null]
+MPXPLAY,MPXPLAY,[null],[null],[null],[null],[null],C
+Music on Console,Damian Pietras,[null],[null],[null],[null],[null],C
+Music Player Daemon,Warren Dukes,[null],[null],[null],[null],[null],C
+MusicBee,Steven Mayall,[null],[null],[null],[null],BASS audio library,Visual Basic .NET
+musikCube,Casey Langen,[null],[null],[null],[null],[null],[null]
+Napster,William Christopher Gorog,[null],[null],[null],[null],[null],[null]
+Quod Libet,Quod Libet Team,[null],[null],[null],[null],GStreamer,Python (GTK) PyGTK
+Rdio,Rdio Inc,[null],Microsoft Windows: 1.12.0.0 (2013) WP 8+ : 4.0.5.0 () iOS: 3.0.3 (),[null],[null],[null],[null]
+Rhapsody,RealNetworks,[null],[null],[null],[null],[null],[null]
+Rhythmbox,Colin Walters,[null],[null],[null],[null],GStreamer,C
+Songbird,POTI Inc.,[null],[null],[null],[null],GStreamer,[added]
+Sonic Visualiser,Centre for Digital Music at Queen Mary  University of London,[null],3.1.1 (August 14  2018),[null],[null],[null],[null]
+Sonique,Media Science,[null],1.96 (March 2002),[null],[null],[null],[null]
+Spotify,Spotify LTD,[null],[null],[null],[null],[null],[null]
+Style Jukebox,Digital Geek LTD,[null],[null],[null],[null],[null],C#
+Winamp,Nullsoft,[null],[null],[null],[null],Wasabi,C/C++
+XMMS,XMMS Team,[null],[null],[null],[null],original,C
+XMPlay,Un4seen Developments,[null],3.8 (),[null],[null],original (based on the BASS audio library),[null]
+Name,Author,First public release date,Stable version,Cost,Software license,Based framework,Written in

@@ -1,0 +1,32 @@
+Name,Parsing algorithm,Input grammar notation,Output languages,Grammar  code,Lexer,Development platform,IDE,License
+ACCENT,Earley,Yacc variant,C,[null],external,[null],[null],, GNU GPL
+APaGeD,GLR  LALR(1)  LL(k),?,D,[null],generated,[null],[null],, Artistic
+Bison,LALR(1)  LR(1)  IELR(1)  GLR,Yacc,C  C++  Java  XML,, except XML,external,[null],[null],, GNU GPL
+DMS Software Reengineering Toolkit,GLR,?,Parlanse,[null],generated,[null],[null],[added]
+DParser,Scannerless GLR,?,C,[null],scannerless,[null],[null],, BSD
+Dypgen,Runtime-extensible GLR,?,OCaml,[null],generated,[null],[null],, CeCILL-B
+E3,Earley,?,OCaml,[null],external  or scannerless,[null],[null],?
+Elkhound,GLR,?,C++  OCaml,[null],external,[null],[null],, BSD
+eu.h8me.Parsing,GLR,?,N/A (state machine is runtime generated),[null],external,[null],[null],, BSD
+GDK,LALR(1)  GLR,?,C  Lex  Haskell  HTML  Java  Object Pascal  Yacc,[null],generated,[null],[null],, MIT
+Happy,LALR  GLR,?,Haskell,[null],external,[null],[null],, BSD
+Hime Parser Generator,GLR,?,C#  Java  Rust,[null],generated,[null],[null],, GNU LGPL
+IronText Library,LALR(1)  GLR,C#,C#,[null],generated or external,[null],[null],, Apache 2.0
+Jison,LALR(1)  LR(0)  SLR(1),Yacc,JavaScript  C#  PHP,[null],generated,[null],[null],, MIT
+Syntax,LALR(1)  LR(0)  SLR(1) CLR(1) LL(1),JSON/Yacc,JavaScript  Python  PHP  Ruby  C#  Rust  Java,[null],generated,[null],[null],, MIT
+Laja,Scannerless  two phase,Laja,Java,[null],scannerless,[null],[null],, GNU GPL
+ModelCC,Earley,Annotated class model,Java,Generated,generated,[null],[null],, BSD
+parglare,Scannerless LR/GLR,BNF-like,Python interpreted  automata run-time generated,[null],scannerless,[null],[null],, MIT
+P1,Combinators,BNF-like,OCaml,[null],external  or scannerless,[null],[null],?
+P3,Earley–combinators,BNF-like,OCaml,[null],external  or scannerless,[null],[null],?
+P4,Earley–combinators  infinitary CFGs,BNF-like,OCaml,[null],external  or scannerless,[null],[null],?
+Scannerless Boolean Parser,Scannerless GLR (Boolean grammars),?,Haskell  Java,[null],scannerless,[null],[null],, BSD
+SDF/SGLR,Scannerless GLR,SDF,C  Java,[null],scannerless,[null],[null],, BSD
+SmaCC,GLR(1)  LALR(1)  LR(1),?,Smalltalk,[null],internal,[null],[null],, MIT
+SPARK,Earley,?,Python,[null],external,[null],[null],, MIT
+Tom,GLR,?,C,Generated,none,[null],[null],, "No licensing or copyright restrictions"
+UltraGram,LALR  LR  GLR,?,C++  C#  Java  Visual Basic .NET,[null],generated,[null],[null],[added]
+Wormhole,Pruning  LR  GLR  Scannerless GLR,?,C  Python,[null],scannerless,[null],[null],, MIT
+Whale Calf,General tabular  SLL(k)  Linear normal form (conjunctive grammars)  LR  Binary normal form (Boolean grammars),?,C++,[null],external,[null],[null],[added]
+yaep,Earley,Yacc-like,C,[null],external,[null],[null],, GNU LGPL
+Zecc,Recursive pattern matching,Zecc/Zacc,Linkable library,[null],Scannerless,[null],[null],[added]

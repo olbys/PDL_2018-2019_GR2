@@ -1,0 +1,23 @@
+Name,Lexer algorithm,Output languages,Grammar  code,Development platform,License
+Alex,DFA,Haskell,[null],[null],, BSD
+AnnoFlex,DFA,Java,[null],[null],, BSD
+AustenX,DFA,Java,[null],[null],, BSD
+Booze-tools,DFA,state machine is runtime-generated or saved as JSON,[null],[null],, public domain
+C# Flex,DFA,C#,[null],[null],, GNU GPL
+C# Lex,DFA,C#,[null],[null],?
+CookCC,DFA,Java,[null],[null],, Apache 2.0
+DFAlex,DFA,no code generation required,Java,[null],, Apache 2.0
+Dolphin,DFA,C++,[null],[null],[added]
+Flex,DFA table driven,C  C++,[null],[null],, BSD
+gelex,DFA,Eiffel,[null],[null],, MIT
+golex,DFA,Go,[null],[null],, BSD-style
+gplex,DFA,C#,[null],[null],, BSD-like
+JFlex,DFA,Java,[null],[null],, BSD
+JLex,DFA,Java,[null],[null],, BSD-like
+lex,DFA,C,[null],[null],, proprietary  CDDL
+lexertl,DFA,C++,?,[null],, GNU LGPL
+LRSTAR,DFA,C++,[null],[null],, BSD
+Quex,DFA direct code,C  C++,[null],[null],, GNU LGPL
+Ragel,DFA,C  C++  assembly,[null],[null],, GNU GPL  MIT<ref>http://www.colm.net/open-source/ragel/</ref>[[Comparison of parser generators#cite%20note-1|[1]]]
+RE/flex,DFA direct code  DFA table driven  and NFA regex libraries,C++,[null],[null],, BSD
+re2c,DFA direct code,C,[null],[null],, public domain

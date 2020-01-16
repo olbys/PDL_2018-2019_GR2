@@ -1,0 +1,52 @@
+File system,Sparse files,Transparent compression,Block suballocation,Tail packing,Extents,Variable file block size,Allocate-on-flush,Copy on write,Trim support
+DECtape,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BeeGFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Level-D,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+APFS,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref><ref></ref>
+Version 6 Unix file system (V6FS),[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Version 7 Unix file system (V7FS),[null],[null],[null],[null],[null],[null],[null],[null],[null]
+exFAT,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+FAT12,(only inside of compressed volumes)<ref name="CVF808"/>,[null],(only inside of Stacker 3/4 and DriveSpace 3 compressed volumes<ref name="DMSDOS"></ref>),[null],(only inside of compressed volumes)<ref name="CVF814"/>,[null],[null],[null],(Linux)
+FAT16 / FAT16B / FAT16X,(only inside of compressed volumes)<ref name="CVF808"></ref>,[null],(only inside of Stacker 3/4 and DriveSpace 3 compressed volumes<ref name="DMSDOS"/>),[null],(only inside of compressed volumes)<ref name="CVF814"></ref>,[null],[null],[null],(Linux)
+FAT32 / FAT32X,[null],[null],[null],[null],[null],[null],[null],[null],(Linux)
+GFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+HPFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NTFS,[null],[null],[null],[null],[null],[null],[null],[null],(NT 6.1 + newer)
+HFS Plus,[null],[null],[null],[null],[null],[null],[null],[null],(macOS)
+FFS,[null],[null],8:1,[null],[null],[null],[null],[null],[null]
+UFS1,[null],[null],8:1,[null],[null],[null],[null],[null],[null]
+UFS2,[null],[null],8:1,[null],[null],[null],[null],[null],<ref>https://svnweb.freebsd.org/base?view=revision&revision=216796</ref><ref>https://www.freebsd.org/cgi/man.cgi?query=newfs&sektion=8&manpath=FreeBSD+8.4-RELEASE</ref>
+LFS,[null],[null],8:1,[null],[null],[null],[null],[null],[null]
+ext,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Xiafs,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ext2,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ext3,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ext4,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NOVA,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+F2FS,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>
+Lustre,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NILFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ReiserFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Reiser4,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+OCFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+OCFS2,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+XFS,[null],[null],[null],[null],[null],[null],[null],, on request<ref></ref>,(Linux)
+JFS,[null],only in JFS1 on AIX<ref></ref>,[null],[null],[null],[null],[null],[null],(Linux)
+QFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BFS,[null],[null],[null],[null],[null],[null],[null],[null],(Haiku)
+NSS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NWFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ODS-5,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VxFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+UDF,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Fossil,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ZFS,[null],[null],[null],[null],[null],[null],[null],[null],(FreeBSD  illumos)
+Btrfs,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VMFS2,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VMFS3,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ReFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ISO 9660,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Rock Ridge,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Joliet ("CDFS"),[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SquashFS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+File system,Sparse files,Transparent compression,Block suballocation,Tail packing,Extents,Variable file block size,Allocate-on-flush,Copy on write,Trim support

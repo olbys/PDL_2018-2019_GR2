@@ -1,0 +1,44 @@
+Client,Primary developers,Distribution model,Software license,User interface,Programming language
+AdiIRC<ref></ref>,Per Amundsen,Freeware,[null],GUI,.NET Framework/C#
+Adium,Thijs Alkemade,Free software,[null],GUI,Objective-C and C
+Ambassador<ref>Ambassador release statement</ref>,Isengrim,Free software,[null],GUI,JavaScript  XUL
+AndroIRC<ref></ref>,Madalynn,Freeware,[null],GUI,?
+Bersirc<ref>Bersirc IRC Client - about Bersirc </ref>,Jamie Frater  Nicholas Copeland,Free software,[null],GUI,C (Delphi originally)
+BitchX,Colten Edwards,Free software,[null],TUI  GUI,C
+ChatZilla,Mozilla Foundation,Free software,[null],GUI,JavaScript  XUL
+Colloquy,Timothy Hatcher  Kiji Roshi,Desktop: free software <br />mobile: commercial,[null],GUI,Objective-C
+ERC,Alexander L. Belikoff  Sergey Berezin,Free software,[null],TUI  GUI,Emacs Lisp
+F-IRC,Folkert van Heusden,Free software,[null],TUI,C++
+GrumpyChat<ref name="GrumpyChat">GitHub project.</ref>,Petr Bena,Free software,[null],GUI,C++
+HexChat<ref></ref>,Berke Viktor,Free software,[null],TUI  GUI,C
+IceChat<ref></ref><ref></ref>,Paul Vanderzee,Free software,[null],GUI,C# (Visual Basic until 2004)<ref>IceChat History. IceChat.net</ref>
+Igloo<ref></ref>,Jordan Koch,Free mobile application,[null],GUI,Swift
+Instantbird,Florian Quèze,Free software,[null],GUI,C/C++  JavaScript  CSS  XUL
+IRCCloud<ref></ref>,IRCCloud Ltd.,Freemium,[null],Web,JavaScript frontend  Erlang backend
+ircII,Michael Sandrof,Free software,[null],TUI,C
+Ircle,Onno Tijdgat,Commercial 30-day trial,[null],GUI,C
+Irssi,Timo Sirainen,Free software,[null],TUI,C
+KiwiIRC,Darren Whitlen,Free software,[null],Web,JavaScript frontend  Node.js backend
+KVIrc,Szymon Stefanek,Free software,[null],GUI,C++
+Konversation,KDE,Free software,[null],GUI,C++
+LeafChat<ref></ref>,Samuel Marshall,Free software,[null],GUI,Java
+LimeChat<ref></ref><ref>"LimeChat: IRC Client for Mac". Official site.</ref><ref name="LimeChatIJ"></ref>,Satoshi Nakagawa,Free software,<ref name="limechat-source">"Limechat". GitHub.</ref>,GUI,RubyCocoa (2007–2010)<ref name="LimeChatIJ"/><ref name="limechat-source"/> Objective-C(2010–)<ref name="limechat-source-commit">“do not load RubyCocoa” Commit on GitHub.</ref>
+Linkinus,Conceited Software,Commercial  15-day trial,[null],GUI,Objective-C
+Mibbit,Jimmy Moore,Textual Adbar,[null],Web,JavaScript frontend <br />Java backend
+mIRC,Khaled Mardam-Bey,Shareware 30-day trial<ref> </ref>,[null],GUI,C/C++ (Borland C++ originally)<ref></ref>
+Monochrome<ref></ref>,Peter Pawlowski,Freeware,GPLv2,GUI,C#
+Nettalk,Nicolas Kruse,Freeware,[null],GUI,Visual Basic
+Opera (until version 12.xx),[null],Freeware,[null],GUI,C++
+Pidgin,[null],Free software,[null],GUI,C
+PIRCH,[null],Shareware,[null],GUI,Delphi
+PJIRC,Philippe Detournay,Free software,[null],GUI,Java
+Quassel,Manuel Nickschas  Marcus Eggenberger  Alexander von Renteln,Free software,[null],TUI  GUI,C++
+qwebirc,Chris Porter,Free software,[null],Web,JavaScript front end <br />Python backend
+rcirc,Ryan Yeske,Free software,[null],TUI,Emacs Lisp
+Smuxi,Mirco Bauer,Free software,[null],GUI  TUI  server,C#
+Snak,Kent Sorensen,Commercial,[null],GUI,[null]
+Thunderbird,Mozilla Foundation,Free software,[null],GUI,C  C++  JavaScript
+Visual IRC,Jesse McGrew,Free software,[null],GUI,Delphi
+WeeChat,Sebastien Helleu,Free software,[null],TUI  GUI,C
+XChat (evolved into HexChat),Peter Železný,Unix/Linux: free software; Windows: commercial  30-day trial<ref> </ref> (HexChat is free of charge),; or proprietary for Windows,TUI  GUI,C
+Client,Primary developers,Distribution model,Software license,User interface,Programming language

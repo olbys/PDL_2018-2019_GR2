@@ -1,0 +1,34 @@
+Name,x86  i386  IA-32,x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,others,hosted mode
+Linux,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],FR-V  Cell  ETRAX CRIS  M32R  Xtensa  h8  s390  SuperH,UML  coLinux  MkLinux  Itanium Linux-on-Linux  wombat
+FreeBSD<ref></ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],PC98,[null]
+OpenBSD<ref></ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],SuperH ],[null]
+NetBSD<ref></ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],SuperH  ns32k  VAX  hppa  M68010  mipseb  mipsel  sh3eb  sh3el  sparc64,[null]
+DragonFly BSD<ref>DragonFly Frequently Asked Questions </ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],vkernel
+OpenSolaris<ref name="opensolarisarch"></ref> illumos,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+AuroraUX<ref name="opensolarisarch"/>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Darwin  OpenDarwin<ref name="opendarwincompatibility"></ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],L4/Darwin
+MINIX<ref name="minixhwreq"></ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+FreeDOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Genode,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],RISC-V,Linux
+Haiku,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,[null],[null],[null],[null],[null],[null]
+KolibriOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+MenuetOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+GNU,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],FR-V  Cell  ETRAX CRIS  M32R  Xtensa  h8  s390  SuperH,UML  Itanium Linux-on-Linux
+ReactOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+RISC OS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+L4  Pistachio,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Plan 9,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],See<ref></ref><ref></ref>,lguest  vx32
+AROS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],i386-linux  i386-freebsd
+Syllable,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Inferno,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],AMD Am29000  Texas Instruments OMAP,Microsoft Windows  Linux  FreeBSD  Plan 9  OS X  Solaris  Irix  UnixWare  HP-UX  Internet Explorer
+FreeRTOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],AVR  PIC  MSP430  HCS12  8052  MicroBlaze  Cortex-M3  H8S,[null]
+eCos,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],CalmRISC  ColdFire  FR-V  h8  Matsushita AM3x  Nios II  NEC V8xx  SuperH,Microsoft Windows  Linux
+RTEMS,[null],[null],Xen,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Blackfin  Nios II  Coldfire  Texas Instruments C3x/C4x  SuperH  H8S,Linux  Solaris  Cygwin  FreeBSD  multiple CPU simulators
+HelenOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+E/OS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+TempleOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],QEMU  VirtualBox  etc.
+[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+K42,[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+UnixLite,[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+Name,x86  i386  IA-32,x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,other,hosted mode

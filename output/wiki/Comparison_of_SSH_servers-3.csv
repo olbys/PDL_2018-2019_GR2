@@ -1,0 +1,8 @@
+Name,SSH1,SSH2,Port forwarding,SFTP,SCP,Supports IPv6,Supports OpenSSH authorized keys,Privilege separation,FIPS 140-2 certified
+Apache MINA SSHD,[null],[null],[null],[null],[null],[null],[null],[null],?
+CopSSH,[null],[null],[null],[null],[null],[null],[null],<ref name="auto">sshd_config man page on openbsd project 2016-05-18. Retrieved on 2016-05-18.</ref>,?
+CrushFTP Server,[null],[null],[null],[null],[null],[null],[null],[null],?
+Dropbear,[null],[null],[null],[null],[null],[null],[null],[null],?
+Lsh,[null],[null],[null],[null],[null],?,?,?,?
+OpenSSH (OpenBSD Secure Shell),<ref>OpenSSH 7.5 Release notes  SSHv1 server no longer supported Retrieved on 2017-07-09.</ref>,[null],[null],[null],[null],[null],[null],<ref name="auto"/>,[null]
+[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]

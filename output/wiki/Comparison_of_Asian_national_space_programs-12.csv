@@ -1,0 +1,5 @@
+Country,Satellite,Transponders,Mass,Power,Year launched
+[null],NIGCOMSAT 1R,28,[null],10.5 kW,2011
+[null],ST-2,51,[null],[null],2011
+[null],GSAT-16,48,[null],5.6 kW,2014
+GSAT-11,40,[null],13.6 kW,2018,[added]

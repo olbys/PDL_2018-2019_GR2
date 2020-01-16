@@ -1,0 +1,17 @@
+Name,Bootable,Encryption Type,Certification,Managed,Interface,Max Capacity,Included Software,Other Features
+datAshur PRO,Yes,AES 256-bit XTS Hardware Encryption,FIPS 140-2 Level 3,No,USB 3.0,64GB,[null],OS & Platform independent- software free
+diskAshur PRO²,Yes,AES 256-bit XTS Hardware Encryption,FIPS 140-2[1],No,USB 3.1,5TB,[null],OS & Platform independent- software free
+SafeStick SuperSonic,No,AES 256-bit CBC Hardware Encryption,CESG CCTM  FIPS 140-2[2],Optional (with SafeConsole),USB 2.0,8GB,[null],High transfer speeds  Inactivity lock
+IronKey S100,No,AES 128-bit CBC Hardware Encryption,FIPS 140-2 Level 2,Enterprise Model only,USB 2.0,16GB,Identity Manager; Secure Sessions,[null]
+IronKey S200,No,AES 256-bit CBC Hardware Encryption,FIPS 140-2 Level 3,Enterprise Model only,USB 2.0,16GB,Identity Manager; Secure Sessions,[null]
+IronKey D200,No,AES 256-bit CBC Hardware Encryption,FIPS 140-2 Level 3,Enterprise Model only,USB 2.0,32GB,Identity Manager; Secure Sessions,[null]
+CryptX2,Yes,AES 256-bit CBC Hardware Encryption,No,No,USB 2.0,64GB / Future Support for 4TB,No Software Required,ID Verify  Panic Mode  Upgradeable Firmware
+DataTraveler 5000,No,AES 256-bit XTS Hardware Encryption,FIPS 140-2 Level 2[1],No,USB 2.0,16GB,[null],Water resistant
+DataTraveler Locker+,No,Hardware Encryption,No,No,USB 2.0,32GB,No,[null]
+DataTraveler Vault,No,AES 256-bit Hardware Encryption,No,No,USB 2.0,32GB,DTVaultLock,Second unsecured partition
+DataTraveler Vault – Privacy Edition,No,AES 256-bit Hardware Encryption,No,[null],USB 2.0,32GB,[null],Waterproof to 4'
+JumpDrive SecureII Plus,No,Hardware,FIPS 140-2 ?,[null],USB 2.0,[null],[null],[null]
+IronClad,Yes,AES 256-bit CBC Hardware Encryption,FIPS 140-2 Level 3,Yes,USB 2.0,16GB,[null],[null]
+Cruzer Enterprise,No,Hardware,FIPS 140-2 ?,Yes,USB 2.0,[null],[null],[null]
+Store 'n' Go Corporate,No,Hardware,FIPS 140-2 ?,[null],USB 2.0,[null],[null],[null]
+Name,Bootable,Encryption Type,Certification,Managed,Interface,Max Capacity,Included Software,Other Features

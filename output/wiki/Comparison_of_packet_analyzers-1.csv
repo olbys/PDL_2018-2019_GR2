@@ -1,0 +1,27 @@
+[null],Creator,Latest release,User interface,Software license,Cost
+Analyze This,Comoe Networks,[null],Web GUI,N/A,[added]
+Cain and Abel,Massimiliano Montoro,4.9.56 / April 7  2014,GUI,[null],[added]
+Capsa,Colasoft,11.1 / <ref></ref>,GUI,[null],<ref></ref>
+Carnivore,Federal Bureau of Investigation,[null],[null],N/A,[added]
+Charles Web Debugging Proxy,Karl van Randow,4.1.4 / July 10  2017,GUI,[null],$30-$50 (Free Trial)
+Clarified Analyzer,Clarified Networks,[null],GUI,[null],[added]
+Clusterpoint Network Traffic Surveillance System,Clusterpoint,[null],web GUI,[null],[added]
+CommView,TamoSoft,6.5,GUI,[null],[null]
+dSniff,Dug Song,2.3 / December 17  2000<ref></ref>,CLI,[null],[null]
+EtherApe,Juan Toledo,0.9.14 / <ref></ref>,GUI,[null],[null]
+Ettercap,ALoR and NaGA,0.8.2-Ferri / March 14  2015<ref></ref>,Both,[null],[null]
+Fiddler,Eric Lawrence / Telerik,5.0.20194 / <ref name="Fiddler Release History"></ref>,GUI,[null],[null]
+justniffer,The Justniffer team,0.5.15 / March 21  2016<ref></ref>,CLI,[null],[null]
+Kismet,Mike Kershaw (dragorn),2016-01-R1 / January 31  2016<ref></ref>,CLI,[null],[null]
+Microsoft Message Analyzer,Microsoft,1.4 / October 28  2016 <ref>https://www.microsoft.com/en-us/download/details.aspx?id=44226</ref>,GUI,[null],[null]
+Microsoft Network Monitor,Microsoft,3.4 / June 24  2010,GUI,[null],[null]
+netsniff-ng,Daniel Borkmann,0.6.2 / November 7  2016,CLI,[null],[null]
+ngrep,Jordan Ritter,1.45 (11/18/06),CLI,[null],[null]
+Observer,Viavi Solutions (formerly Network Instruments),[null],GUI,[null],[null]
+OmniPeek (formerly AiroPeek  EtherPeek),Savvius (formerly WildPackets),11.1 / November  2017,GUI,[null],<ref></ref>
+SteelCentral Transaction Analyzer,OPNET Technologies/Riverbed Technology,17.0.T-PL1 / June 9  2014<ref>https://support.riverbed.com/content/support/software/steelcentral-npm/transaction-analyzer.html</ref>,GUI,[null],[null]
+snoop,Sun Microsystems,Solaris 10 / December 11  2006,CLI,[null],[null]
+tcpdump,The Tcpdump team,4.9.2 / <ref></ref>,CLI,[null],[null]
+Tranalyzer,The Tranalyzer team,0.7.5 / <ref></ref>,CLI,[null],[null]
+Wireshark (formerly Ethereal),The Wireshark team,3.0.3 / <ref>https://www.wireshark.org/news/20190717.html</ref>,Both,[null],[null]
+Xplico,The Xplico team,1.2.0 / <ref>https://www.xplico.org/archives/1513</ref>,Both,[null],[null]

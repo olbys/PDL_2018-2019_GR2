@@ -1,0 +1,34 @@
+Format,Compression<br /> algorithm,Raster/<br />vector,Color depth,Indexed color,Transparency,Metadata,Interlacing,Multi-page,Animation<ref>Animations are often encoded as video.</ref>,Layers,Color management,Extendable,HDR format
+AI,Lossy and lossless,[null],1  8  24  and 32 (possibly with multiple palettes),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BMP,None  RLE  JPEG  and PNG,[null],1  4  8  16  24  32  and 64,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BPG,HEVC  Lossy and lossless,[null],8 to 14 bits per channel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+CDR,Lossy and lossless,[null],1  8  24 and 32 (multiple palettes),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+CPC,CPC,[null],1,[null],[null],[null],[null],[null],[null],[null],[null],, via embedded dictionary,[null]
+EPS,None  LZW  DEFLATE  RLE  DCT,[null],Device specific,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+EXR,None  RLE  ZIP  Piz  PXR24  and B44  B44A  DWAA  DWAB,[null],16–128 (floating-point),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Farbfeld,None,[null],64 (16-bits-per-channel),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+FLIF,Lossless  MANIAC entropy coding,[null],1 to 16 bits per channel,[null],[null],[null],, Adam∞,[null],[null],[null],[null],, via chunks,, with suitable color profile
+GIF,LZW,[null],Indexed (1bpc to 8bpc) and grayscale (8bpc),[null],; 1bpp plane-only mask using color index,[null],[null],[null],[null],[null],[null],(GIF89a),[null]
+HD Photo / JPEG XR,Lossy and lossless bi-orthogonal transform,[null],1  2  8  16  24  32  48  64  and 128 (floating-point),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ILBM,Optional run-length encoding,[null],1  2  4  8  16  32  64  64 EHB  128  256 (8-bit)  4.096 (HAM6 pseudo 12-bit)  4.096 pure 12-bit  262  144 (HAM8 pseudo 18-bit)  and 24-bit,[null],[null],[null],[null],[null],,<br />Palette-shifting,[null],[null],[null],[null]
+IMA,Lossy and lossless original mutiresolution analysis transformation,[null],8-bit  16-bit integer  32-bit floating-point,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+JPEG,Lossy (and partly lossless)  DCT  RLE  and Huffman predictive nearest neighbor,[null],8-bit (greyscale)  12-bit  and 24-bit,[null],[null],[null],[null],[null],[null],[null],[null],[null],(see unofficial JPEG-HDR)
+JPEG 2000,Lossy and lossless (DWT),[null],8 and 16 (greyscale) with possibly color up to 48-bit,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+KRA,None,[null],grayscale  RGB  XYZ (8bpc  16bpc  float16bpc  float32bpc)  CMYK  L*a*b* and YCbCr (8bpc  16bpc  float32bpc),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ORA,Lossless,[null],1  2  4  8  16  24  32  48  and 64,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PAM,None,[null],Up to 16,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PCX,None  RLE,[null],1  2  4  8  24 and 32,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PGF,Lossy and lossless (DWT),[null],grayscale: 1  8  16  31; RGB: 12  16  24  32  and 48,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PICT,None  RLE  and QuickTime,[null],1  2  4  8  16  24  and 32,[null],[null],[null],[null],[null],[null],[null],[null],?,[null]
+PLD,Optional ZIP  JPEG,[null],1  4  8  16  24  32  48  and 64,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PNG,Lossless and DEFLATE,[null],bitmap (1bpc)  indexed (8bpc)  grayscale and RGB (8bpc  16bpc),[null],; indexed  grayscale and RGB,[null],, Adam7 algorithm,[null],(but see MNG and APNG),[null],[null],, via chunks,, see discussion
+PPM,None,[null],Up to 16,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PSD and PSB,None and RLE,[null],bitmap (1bpc)  duotone  indexed (8bpc)  grayscale  RGB  CMYK  Lab and multichannel (8bpc  16bpc  32bpc),[null],; indexed  grayscale  RGB  CMYK and Lab,[null],[null],[null],[null],[null],[null],?,[null]
+PSP,None,[null],1  2  8  16  24  32  and 48,[null],; 8b and 16b per-pixel alpha channel,[null],[null],[null],[null],[null],[null],[null],[null]
+SVG,None and lossless gzip,<ref>Supports raster data embedding with the use of Base64</ref>,RGB (8bpc),[null],[null],[null],[null],(1.2 draft)<ref></ref>,(SMIL/SVG),[null],<ref></ref>,, XML based,[null]
+TGA,None  RLE  and other,[null],1  2  4  8  16  24  and 32,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+TIFF,None  LZW  RLE  ZIP  and other,[null],1  2  4  8  16  24  and 32,(1–8 bit modes),[null],[null],, for JPEG compression,[null],[null],[null],[null],, via tags,, TIFF float
+WebP,Lossy and lossless,[null],YUV420P (12bpp)  YUVA420P (20bpp) and RGB (8bpc),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+XAML,None,[null],32 and 64,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+XCF,None and lossless (gzip  bzip2 and xz),[null],indexed (8bpc)  grayscale and RGB (8bpc  16bpc  float16bpc  32bpc  float32bpc  float64bpc),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Format,Compression algorithm,Raster/<br />vector,Color depth,Indexed color,Transparency,Metadata,Interlacing,Multi-page,Animation,Layers,Color management,Extendable,HDR format

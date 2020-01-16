@@ -1,0 +1,38 @@
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal,For Directories  size column shows:
+Altap Salamander,[null],[null],[null],[null],[null],[null],(for remote folders),[null],[null],DIR
+Commander One,[null],[null],[null],[null],[null],[null],[null],[null],, in the PRO Pack<ref></ref>,DIR and Total size including subdirectories
+CRAX Commander,[null],[null],[null],[null],[null],[null],[null],[null],[null],DIR and Total size including subdirectories
+Directory Opus,[null],[null],[null],[null],[null],[null],[null],[null],[null],DIR and Total size including subdirectories
+Dired,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,Literal <ref group="browse" name="literal" />
+DOS Navigator,[null],[null],[null],[null],[null],[null],[null],<ref>Press and release Alt</ref>,[null],Total size including subdirectories
+Dolphin,[null],[null],[null],[null],[null],[null],[null],[null],[null],Number of entries
+Double Commander,[null],[null],[null],[null],[null],[null],[null],[null],[null],DIR
+emelFM2,[null],[null],[null],[null],[null],[null],[null],[null],[null],Literal <ref group="browse" name="literal" />
+FAR Manager,[null],[null],<ref group="n" name="Plugin"/>,[null],[null],[null],<ref>Via plugins  or manual with helping of the embedded Advanced Compare.</ref>,[null],[null],[null]
+File Commander,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Files (Apple),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Files by Google,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Finder,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ForkLift,[null],[null],[null],[null],[null],[null],[null],[null],[null],DIR and Total size including subdirectories
+GNOME Commander,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Konqueror,[null],[null],[null],(with konq-plugin),[null],(with kdiff3 plugin),(with kdiff3 plugin),[null],[null],Folder only size (default) selectable to file count/total size
+Krusader,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Midnight Commander,[null],<ref>Extensible via compression plugins  supported formats list depends on distribution package maintainer</ref>,[null],[null],[null],[null],<ref>Can be done in two steps</ref>,[null],[null],[null]
+muCommander,<ref></ref>,[null],[null],[null],[null],[null],[null],[null],, command execution only,[null]
+GNOME Files (Nautilus),[null],[null],[null],[null],[null],[null],[null],[null],, With Plugin<ref></ref><ref></ref>,Number of entries
+Nemo,?,?,?,?,?,?,?,?,, with nemo-terminal extension,[added]
+Nomad.NET,[null],[null],[null],[null],[null],[null],[null],[null],, via Plugin,DIR and Total size including subdirectories
+Path Finder,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,[null]
+PCManFM,[null],[null],[null],[null],[null],[null],[null],[null],, but there is a fork attempt<ref></ref>,Nothing
+ROX-Filer,[null],[null],[null],[null],[null],[null],[null],, and browsing with tab completion,[null],Nothing
+Thunar,[null],[null],[null],[null],[null],[null],[null],[null],[null],Literal*
+Total Commander,<ref></ref>,[null],In plugin,[null],[null],[null],[null],[null],[null],DIR and Total size including subdirectories
+Windows Explorer,<ref>Copying directory junctions across drives creates an empty directory in the target</ref>,[null],[null],(in folder tooltips),[null],[null],[null],[null],[null],[null]
+Xandros File Manager,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Xfe,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Xfile,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,[null]
+Xfm,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+xplorer²,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,[null]
+XYplorer,[null],[null],<ref>via XYplorer script- SlideShow</ref>,[null],[null],[null],[null],[null],<ref></ref>,Contents including subs
+ZTreeWin,[null],[null],[null],[null],[null],[null],[null],[null],[null],Selectable: Number of entries or Size (Optional: Including subs)
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal,For Directories  size column shows:

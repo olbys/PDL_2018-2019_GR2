@@ -1,0 +1,17 @@
+Methods and properties,Java,C#
+Static imports,[null],<ref></ref>
+Virtual methods,[null],[added]
+Abstract,[null],[added]
+Sealing,[null],[added]
+Explicit interface implementation,[null],<ref name="interface"></ref>
+Value (input) parameters,[null],[added]
+Reference (input/output) parameters,[null],[added]
+Output (output) parameters,[null],[added]
+Constant (immutable) parameters,; final parameters,<ref></ref>
+Variadic methods,[null],[added]
+Optional arguments,;<ref></ref> Instead method overloading or varargs,[added]
+Named arguments,[null],[added]
+Generator methods,[null],[added]
+Extension/default methods,[null],[added]
+Conditional methods,[null],[added]
+Partial methods,[null],[added]

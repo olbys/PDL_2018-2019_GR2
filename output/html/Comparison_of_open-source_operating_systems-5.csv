@@ -1,0 +1,28 @@
+Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+Linux,netfilter iptables/nftables,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+FreeBSD,IPFW2  IPFilter  PF,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+OpenBSD,PF,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+NetBSD,IPFilter  NPF  PF,Yes,Yes,[null],Yes,Yes[Note 1],Yes,Yes,Yes,Yes,Yes
+DragonFly BSD,IPFW2  PF,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,[null]
+OpenSolaris  illumos,IPFilter,Yes,Yes,[null],Yes,Yes,Yes,Yes,Yes[Note 2],Yes,Yes
+AuroraUX,IPFilter,Yes,Yes,[null],Yes,Yes,Yes,Yes,[null],Yes,Yes
+Darwin  OpenDarwin,IPFW,Yes,Yes,[null],[null],[null],Yes,[null],[null],Yes,[null]
+MINIX,[null],Yes,[null],[null],[null],[null],[null],[null],[null],Yes,[null]
+FreeDOS,[null],Yes,[null],Yes,Yes,Yes,Yes,[null],[null],Yes,[null]
+Genode,software IP routing,Yes,[null],No,No,No,Yes,Yes,[null],[null],[null]
+Haiku,None,Yes,Yes,[null],[null],[null],Yes,[null],[null],Yes,Yes
+KolibriOS,None,Yes,[null],No,Yes,No,Yes,[null],[null],[null],[null]
+MenuetOS,None,Yes,[null],No,No,No,[null],[null],[null],[null],[null]
+GNU,netfilter iptables/nftables (with Linux-libre and Linux kernel)[Note 3],Yes,Yes[Note 4],[null],[null],[null],Yes[Note 5],[null],[null],Yes,[null]
+ReactOS,[null],Yes,Yes,[null],[null],[null],[null],[null],[null],[null],[null]
+L4  Fiasco  Pistachio,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Plan 9,ipmux,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No
+AROS,[null],Yes,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Syllable,[null],Yes,[null],[null],Yes,Yes,Yes,[null],[null],Yes,[null]
+Inferno,ipmux,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+FreeRTOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+eCos,[null],Yes,Yes,[null],Yes,[null],Yes,[null],[null],Yes,[null]
+RTEMS,[null],Yes,No,[null],Yes,Yes,Yes,Yes,Yes,[null],[null]
+HelenOS,[null],Yes,Yes,No,No,No,Yes,No,No,No,No
+E/OS,[null],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN

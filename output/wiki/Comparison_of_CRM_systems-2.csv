@@ -1,0 +1,32 @@
+System,Office Integration,Multi Lingual,Languages Supported,Web-Based,Time Tracking,Attaching Emails to Business Objects,Desktop Environment,Global Search,LDAP Support
+Act! CRM,[null],[null],en  de  fr,[null],[null],[null],[null],[null],[null]
+Adempiere,?,?,?,?,?,?,?,?,?
+Base CRM,[null],[null],de  en  es  fr  nl  pl  pt,[null],[null],[null],[null],[null],[null]
+Capsule (CRM),Gmail G Suite,[null],en,[null],[null],[null],[null],[null],?
+CiviCRM,?,[null],Over 40,Integrated with Drupal  Wordpress  Joomla! or Backdrop,?,(when email is sent from software),?,[null],?
+Dolibarr,A module google is available for customer and agenda sync,[null],Over 30,[null],[null],(when email is sent from software),?,[null],[null]
+Microsoft Dynamics CRM,[null],[null],over 40,[null],[null],[null],[null],[null],with ADFS
+Epesi CRM,Any type of file attachments,[null],ar  bg  cs  da  de  el  en  es  et  fa  fi  fr  he  hr  hu  id  in  it  jp  ko  lt  nl  no  pl  pt  ro  ru  sk  sl  sr  sv  th  tr  vi  zh,[null],[null],[null],?,?,?
+GNU Enterprise,[null],[null],[null],[null],[null],?,?,?,?
+Group-Office,[null],[null],Over 20 languages,[null],[null],?,?,?,?
+HubSpot CRM Free,Gmail  G Suite  Outlook  Office 365 for Windows<ref name="Houpes15"></ref>,[null],en  fr  jp  de  pt  es<ref name="HubSpotLanguages"></ref>,<ref name="Houpes15"/>,[null],<ref name="Brooks17"></ref>,<ref name="Campbell14"></ref>,[null],[null]
+Neolane,?,?,?,?,?,?,?,?,?
+Nutshell CRM,Google Apps  Microsoft Exchange,[null],[null],[null],[null],[null],?,[null],?
+Pega CRM<ref name=forrester-crm/>,?,?,?,?,?,?,?,website=community.pega.com|language=en|access-date=2018-10-28}}</ref>,website=community.pega.com|language=en|access-date=2018-10-28}}</ref>
+Pipedrive,[null],[null],de  en  es  et  fi  fr  it  no  nl  pl  pt  ru  tr  ko  ja,[null],[null],[null],[null],[null],[null]
+Pivotal CRM,[null],[null],[null],Web/Windows,?,[null],?,[null],[null]
+Really Simple Systems,[null],[null],en,[null],[null],?,?,?,?
+SageCRM,[null],[null],[null],[null],[null],[null],[null],[null],?
+Salesbox CRM,[null],[null],de  en  es  fr  nl  pt  se  no  fi  tr  ro  ru  jp  ch  ko  hu,[null],[null],[null],[null],[null],[null]
+Salesforce.com<ref></ref>,[null],[null],en  fi  fr  de  es  it  ja  ko  pt-br  ru  sv  th  zh-cn  zh-tw  da  nl-nl,[null],[null],[null],[null],[null],[null]
+Siebel,[null],[null],[null],[null],[null],[null],?,?,[null]
+SAP CRM,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SAP Cloud for Customer,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Streak,via Google Docs,[null],de  en  es  fr  it  nl  pl  pt  pt-br  ru  zh-cn,[null],[null],?,?,?,?
+SugarCRM,- Outlook  Excel  Word Plugins,[null],sq_AL  ar_SA  bg_BG  ca_ES  zh_CN  hr_HR  cs_CZ  da_DK  nl_NL  en_UK  en_us  et_EE  fi_FI  fr_FR  de_DE  el_EL  he_IL  hu_HU  it_it  ja_JP  ko_KR  lv_LV  lt_LT  nb_NO  pl_PL  pt_PT  pt_BR  ro_RO  ru_RU  sr_RS  sk_SK  es_ES  es_LA  sv_SE  th_TH  zh_TW  tr_TR  uk_UA,[null],[null],[null],?,[null],[null]
+SuiteCRM,Via Plugin,[null],20 languages,[null],[null],[null],[null],[null],[null]
+SuperOfficeCRM,[null],[null],cn  de  dk  en  es  fi  fr  it  jp  nl  no  ru  se  zh,[null],[null],?,?,?,?
+TeamLab,[null],[null],en  de  fr  es  it  ru  lat,[null],[null],?,?,?,?
+Tryton,?,[null],bg  ca  cs  de  en  es-ar  es-co  es-es  fr  nl  ru  sl,[null],[null],[null],[null],[null],[null]
+WORKetc,Outlook Addon and Google Docs,[null],de  en  es  fr  it  nl,[null],[null],[null],?,[null],?
+Zoho CRM,Outlook & MS Office,[null],en  fi  fr  de  es  it  ja  ko  pt-br  ru  sv  th  zh-cn  zh-tw  da  nl-nl  pl,[null],[null],[null],?,[null],[null]

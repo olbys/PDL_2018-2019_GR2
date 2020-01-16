@@ -1,0 +1,4 @@
+Country,Spacecraft (engine),Power,Thrust,Specific impulse,Year
+[null],ETS-IV (Unnamed teflon pulsed plasma thruster),20 W,[null],300s,1981
+Space Flyer Unit (EPEX  magnetoplasmadynamic thruster),430 W,12.9 mN,600s,1995,[added]
+[null],Dongfeng 5 ballistic rocket (MDT-2A  teflon pulsed plasma thruster),5 W,[null],280s,1981

@@ -1,0 +1,11 @@
+Name,Operating system,Vendor,Online storage,Remote desktop,Prior file versions  revision control,Comments,Portable,Detect rename,Detect move,Scheduling,Full duplex transfer
+Microsoft ActiveSync,Windows,Microsoft,[null],[null],?,Syncs mobile devices,[null],[null],[null],[null],[added]
+Resilio Sync,Windows  OS X  Linux  FreeBSD  Android  iOS,Resilio  Inc.,[null],[null],(previous versions moved to archive folder),Distributed peer-to-peer sync,[null],[null],[null],<ref></ref>,[added]
+Briefcase (part of Windows) (removed in Windows 10 build 14942<ref></ref>),Windows,Microsoft,[null],[null],?,[null],[null],[null],[null],[null],[added]
+Cobian Backup,Windows,CobianSoft,[null],[null],, trash folder,Backup software with folder synchronization feature; remote management; Shadow Copy,[null],[null],[null],[null],[added]
+Windows Mobile Device Center,Windows,Microsoft,[null],[null],?,Syncs mobile devices; successor to Microsoft ActiveSync,[null],[null],[null],[null],[added]
+Microsoft Sync Framework,Windows,Microsoft,?,[null],?,Syncs files  data  services; a framework  not a tool,[null],[null],[null],-,[added]
+Microsoft SyncToy,Windows,Microsoft,[null],[null],, recycle bin only,Sync local folders,[null],[null],[null],via OS,[added]
+Windows Live Mesh (discontinued 13 February 2013),Windows (Vista and greater)  Windows Mobile  OSX,Microsoft,[null],[null],, recycle bin only,Sync folders  online storage,[null],[null],?,, syncs whenever it is online,[added]
+OmniGroup OmniPresence,OSX  OmniGroup software for iOS  open source framework available,OmniGroup,[null],[null],, via local Time Machine backup only,Sync local folders via OmniSync or WebDAV server but not to the server itself,[null],?,?,, syncs whenever it's online and not paused,[added]
+Windows Live Sync (discontinued 31 March 2011),Windows  OSX,Microsoft,, browsing only,[null],, recycle bin only,Sync folders  browse devices from website  remote access; was Microsoft FolderShare  20.000 file limit,[null],[null],[null],, syncs whenever it's online,?

@@ -1,0 +1,18 @@
+Name,macOS,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AIX,HP-UX,iOS,Android,Maemo,Windows Phone
+AbsoluteTelnet,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ConnectBot,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+CRAX Commander,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Dropbear,[null],[null],[null],[null],[null],[null],{{?}},{{?}},{{?}},[null],[null],[null],[null],[null],[null]
+eSSH Client,[null],[null],{{?}},[null],[null],[null],{{?}},{{?}},{{?}},[null],[null],[null],[null],[null],[null]
+lsh,[null],[null],[null],[null],[null],[null],{{?}},{{?}},{{?}},[null],[null],[null],[null],[null],[null]
+OpenSSH (OpenBSD Secure Shell),[null],[null],[null],[null],[null],[null],{{?}},[null],[null],[null],[null],[null],[null],[null],[null]
+PuTTY,[null],[null],{{?}},[null],[null],[null],[null],{{?}},{{?}},[null],[null],[null],[null],[null],[null]
+SecureCRT,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SmartFTP,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SSH Tectia Client/ConnectSecure,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Tera Term,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+TN3270 Plus,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+TtyEmulator,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+WinSCP,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ZOC,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Name,OS X,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AIX,HP-UX,iOS,Android,Maemo,Windows Phone

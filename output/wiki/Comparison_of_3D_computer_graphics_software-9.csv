@@ -1,0 +1,6 @@
+Application,MIPMAP generation,Adaptive Tessellation,Instansing,Camera Culling,Deep Pixel Rendering,Fisheye Stereo for Fulldome,Omnidirectional stereo for HMD,Deforming Motion Blur,GPU Rendering,Texture Streaming (GPU)
+V-Ray,[null],{{?}},[null],{{?}},[null],[null],[null],[null],[null],<ref>Advancements in V-Ray RT GPU  p.15</ref>
+RenderMan (RIS),[null],{{?}},[null],{{?}},[null],{{?}},<ref>Features  Pixar</ref>,[null],<ref>Pixar Animation Studios Showcases New Rendering Technologies at SIGGRAPH 2017  AWN  August 2  2017</ref>,[null]
+Arnold,[null],<ref>Subdivision Settings  Solid Angle</ref>,[null],{{?}},[null],[null],[null],[null],[null],{{?}}
+Houdini Mantra (Path-Tracing mode),[null],{{?}},[null],{{?}},[null],{{?}},[null],[null],[null],[null]
+Blender Cycles,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]

@@ -1,0 +1,28 @@
+Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA
+Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+FreeBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+OpenBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+NetBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+DragonFly BSD,Yes,[null],Yes,Yes,Yes,Yes,Yes,[null]
+OpenSolaris  illumos,Yes,[null],Yes,Yes,Yes,Yes,No,No
+AuroraUX,Yes,[null],Yes,Yes,Yes,Yes,No,No
+Darwin  OpenDarwin,Yes,[null],[null],[null],[null],[null],[null],[null]
+MINIX,Yes,[null],Yes,[null],[null],[null],[null],[null]
+FreeDOS,Yes,Yes,Yes,[null],[null],[null],[null],[null]
+Genode,Yes,No,No,Yes,No,Yes,No,No
+Haiku,Yes,Yes,Yes,Yes,[null],Yes,[null],[null]
+KolibriOS,Yes,Yes,Yes,[null],[null],[null],No,Yes
+MenuetOS,Yes,Yes,[null],[null],[null],[null],No,No
+GNU,Yes,[null],[null],[null],[null],[null],[null],[null]
+ReactOS,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+L4  Fiasco  Pistachio,[null],[null],[null],[null],[null],[null],[null],[null]
+Plan 9,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+AROS,Yes,Yes,[null],[null],[null],[null],[null],[null]
+Syllable,Yes,Yes,Yes,Yes,[null],[null],[null],[null]
+Inferno,Yes,Yes,Yes,Yes,[null],Yes,No,No
+FreeRTOS,[null],[null],[null],[null],[null],[null],[null],[added]
+eCos,Yes,[null],[null],Yes,[null],[null],Yes,[null]
+RTEMS,Yes,Yes,Yes,Yes,No,No,No,No
+HelenOS,Yes,Yes,Yes,Yes,No,No,No,No
+E/OS,Yes,Yes,Yes,Yes,Yes,No[6],No,No
+Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA

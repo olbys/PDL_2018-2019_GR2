@@ -1,0 +1,15 @@
+Client,Written in,License,Access API,High availability,Shards,Initial release year,Memory requirements (GB)
+Alluxio (Virtual Distributed File System),Java,Apache License 2.0,HDFS  FUSE  HTTP/REST  S3,hot standby,No,2013,[null]
+Ceph,C++,LGPL,librados (C  C++  Python  Ruby)  S3  Swift  FUSE,Yes,Yes,2010,1 per TB of storage
+GlusterFS,C,GPLv3,libglusterfs  FUSE  NFS  SMB  Swift  libgfapi,Yes,Yes,2005,[null]
+MooseFS,C,GPLv2,POSIX  FUSE,master,No,2008,[null]
+Quantcast File System,C,Apache License 2.0,C++ client  FUSE (C++ server: MetaServer and ChunkServer are both in C++),master,No,2012,[null]
+LizardFS,C++,GPLv3,POSIX  FUSE  NFS-Ganesha  Ceph FSAL (via libcephfs),master,No,2013,[null]
+Lustre,C,GPLv2,POSIX  NFS-Ganesha  NFS  SMB,Yes,Yes,2003,[null]
+OpenAFS,C,IBM Public License,Virtual file system  Installable File System,[null],[null],2000 [1],[null]
+OpenIO[2],C,AGPLv3 / LGPLv3,Native (Python  C  Java)  HTTP/REST  S3  Swift  FUSE (POSIX  NFS  SMB  FTP),Yes,[null],2015,0.5
+SeaweedFS,Go  Java,Apache License 2.0,HTTP (REST)  POSIX  FUSE  S3  HDFS,transparent master failover,[null],2015,[null]
+Tahoe-LAFS,Python,GNU GPL [3],HTTP (browser or CLI)  SFTP  FTP  FUSE via SSHFS  pyfilesystem,[null],[null],2007,[null]
+HDFS,Java,Apache License 2.0,Java and C client  HTTP,transparent master failover,No,2005,[null]
+XtreemFS,Java  C++,BSD License,libxtreemfs (Java  C++)  FUSE,[null],[null],2009,[null]
+Ori[4],C  C++,MIT,libori  FUSE,[null],[null],2012,[null]

@@ -1,0 +1,23 @@
+[null],AIX,*BSD,HP-UX,Linux,OS X,Solaris,Windows,Others
+Ansible,[null],[null],[null],[null],[null],[null],(Need linux control machine),<ref> Can manage any machine with Python 2.4 or later and sshd. Control machine can be any non-Windows machine with Python 2.6 or 2.7 installed. This includes Red Hat  Debian  CentOS  OS X  any of the BSDs  and so on.</ref>
+Bcfg2,<ref>Encap  RPM  and POSIX file support only</ref>,<ref name="FreeBSD">FreeBSD</ref>,[null],<ref>Debian  Ubuntu; Gentoo; RPM-based distributions (CentOS  Mandrake  Red Hat  RHEL  SLES  SuSE)</ref>,<ref>POSIX File  Launchd  and MacPorts Support only</ref>,[null],[null],[null]
+CFEngine,[null],<ref name="FreeBSD" />,[null],[null],[null],[null],[null],<ref name="Unix">Unix</ref>
+cdist,[null],[null],[null],[null],[null],[null],[null],[null]
+Chef,<ref></ref>,[null],[null],[null],[null],[null],<ref></ref>,[null]
+ISconf,[null],[null],[null],[null],[null],[null],[null],[null]
+Juju,[null],[null],[null],[null],[null],[null],<ref></ref>,[null]
+Local ConFiGuration system (LCFG),[null],[null],[null],<ref>"Recent versions run on Fedora Core (3  5  6). Various people have ported some of the LCFG core to other Linux distributions  such as Debian  but these ports have not been incorporated"</ref>,<ref>"There has been an experimental port to OS X  which does work and includes some Mac-specific components. However  this is not production quality and the lack of uniform packaging system under OS X means that automatic management of installed software is likely to be difficult."</ref>,<ref>"LCFG core has been ported back to Solaris and we are using this in production  although the software has not been packaged for distribution  and is not so well supported"</ref>,[null],[null]
+OCS Inventory NG,[null],[null],[null],[null],[null],[null],[null],[null]
+Open pc server integration (Opsi),[null],[null],[null],[null],[null],[null],[null],[null]
+PIKT,[null],[null],[null],[null],[null],[null],[null],<ref>Digital Unix; IRIX</ref>
+Puppet,[null],[null],[null],[null],[null],[null],[null],[null]
+Quattor,[null],[null],[null],[null],<ref></ref>,[null],[null],[null]
+Radmind,[null],<ref name="FreeBSD" /><ref name="NetBSD">NetBSD</ref><ref name="OpenBSD">OpenBSD</ref>,[null],[null],[null],[null],[null],[null]
+Rex,[null],[null],[null],[null],<ref name=rexget></ref>,[null],<ref name=rexget/>,[null]
+Rudder,[null],<ref name="ReferenceA">Multiple users have successfully built and run the agent on FreeBSD  but no official package is available currently</ref>,[null],[null],<ref name="ReferenceA"/>,<ref></ref>,[null],<ref>Android</ref>
+SmartFrog,<ref name="JavaUntested">Written in Java  so should in theory work on this platform if there is the appropriate JVM version available for it; however it has not been tested on the platform  which should be considered unsupported.</ref>,<ref name="JavaUntested" />,[null],[null],[null],[null],[null],<ref name="JavaUntested" />
+Salt,[null],[null],<ref name="Python Untested">Will run anywhere Python runs  but handlers for different platforms are untested.</ref>,<ref></ref>,[null],<ref>Salt was added to the OpenCSW package repository in September of 2012 in version 0.10.2 of Salt</ref>,[null],<ref name="Python Untested"/>
+Spacewalk,<ref></ref>,[null],[null],<ref></ref>,[null],<ref></ref>,[null],[null]
+STAF,<ref>4.3.3+ (Power 32); 5.1+ (Power 32/64)</ref>,<ref>FreeBSD 4.10 (x86-32); FreeBSD 6.1+ (x86-32)</ref>,<ref>11.00+ (PA-RISC 32  IA-64)</ref>,<ref>(x86-32  x86-64  IA-64  PPC 64  zSeries 32/64)</ref>,<ref>http://sourceforge.net/tracker/index.php?func=detail&aid=1458480&group_id=33142&atid=40738310.2+ (?)</ref>,<ref>2.6+ (Sparc 32); 10+ (x86-32  x86-64)</ref>,<ref>95  98  Me  NT4  2000  XP  2003  Vista (x86-32)  7 (x86-32)  7 (x86-64); 2003  Vista (x86-64); 2004 (IA-64)</ref>,<ref>OS/400 5.2+ (iSeries 32); z/OS Unix 1.4+</ref>
+Synctool,[null],[null],[null],[null],[null],[null],[null],<ref>Synctool runs on any platform that supports SSH  Rsync and Python.</ref>
+[null],AIX,*BSD,HP-UX,Linux,OS X,Solaris,Windows,Others

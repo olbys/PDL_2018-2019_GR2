@@ -1,0 +1,12 @@
+Can Target:,Changing default policy to accept/reject (by issuing a single rule),IP destination address(es),IP source address(es),TCP/UDP destination port(s),TCP/UDP source port(s),Ethernet MAC destination address,Ethernet MAC source address,Inbound firewall (ingress),Outbound firewall (egress)
+Trend Micro Internet Security,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Untangle,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Vyatta,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Windows XP Firewall,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Windows Vista Firewall,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Windows 7 /<br>Windows&nbsp;2008&nbsp;R2<br>Firewall,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+WinGate,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Zeroshell,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Zorp,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+pfSense,[null],[null],[null],[null],[null],<ref name="pfsense-mac-discussion" />,<ref name="pfsense-mac-discussion" />,[null],[added]
+IPFire,[null],[null],[null],[null],[null],[null],[null],[null],[added]

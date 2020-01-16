@@ -1,0 +1,21 @@
+Audio player,HTTP,RTSP (RTSPU  RTSPT),MMS (MMSU  MMST),Podcasting,Other
+AIMP,[null],[null],[null],[null],[null]
+[added],[added],[added],[added],[added],[added]
+Amarok,[null],[null],[null],[null],UPNP
+Audacious,[null],[null],[null],[null],[null]
+Audion,[null],[null],[null],[null],[null]
+cmus,[null],[null],[null],[null],?
+Cog,[null],[null],[null],[null],[null]
+foobar2000,[null],<ref group="protocolnotes">Only WMA files are playable by foobar2000 through an RTSP connection. RealMedia  AAC  etc. are not supported.</ref>,[null],<ref group="protocolnotes">3rd party plugin for 0.9 allows reading RSS 2.0 feeds as playlists. No subscription/automatic update features.</ref>,[null]
+JuK,[null],[null],[null],[null],[null]
+JRiver Media Center,[null],[null],[null],[null],[null]
+MediaMonkey,[null],[null],[null],<ref group="protocolnotes">Present in version 3.0 currently going through Alpha Testing.</ref>,[null]
+MusicBee,[null],[null],[null],[null],[null]
+Musicmatch Jukebox,[null],[null],[null],[null],[null]
+musikCube,[null],[null],[null],[null],[null]
+Rhapsody,[null],[null],[null],[null],[null]
+Rhythmbox,[null],[null],[null],<ref group="protocolnotes">As of 0.9.2 it allows reading RSS as podcast source. Issues if links in RSS do not point directly to playable media. Automatic update of podcasts available.</ref>,UPNP
+Sonique,[null],[null],[null],[null],[null]
+XMMS,[null],[null],[null],[null],[null]
+Zinf,[null],[null],[null],[null],[null]
+Audio player,HTTP,RTSP (RTSPU  RTSPT),MMS (MMSU  MMST),Podcasting,Other

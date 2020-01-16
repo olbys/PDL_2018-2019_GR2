@@ -1,0 +1,36 @@
+Mail Server,DNSBL,SURBL,Spamtraps,Greylisting,SPF,DKIM,DMARC,Tarpit,Bayesian filters,Regular expressions,Embedded Antivirus,Embedded Antispam
+agorum core,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Apache James,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],ClamAV<ref></ref>,(Apache SpamAssassin)
+Axigen,[null],<ref name="Kaspersky-anti-spam">via Kaspersky anti-spam add-on</ref>,[null],[null],[null],[null],[null],[null],, in SpamAssassin,[null],CYREN,CYREN
+Citadel,[null],[null],[null],[null],(via SpamAssassin),[null],[null],[null],(via SpamAssassin),[null],(ClamAV),(SpamAssassin)
+Courier Mail Server,[null],[null],[null],<ref name="courier-pythonfilter"></ref>,[null],<ref>Two DKIM filters can be found in Courier-MTA's links page</ref>,<ref>With zdkimfilter</ref>,[null],<ref name="courier-pythonfilter" />,<ref name="courier-pythonfilter" />,Clamav,<ref name="courier-pythonfilter" />
+Dovecot,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Eudora Internet Mail Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Exim,[null],[null],[null],[null],at build time,[null],at build time,[null],with spamassassin etc.,[null],any,any
+FirstClass,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Symantec,[null]
+Gordano Messaging Suite,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],CYREN  Authentium,CYREN
+GroupWise,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Halon,[null],[null],[null],[null],[null],[null],[null],[null],(via SpamAssassin),[null],(Sophos  ClamAV),(CYREN  SpamAssassin)
+Haraka,[null],[null],[null],[null],[null],[null],[null],[null],with spamassassin etc.,[null],ClamAV  AVG  any via plugins,SpamAssassin  MessageSniffer
+hMailServer,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],ClamAV,SpamAssassin
+IBM Notes,<ref></ref>,[null],[null],[null],<ref></ref>,[null],[null],[null],[null],[null],[null],[null]
+IceWarp Mail Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Ipswitch IMail Server,[null],[null],[null],[null],[null],<ref></ref>,<ref></ref>,[null],[null],[null],Symantec  BitDefender,CYREN
+Kolab,[null],[null],[null],[null],[null],[null],[null],[null],with spamassassin etc.,[null],(via content filter interface),(via content filter interface)
+Mailsite,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Mailtraq,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Mercury Mail Transport System,[null],[null],[null],(GreyWall extension),[null],[null],[null],[null],(SpamHalter extension),[null],(ClamWall extension),[null]
+Microsoft Exchange Server,(2003 & later),[null],[null],[null],[null],[null],[null],(2003 & later),[null],[null],[null],[null]
+NetMail,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+OpenSMTPD,[null],[null],[null],[null],[null],<ref></ref>,[null],[null],[null],[null],[null],[null]
+Oracle Communications Messaging Server,[null],[null],[null],[null],[null],[null],[null],[null],with spamassassin etc.,[null],any,any
+Postfix,[null],[null],[null],[null],[null],<ref name=opendkim></ref>,<ref name=opendmarc></ref>,[null],with spamassassin etc.,[null],(via content filter interface),(via content filter interface)
+qmail,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Scalix,[null],(via Scalix AntiSpam powered by Cyren or SpamAssassin),(via Scalix AntiSpam powered by Cyren or SpamAssassin),[null],[null],[null],[null],[null],[null],[null],(via Scalix ZeroHour AntiVirus powered by Cyren or ClamAV),[null]
+Sendmail,[null],(via milter/SA),[null],[null],[null],<ref name="opendkim"/>,<ref name="opendmarc"/>,[null],with spamassassin etc.,[null],ClamAV,SpamAssassin
+SparkEngine,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+UW IMAP,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+WinGate,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Zarafa,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Zimbra,[null],(via SpamAssassin),[null],(via Cluebringer Policy Daemon),[null],[null],[null],[null],[null],(partially),(via ClamAV  optionally any via Amavisd),(via SpamAssassin)
+Mail Server,DNSBL,SURBL,Spamtraps,Greylisting,SPF,DKIM,DMARC,Tarpit,Bayesian filters,Regular expressions,Embedded Antivirus,Embedded Antispam

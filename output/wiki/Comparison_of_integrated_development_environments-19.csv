@@ -1,0 +1,13 @@
+IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
+Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,[null],[null],[null],cross-compile to macOS  Android  iOS (Linux server on the roadmap)<ref></ref>,[null],[null],[null],[null],[null]
+Free Pascal IDE,Volunteers,3.0.4 / December 6  2017,[null],[null],[null],AmigaOS  Android  FreeBSD  Game Boy Advance  Haiku  AIX  iOS  MorphOS  DOS  NetBSD  Nintendo DS  Nintendo Wii  OpenBSD  OS/2  Solaris  Windows CE  Java Virtual Machine  LLVM (experimental)  JavaScript transpiler  Embedded systems.,[null],[null],[null],[null],[null]
+KDevelop,KDevelop Team,(only 3.x supports Pascal),[null],[null],[null],FreeBSD  OpenBSD  NetBSD  Solaris  other Unix,[null],[null],[null],[null],[null]
+Lazarus,Volunteers,2.0.0 / February 6  2019,[null],[null],[null],See Free Pascal,[null],[null],[null],[null],[null]
+MIDletPascal,Code Research Laboratories,3.5 / February 2  2013,[null],[null],[null],cross-compile from Windows to Java ME,[null],[null],[null],[null],[null]
+Morfik,Morfik Technology Pty Ltd.,2.0.5.27,[null],[null],[null],compiles to HTML+CSS+XML+JavaScript (web apps),[null],[null],[null],[null],[null]
+MSEide,Martin Schreiber,4.6 / 2017-11-24,[null],[null],[null],FreeBSD,[null],[null],[null],[null],[null]
+Understand,SciTools,4.0 / April 2015,[null],[null],[null],Solaris,[null],[null],[null],[null],[null]
+Visual Studio via Oxygene,RemObjects Software,10.0 / August 2018,and additional Water IDE,[null],via Fire IDE,JVM  .NET  Mono  Cocoa  Cocoa Touch  Android  iOS  WebAssembly  cross compile to Linux,[null],[null],[null],; free compiler,[null]
+PocketStudio,winsoft,3.0,[null],[null],[null],Palm OS,[null],[null],[null],[null],[null]
+Dev-Pascal,Bloodshed Software,1.9.2 (using FPC 1.9.2 from 2005),[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PascalABC.NET,Volunteers,3.4 / Jule 27  2018,[null],[null],[null],compiles to CLR,[null],[null],[null],[null],[null]

@@ -1,0 +1,24 @@
+Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
+Bourne shell,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation">xautomation and xdotool can be used to generate keystrokes under X Window System; or a program can be run in a pseudoterminal to be able to control it (as with the expect tool).</ref>
+POSIX shell,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation"/>
+bash (v4.0),[null],[null],'' or named pipes)}},[null],[null],<ref group="nb" name="xautomation"/>
+csh,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation"/>
+tcsh,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation"/>
+Hamilton C shell,[null],[null],[null],[null],[null],?
+Scsh,[null],?,?,?,[null],<ref group="nb" name="xautomation"/>
+ksh (ksh93t+),[null],Yes ($(...) and ${<space>...;})}},'')}},[null],[null],<ref group="nb" name="xautomation"/>
+pdksh,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation"/>
+zsh,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation"/>
+ash,[null],[null],[null],[null],[null],<ref group="nb" name="xautomation"/>
+CCP,[null],[null],[null],[null],[null],[null]
+COMMAND.COM,[null],[null],[null],(only under DR-DOS multitasker via COMMAND.COM /T),[null],[null]
+OS/2 CMD.EXE,[null],[null],[null],?,[null],[null]
+Windows CMD.EXE,[null],[null],[null],[null],[null],[null]
+4DOS,[null],[null],?,(via %@EXECSTR[] and %@EXEC[]  or via SET /M  ESET /M and UNSET /M and %@MASTER[...]),[null],(via KEYSTACK and KSTACK)<ref name="4DOS_8.00_HELP"></ref>
+4OS2,[null],?,?,?,[null],(via KEYSTACK)
+TCC (formerly 4NT),[null],[null],?,(via %@EXECSTR[] and %@EXEC[]),(via FTP  TFTP  FTPS  SFTP  HTTP  HTTPS and IFTP  client only),(via KEYSTACK)
+PowerShell,[null],[null],[null],[null],[null],?
+rc,[null],[null],Yes (via: <{cmd} if system supports /dev/fd/'''')}},[null],[null],?
+BeanShell,[null],?,?,?,[null],?
+VMS DCL,[null],[null],[null],[null],[null],[null]
+fish,[null],(...),</ref>}},[null],[null],<ref group="nb" name="xautomation"/>

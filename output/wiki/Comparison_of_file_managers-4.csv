@@ -1,0 +1,37 @@
+File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
+Altap Salamander,[null],[null],[null],[null],[null],[null]
+Commander One,<ref group="n" name="ossupport" />,[null],<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,[null],[null]
+CRAX Commander,<ref group="n" name="ossupport" />,[null],<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,[null],[null]
+Directory Opus,[null],[null],[null],[null],[null],(SFTP & SSL<ref>Requires an additional licence (purchased separately)</ref>)
+Dired,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,[null],[null],<ref group="n" name="ossupport" />
+Dolphin,[null],[null],[null],[null],[null],[null]
+Double Commander,[null],[null],[null],[null],[null],[null]
+emelFM2,[null],[null],[null],[null],[null],[null]
+Far Manager,[null],<ref group="n" name="ExternalWebDAV" />,<ref group="n" name="UNIXServe" />,[null],[null],<ref group="n" name="plugin" />
+File Commander,[null],<ref group="n" name="ExternalWebDAV" />,<ref group="n" name="UNIXServe" />,[null],<ref group="n" name="ExternalFTP" />,<ref group="n" name="ExternalSFTP" />
+File Manager,[null],[null],[null],[null],[null],[null]
+Files (Apple),[null],[null],[null],[null],[null],[null]
+Files by Google,[null],[null],[null],[null],[null],[null]
+Finder,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,[null]
+ForkLift,[null],[null],[null],[null],[null],[null]
+GNOME Commander,[null],[null],[null],[null],[null],[null]
+Konqueror,[null],[null],[null],[null],[null],[null]
+Krusader,[null],[null],[null],[null],[null],[null]
+muCommander,[null],[null],[null],[null],[null],[null]
+Midnight Commander,[null],[null],[null],[null],[null],[null]
+GNOME Files (Nautilus),[null],[null],[null],[null],[null],[null]
+Nemo,[null],?,?,?,[null],[null]
+Nomad.NET,[null],[null],[null],[null],[null],[null]
+Path Finder,[null],[null],[null],[null],(Read Access),[null]
+PCManFM,<ref group="n" name="GVfs" />,[null],[null],[null],[null],[null]
+ROX-Filer,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />,<ref group="n" name="ossupport" />
+Total Commander,[null],<ref group="n" name="plugin" />,<ref group="n" name="UNIXServe" />,[null],[null],[null]
+Thunar,<ref group="n" name="GVfs" />,<ref group="n" name="GVfs" />,<ref group="n" name="GVfs" />,[null],<ref group="n" name="GVfs" />,<ref group="n" name="GVfs" />
+Windows Explorer,[null],[null],<ref group="n" name="SUA" />,[null],[null],[null]
+Xandros File Manager,[null],[null],[null],[null],[null],[null]
+Xfe,[null],[null],[null],[null],[null],[null]
+Xfm,[null],[null],[null],[null],[null],[null]
+xplorer²,[null],<ref group="n" name="NetPlaces" />,<ref group="n" name="UNIXServe" />,[null],[null],[null]
+XYplorer,[null],[null],<ref group="n" name="SUA" />,[null],[null],[null]
+ZTreeWin,[null],<ref group="n" name="ExternalFTP" />,<ref group="n" name="UNIXServe" />,[null],<ref group="n" name="ExternalFTP" />,<ref group="n" name="ExternalSFTP" />
+File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH

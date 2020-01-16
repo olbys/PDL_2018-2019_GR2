@@ -1,0 +1,18 @@
+Implementation,Application-defined,PKIX path validation<ref name="X.509-PKI-cert">RFC 5280</ref>,CRL<ref name="auto4">RFC 3280</ref>,OCSP<ref name="auto5">RFC 2560</ref>,DANE (DNSSEC)<ref name="auto6">RFC 6698  RFC 7218</ref>,Trust on First Use (TOFU)
+Botan,[null],[null],[null],[null],[null],[null]
+Bouncy Castle,[null],[null],[null],[null],[null],[null]
+cryptlib,[null],[null],[null],[null],[null],[null]
+GnuTLS,[null],[null],[null],[null],[null],[null]
+JSSE,[null],[null],[null],[null],[null],[null]
+LibreSSL,[null],[null],[null],[null],[null],[null]
+MatrixSSL,[null],[null],[null],<ref></ref>,[null],[null]
+mbed TLS,[null],[null],[null],<ref></ref>,[null],[null]
+NSS,[null],[null],[null],[null],<ref></ref>,[null]
+OpenSSL,[null],[null],[null],[null],[null],[null]
+RSA BSAFE,[null],[null],[null],[null],[null],[null]
+SChannel,[null],[null],<ref name="TechNet"></ref>,<ref name="TechNet" />,[null],[null]
+Secure Transport,[null],[null],[null],[null],[null],[null]
+wolfSSL,[null],[null],[null],[null],[null],[null]
+Erlang/OTP SSL application,[null],[null],[null],[null],[null],[null]
+[added],[added],[added],[added],[added],[added],[added]
+Implementation,Application-defined,PKIX path validation<ref name="X.509-PKI-cert"/>,CRL<ref name="auto4"/>,OCSP<ref name="auto5"/>,DANE (DNSSEC)<ref name="auto6"/>,Trust on First Use (TOFU)

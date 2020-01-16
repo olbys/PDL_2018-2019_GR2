@@ -1,0 +1,46 @@
+[null],Temporary table,Materialized view
+4th Dimension,[null],[null]
+ADABAS,[null],[null]
+Adaptive Server Enterprise,1,- see precomputed result sets
+Advantage Database Server,[null],(only common views)
+Altibase,[null],(only common views)
+Apache Derby,[null],[null]
+ClustrixDB,[null],[null]
+CUBRID,[null],[null]
+DB2,[null],[null]
+Empress Embedded Database,[null],[null]
+EXASolution,[null],[null]
+Firebird,[null],(only common views)
+HSQLDB,[null],[null]
+H2,[null],(only common views)
+Informix Dynamic Server,[null],2
+Ingres,[null],[null]
+InterBase,[null],[null]
+Linter SQL RDBMS,[null],[null]
+LucidDB,[null],[null]
+MariaDB,[null],4
+MaxDB,[null],[null]
+Microsoft Access (JET),[null],[null]
+Microsoft Visual Foxpro,[null],[null]
+Microsoft SQL Server,[null],[null]
+Microsoft SQL Server Compact (Embedded Database),[null],[null]
+Mimer SQL,[null],[null]
+MonetDB,[null],(only common views)
+MySQL,[null],4
+OpenBase SQL,[null],[null]
+Oracle,[null],[null]
+Oracle Rdb,[null],[null]
+OpenLink Virtuoso,[null],[null]
+Pervasive PSQL,[null],[null]
+Polyhedra DBMS,[null],(only common views)
+PostgreSQL,[null],5
+Raima Database Manager,[null],[null]
+RDM Server,[null],[null]
+SAP HANA,[null],[null]
+solidDB,[null],(only common views)
+SQL Anywhere,[null],[null]
+SQLite,[null],[null]
+Teradata,[null],[null]
+UniData,[null],[null]
+UniVerse,[null],[null]
+[null],Temporary table,Materialized view

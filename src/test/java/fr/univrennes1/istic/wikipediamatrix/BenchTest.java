@@ -18,12 +18,12 @@ public class BenchTest {
 		System.out.println(utils.Messages.INTRO);
 		System.out.println(utils.Messages.ENTRERCHOIX);
 		ExtractionToHTML extHtml = new ExtractionToHTML();
-		//Converter c=new Converter(extHtml);
+		
 		System.out.println(Messages.PATIENT);
 		assertDoesNotThrow(()->extHtml.getConverter().convertAllToCSVformat(Messages.HTML_OUTPUT_DIR));
 		System.out.println(Messages.MESSAGEDEFIN+" Html");
 		ExtractionToWiki extWiki = new ExtractionToWiki();
-		//Converter c2=new Converter(extWiki);
+		
 		System.out.println(Messages.PATIENT);
 		assertDoesNotThrow(()->extWiki.getConverter().convertAllToCSVformat(Messages.WIKI_OUTPUT_DIR));
 		System.out.println(Messages.MESSAGEDEFIN + " Wiki");

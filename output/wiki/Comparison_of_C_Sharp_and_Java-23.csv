@@ -1,0 +1,2 @@
+Java,C#
+<source lang=Java> var bigNumber =    new BigInteger("123456789012345678901234567890");  var answer = bigNumber.multiply(new BigInteger("42")); var square = bigNumber.multiply(bigNumber); var sum = bigNumber.add(bigNumber); </source>,<source lang=CSharp> var bigNumber =    BigInteger.Parse("123456789012345678901234567890");  var answer = bigNumber*42; var square = bigNumber*bigNumber; var sum = bigNumber + bigNumber; </source>

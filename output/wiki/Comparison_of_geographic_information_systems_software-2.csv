@@ -1,0 +1,8 @@
+Name,Language,WMS,WFS,WFS-T,WCS,WMC,SLD,FES,Other
+ArcGIS Server,.NET/Java,[null],[null],[null],[null],[null],[null],[null],SOAP  REST  KML
+MapServer,C,[null],[null],[null],[null],[null],[null],[null],[added]
+Deegree,Java,[null],[null],[null],[null],[null],[null],[null],[null]
+GeoServer,Java,[null],[null],[null],[null],[null],[null],[null],[null]
+MapDotNet,C#/.NET,[null],[null],[null],[null],[null],[null],[null],SOAP and REST feature and map services
+Manifold System,ASP C#,[null],[null],[null],[null],[null],[null],[null],client and server
+GeoMedia WebMap,ASP C#,[null],[null],[null],[null],[null],?,[null],[null]

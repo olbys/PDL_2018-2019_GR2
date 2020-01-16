@@ -1,0 +1,11 @@
+Language/ Library,Create,Determinant,Transpose,Element,Column,Row,Eigenvalues
+APL,[null],[null],[null],or,or or,or,[null]
+Fortran,[null],[null],[null],[null],[null],[null],[null]
+Ch <ref>Ch numerical features</ref>,},[null],[null],}},[null],[null],[null]
+Mathematica,m = {{x11  x12  ...}  ...}}},[null],[null],[null],}},[null],[null]
+MATLAB / GNU Octave,[null],[null],[null],[null],[null],[null],[null]
+NumPy,[null],[null],[null],}},[null],[null],[null]
+S-Lang,[null],[null],[null],<wbr/>,[null],[null],[null]
+SymPy,[null],[null],[null],}},[null],[null],[null]
+Wolfram Language,m = {{x11  x12  ...}  ...}}},[null],[null],[null],}},[null],[null]
+[added],[added],[added],[added],[added],[added],[added],[added]

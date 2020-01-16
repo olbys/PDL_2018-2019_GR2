@@ -1,0 +1,25 @@
+Shell,String processing,Alternation (Brace expansion),Pattern matching (regular expressions built-in),Pattern matching (filename globbing),Globbing qualifiers (filename generation based on file attributes),Recursive globbing (generating files from any level of subdirectories)
+Bourne shell 1977 version,?,[null],[null],[null],[null],[null]
+Bourne shell recent version,(prefix and suffix stripping in variable expansion),[null],[null],[null],[null],[null]
+POSIX shell,(prefix and suffix stripping in variable expansion),[null],[null],[null],[null],[null]
+bash (v4.0),(prefix and suffix stripping in variable expansion),[null],[null],Yes (*  ?  [...]  {...})}},[null],(**/...)
+csh,[null],[null],[null],[null],[null],[null]
+tcsh,[null],[null],[null],[null],[null],[null]
+Hamilton C shell,[null],[null],[null],[null],[null],</ref>)}}
+Scsh,?,?,[null],[null],[null],[null]
+ksh (ksh93t+),(prefix  suffix stripping and string replacement in variable expansion),<ref name="Apress"></ref>,[null],[null],[null],(with set -G  no following of symlinks)
+pdksh,?,<ref name="Apress"/>,[null],[null],[null],[null]
+zsh,(through variable processing: e.g. substring extraction  various transformations via parameter expansion),[null],[null],[null],[null],(**/... or ***/... to follow symlinks)
+ash,?,?,[null],[null],[null],[null]
+CCP,[null],[null],[null],[null],[null],[null]
+COMMAND.COM,[null],[null],[null],[null],[null],[null]
+OS/2 CMD.EXE,[null],[null],[null],[null],(only in DIR /A:... command),[null]
+Windows CMD.EXE,(only through FOR /F and SET /A),[null],[null],[null],(only in DIR /A:... command),(via FOR /R command  or  where available  indirectly via /S subdir option)
+4DOS,(through variable functions %@...[]  extended environment variable processing  various string commands and FOR /F and SET /A),[null],[null],[null],(via /A:... attribute and /I"..." description options and /[S...] size  /[T...] time  /[D...] date  and /[!...] file exclusion ranges),(via FOR /R command  or indirectly via GLOBAL command or  where available  /S subdir option)
+4OS2,?,[null],[null],?,?,?
+TCC (formerly 4NT),(through variable functions %@...[]  extended environment variable processing  various string commands and FOR /F and SET /A),[null],[null],[null],(via /A:... attribute and /I"..." description options and /[S...] size  /[T...] time  /[D...] date  /[O...] owner  and /[!...] file exclusion ranges),(via FOR /R command  or indirectly via GLOBAL command or  where available  /S subdir option)
+PowerShell,[null],[null],[null],[null],?,?
+rc,?,?,[null],[null],[null],[null]
+BeanShell,?,?,[null],?,?,?
+VMS DCL,[null],[null],[null],[null],[null],(via [SUBDIR...])
+fish,[null],[null],[null],Yes (*  ?  {...})}},[null],(**/...)

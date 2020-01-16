@@ -1,0 +1,10 @@
+Assembler,License,Instruction set,Host platform
+BAL,[null],IBM System/360,IBM BPS/360
+HLASM,[null],z/Architecture,numerous
+IBM Assembler D,[null],IBM System/360,IBM DOS/360
+IBM Assembler E,[null],IBM System/360,IBM OS/360
+IBM Assembler F,[null],IBM System/360,IBM OS/360 and CP-67/CMS
+IBM Assembler H,[null],IBM System/360 and System/370,IBM OS/360 and successors
+IBM Assembler XF,[null],IBM System/370,numerous
+PL360,[null],IBM System/360,IBM OS/360
+[added],[added],[added],[added]

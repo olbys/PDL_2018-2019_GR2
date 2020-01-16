@@ -1,0 +1,8 @@
+Metadata,Java,C#
+Metadata annotations/attributes,; user-defined annotations can be created<ref></ref>,[added]
+Positional arguments,; unless a single argument,[added]
+Named arguments,[null],[added]
+Default values,[null],[added]
+Nested types,[null],[added]
+Specialization,[null],[added]
+Conditional metadata,[null],[added]

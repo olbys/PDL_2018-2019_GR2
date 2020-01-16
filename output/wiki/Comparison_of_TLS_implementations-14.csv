@@ -1,0 +1,17 @@
+Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
+Botan,[null],[null],[null],[null],[null]
+cryptlib,[null],[null],[null],[null],[null]
+GnuTLS,[null],[null],[null],[null],[null]
+JSSE,[null],[null],[null],[null],[null]
+LibreSSL,[null],[null],[null],[null],<ref name="libressl-2.2.1"></ref>
+MatrixSSL,[null],[null],[null],[null],[null]
+mbed TLS,[null],[null],[null],[null],[null]
+NSS,[null],[null],[null],[null],[null]
+OpenSSL,[null],[null],[null],[null],[null]
+RSA BSAFE,[null],[null],[null],[null],[null]
+SChannel,[null],[null],[null],[null],[null]
+Secure Transport,[null],[null],[null],[null],[null]
+wolfSSL,[null],[null],[null],[null],[null]
+Erlang/OTP SSL application,[null],[null],[null],[null],[null]
+[added],[added],[added],[added],[added],[added]
+Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine

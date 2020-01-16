@@ -1,0 +1,46 @@
+[null],Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables
+4th Dimension,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ADABAS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Adaptive Server Enterprise,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Advantage Database Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Altibase,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Apache Derby,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ClustrixDB,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+CUBRID,[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref name="CUBRID 9.0 release"/>,[null],[null]
+DB2,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+Empress Embedded Database,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+EXASolution,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Firebird,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+HSQLDB,[null],[null],[null],[null],[null],[null],<ref name="New Features in HyperSQL 2.2">New Features in HyperSQL 2.2</ref>,[null],[null],[null],<ref name="New Features in HyperSQL 2.2"/>,[null]
+H2,[null],[null],[null],[null],[null],[null],[null],[null],experimental<ref>H2 > Advanced > Recursive Queries</ref>,<ref>H2 Functions</ref>,[null],[null]
+Informix Dynamic Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref>Informix parallel data query (PDQ)</ref>,[null]
+Ingres,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+InterBase,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Linter SQL RDBMS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+LucidDB,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+MariaDB,[null],<ref name="intersect_in_mariadb"></ref>,<ref name="except_in_mariadb"></ref>,[null],[null],[null],[null],[null],<ref name="cte_in_mariadb"></ref>,<ref name="mdb_window"></ref>,<ref name="ReferenceA"></ref>,<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+MaxDB,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Microsoft Access (JET),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Microsoft Visual Foxpro,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Microsoft SQL Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,<ref></ref>,<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+Microsoft SQL Server Compact (Embedded Database),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Mimer SQL,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+MonetDB,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+MySQL,[null],[null],[null],[null],[null],[null],[null],[null],<ref name="bugs.mysql.com"></ref>,[null],<ref name="ReferenceA"/>,<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+OpenBase SQL,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+OpenLink Virtuoso,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Oracle,[null],[null],[null],[null],[null],[null],[null],[null],1,[null],<ref></ref>,<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+Oracle Rdb,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Pervasive PSQL,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Polyhedra DBMS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+PostgreSQL,[null],[null],[null],[null],[null],[null],[null],[null],<ref></ref>,[null],<ref></ref>,<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+Raima Database Manager,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+RDM Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SAP HANA,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+solidDB,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SQL Anywhere,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SQLite,[null],[null],[null],[null],[null],[null],[null],[null],<ref>SQLite Query Language: WITH clause</ref>,<ref>Window Functions</ref>,[null],<ref name="system-versioning">https://modern-sql.com/blog/2018-08/whats-new-in-mariadb-10.3#3.system-versioned-tables</ref>
+SQream DB,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Teradata,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+UniVerse,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+[null],Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables

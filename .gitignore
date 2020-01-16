@@ -9,7 +9,6 @@ hs_err_pid*
 # Eclipse
 .classpath
 .project
-.settings/
 
 # Maven
 log/
@@ -29,5 +28,4 @@ java/build/**
 /src/bin/
 /target/
 *.classpath
-/output/
-/inputdata/
+/input/

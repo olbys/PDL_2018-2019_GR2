@@ -1,0 +1,33 @@
+Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version[Note 1],Forks
+Linux,GPL/LGPL,Monolithic with modules,C,1:1,Unix-like,3.16,elks
+FreeBSD,BSD; GPL  LGPL software usually included,Monolithic with modules,C,1:1,BSD  Unix-like,11,DragonFly BSD
+OpenBSD,BSD,Monolithic,C,1:1,BSD  Unix-like,6.4,MirOS
+NetBSD,BSD,Monolithic with modules,C,1:1,BSD  Unix-like,7.0,OpenBSD
+DragonFly BSD,BSD,Hybrid,C,1:1,BSD  Unix-like,No,[null]
+OpenSolaris  illumos,CDDL,Monolithic with modules,C,1:1  M:N,Unix,No,[null]
+AuroraUX,BSD/CDDL,Monolithic with modules,C  Ada,1:1  M:N,Unix,No,[null]
+Darwin  OpenDarwin,APSL,Hybrid,C  C++[Note 2],1:1,BSD  Unix  Unix-like  OS X,No,[null]
+MINIX,BSD,Microkernel,C,[null],Unix-like,No,[null]
+RedoxOS,MIT,Microkernel,Rust,[null],Unix-like,No,[null]
+FreeRTOS,modified GPL,RTOS,C,[null],RTOS,No,[null]
+FreeDOS,GPL,Monolithic,C,[null],DOS,1.1,[null]
+Genode,AGPL,Microkernel,C++,1:1,Genode,[null],[null]
+Haiku,MIT,Hybrid,C  C++,[null],BeOS,No,TiltOS
+House,BSD,[null],Haskell,[null],own/original,No,[null]
+KolibriOS,GPL,Monolithic,ASM,[null],MenuetOS,No,[null]
+MenuetOS,Menuet 64  commerce excluded,Monolithic,ASM,[null],own/original,No,KolibriOS
+GNU,GPL,Multiserver Microkernel (Hurd kernel) or Monolithic (Linux-libre kernel  fork of Linux kernel  and other kernels which are not part of the GNU Project),C,1:1,Unix-like,2.4 on Linux-libre kernel (not on Hurd kernel),Linux
+ReactOS,GPL  LGPL,Hybrid,C  C++,[null],Windows-like,No,[null]
+RISC OS,Apache 2.0,Monolithic (with co-operative multitaslking),ARM assembly,[null],RISC OS,No,RISC OS 6
+L4  Fiasco  Pistachio,Some GPL  some BSD,Microkernel,C++,[null],L4,No,[null]
+Plan 9,LPL,Hybrid,C,1:1  1:M Cothread style.,own  Unix informed,No,Inferno  Plan B
+AROS,APL,Exokernel,C,[null],AmigaOS,No,[null]
+Syllable,GPL,Monolithic with modules,C  C++,1:1,Unix-like  BeOS  AmigaOS  POSIX,No,[null]
+Inferno,GPL  LGPL; MIT,[null],C,[null],Plan 9,No,OzInferno
+NuttX,BSD,RTOS,C,[null],RTOS,No,[null]
+eCos,modified GPL  eCos,RTOS,C  C++,[null],RTOS,No,[null]
+RTEMS,modified GPL  BSD  Stanford,RTOS,C and ASM with native support for other languages including C++ and Ada,POSIX  RTEID/ORKID  uITRON,RTOS,4.7.1,[null]
+HelenOS,BSD,Microkernel,C,M:N,own/original,No,[null]
+E/OS,GPLv2,Monolithic,ASM  C,1:1,BeOS  Unix-like,No,[null]
+TempleOS,public domain,Monolithic,HolyC  C  C++,[null],Commodore 64-like,No,[null]
+Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks

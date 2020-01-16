@@ -1,0 +1,11 @@
+Kernel Name,a.out,ECOFF,ELF,FDPIC ELF binaries (mmu less),flat binaries (superH),HUNK,Mach-O,Misc (wrapper based  like interpreters),PE,SOM (PA-RISC  HP-UX),NLM,PEF,DOS COM,MZ,LE,LX,NE
+Amiga Exec,[null],[null],<ref>AmigaOS up to version 3.9 could use the ELF format for PowerPC executables and libraries through ppc.library  also known as PowerUP. AmigaOS 4  uses ELF as its native executable format.</ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+DragonFly BSD kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+HP-UX kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Linux kernel,[null],[null],[null],[null],[null],[null],[null],[null],<ref>The Linux kernel can recognize PE binaries through binfmt_misc and run them using Wine</ref>,[null],[null],[null],[null],[null],[null],[null],[null]
+MINIX 3 kernel,<ref name=minix3-a.out-phased-out /><ref name=minix3-a.out-utils-removed />,[null],<ref name=minix3-elf />,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NetBSD kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ReactOS kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Solaris kernel,<ref>to support SunOS 4.x binaries</ref>,[null],<ref>including a Linux compatibility option</ref>,[null],[null],[null],[null],[null],<ref>The Solaris kernel can PE using Wine</ref>,[null],[null],[null],[null],[null],[null],[null],[null]
+Windows NT kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+XNU,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]

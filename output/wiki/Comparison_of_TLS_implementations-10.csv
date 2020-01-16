@@ -1,0 +1,19 @@
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT<ref name=gostlink/>,GOST R 34.11-94<ref name=gostlink/>
+Botan,[null],[null],[null],[null],[null],[null]
+cryptlib,[null],[null],[null],[null],[null],[null]
+GnuTLS,[null],[null],[null],[null],[null],[null]
+JSSE,[null],[null],[null],[null],<ref name="GOST-extensions-JSSE"/>,<ref name="GOST-extensions-JSSE"/>
+LibreSSL,[null],[null],[null],[null],<ref name="libressl-2.1.2"/>,<ref name="libressl-2.1.2"/>
+MatrixSSL,[null],[null],[null],[null],[null],[null]
+mbed TLS,[null],[null],[null],[null],[null],[null]
+NSS,[null],[null],[null],[null],<ref name=mozilla_bug518787 /><ref name=mozilla_bug608725 />,<ref name=mozilla_bug518787 /><ref name=mozilla_bug608725 />
+OpenSSL,[null],[null],[null],[null],<ref name="OpenSSL-GOST"/>,<ref name="OpenSSL-GOST"/>
+RSA BSAFE,[null],[null],[null],[null],[null],[null]
+SChannel XP/2003  Vista/2008,[null],[null],<ref name="SHA2 and Windows"></ref>,[null],<ref name="GOST-extensions-SChannel"/>,<ref name="GOST-extensions-SChannel"/>
+SChannel 7/2008R2  8/2012  8.1/2012R2,[null],[null],[null],<ref name="ms14-066" /><ref name="20141111msblog" /><ref name="win8.1aesgcm"/>,<ref name="GOST-extensions-SChannel"/>,<ref name="GOST-extensions-SChannel"/>
+SChannel 10,[null],[null],[null],<ref name=schannel10pre/>,<ref name="GOST-extensions-SChannel"/>,<ref name="GOST-extensions-SChannel"/>
+Secure Transport,[null],[null],[null],[null],[null],[null]
+wolfSSL,[null],[null],[null],[null],[null],[null]
+Erlang/OTP SSL application,[null],[null],[null],[null],[null],[null]
+[added],[added],[added],[added],[added],[added],[added]
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94

@@ -1,0 +1,7 @@
+[null],Type,Method,Type inheritance,Table inheritance
+CUBRID,[null],[null],[null],[null]
+Oracle,[null],<ref group="Note">No private methods  no way to call super method from a child.</ref>,[null],[null]
+OpenLink Virtuoso,[null],[null],[null],[null]
+PostgreSQL,[null],[null],[null],[null]
+Informix,[null],[null],[null],[null]
+WakandaDB,[null],[null],[null],[null]

@@ -1,0 +1,34 @@
+BitTorrent client,Cache <ref name="cache" group=Note>Reduces disk usage  file fragmentation (in case it is not preallocated) and latencies via larger written blocks and cached data for hash checking finished pieces.</ref>,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange <ref name="tex">Tracker exchange spec: BEP 28</ref>,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
+ABC,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Separate download,[null],[null],[null]
+Acquisition,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],3 torrents max  infinite when registered
+BitComet,[null],[null],<ref>Supports the Getright Webseeding spec since v1.14  see BitComet Wiki</ref>,[null],[null],[null],<ref group=Note>Called "preview mode"</ref>,[null],[null],[null],[null],[null],[null],Portable version available
+BitLet,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BitLord,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BitTornado,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],via PMS,[null],[null]
+BitTorrent 5  Mainline,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BitTorrent 6,[null],[null],[null],[null],[null],[null],<ref group=Note>Only available in Pro and web version</ref>,[null],[null],[null],[null],[null],[null],[null]
+BitTyrant,[null],<ref name="getrightseed">Supports the Getright Webseeding spec in addition to the Bittornado spec </ref>,[null],Plugin,[null],[null],[null],[null],[null],Plugin<ref name="azweb" group=Note>Provides a Java-based and a simple HTML/JS based WebUI.</ref>,[null],[null],[null],Upload priority optimized according to a series of research papers
+Blog Torrent,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Deluge,[null],[null],[null],Plugin,[null],[null],[null],[null],[null],[null],[null],via PMS,[null],[null]
+FlashGet,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],FlashGet (standalone application) is not FlashGot (Firefox Addon)
+Free Download Manager,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+KTorrent,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],via PMS,[null],[null]
+LimeWire,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Meerkat Bittorrent Client,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+MLDonkey,[null],[null],[null],[null],[null],[null],[null],<ref>See task #4401 SOCKS proxy; however  http proxy is supported.</ref>,[null],[null],[null],via PMS,[null],[null]
+μTorrent,[null],<ref></ref>,[null],<ref></ref>,<ref></ref>,[null],<ref group=Note>Only available in Pro and web version.From version 3.0 this feature is called "Streaming mode". The number of pieces to download sequentially is configurable</ref>,[null],[null],[null],[null],[null],[null],[null]
+OneSwarm,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],has all BitTyrant features
+Opera 12,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Web browser
+qBittorrent,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],via PMS,[null],[null]
+rTorrent,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],via PMS,[null],No built-in disk cache but a delayed sync
+Shareaza,[null],[null],[null],[null],[null],<ref group=Note>Since Shareaza v2.4.0.2 r7924.</ref>,[null],[null],<br /><ref group=Note>Since Shareaza v2.5.3.1.</ref><ref></ref><ref group=Note>Shareaza also uses G2 to transmit download metadata  such as BitTorrent trackers to other G2 clients.</ref>,[null],[null],[null],[null],<ref group=Note name=Shareaza />
+SymTorrent,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],BitTorrent client for cell phones
+Tixati,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],lightweight client  Portable version available  option to keep all peers unchoked available Integral encrypted chatrooms that allow streaming audio and video  link sharing and searching
+Tomato Torrent,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],supports AppleScript
+Tonido,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+TorrentFlux,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Transmission,[null],[null],<ref name="bep19_webseeding__adds_http_referer_header_on_redirection" group=Note>Adds HTTP referer header in request on HTTP redirection (useful behavior).</ref>,[null],[null],[null],<ref>unofficial build transmission daemon cygwin </ref><ref>unofficial build cfpp2p GitHub transmission </ref>,[null],[null],[null],[null],[null],[null],[null]
+Tribler,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],(DHT)<ref></ref>,[null],[null],Fully distributed keyword search; integrated anti-spam measures<ref></ref>
+Vuze (formerly Azureus),[null],[null],<ref name="getrightseed" />,[null],[null],[null],in paid version <ref>Play Now feature on official page</ref>,[null],[null],Plugin<ref name="azweb" group=Note />,[null],[null],<ref>Additional Vuze Features on VuzeWiki</ref>,The only client to bridge between i2p and the clearnet.
+Xunlei,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+BitTorrent client,Cache,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes

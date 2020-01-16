@@ -1,0 +1,30 @@
+[null],AngularJS,Apache Royale,Dojo,Ember.js,Enyo,Ext JS,Google Web Toolkit,jQuery,jQWidgets,MooTools,OpenUI5,Prototype & script. aculo.us[11],qooxdoo,SmartClient and SmartGWT,SproutCore,Vue,Wakanda,ZK,Webix
+Feature detection[13],Yes,[null],Yes[14],Yes,[null],Yes[15],No[16][17],Yes[18],Yes,Yes[19],[null],No[20],Yes,Partial [21],Yes,[null],Partial,No[22],Yes
+DOM wrapped[23],Yes,[null],Yes,No,Yes,Yes,Yes,Yes,[null],No[24],[null],No[25][26],Yes,Yes,No,[null],Yes,Yes,Yes
+XMLHttpRequest data retrieval,Yes,Yes,Yes[27],[null],Yes,Yes,Yes,Yes,Yes[28],Yes[29],Yes,Yes,Yes,Yes,Yes,[null],Yes,[null],Yes
+WebSocket,[null],[null],Yes[27],[null],Yes,Yes,Yes,Yes,No,Yes[29],Yes[30],Yes,Yes,Yes,Via Plugin,[null],Yes,[null],Yes[31]
+Server push data retrieval,[null],[null],Yes[32],[null],[null],Yes[33],Yes[34],Yes[32],No,[null],[null],[null],[null],Yes[35],Via Plugin,[null],[null],Yes[36],Yes
+Other data retrieval,[null],Yes: XML  HTML  CSV  ATOM  AMF  JSON,Yes: XML  HTML  CSV  ATOM[37],[null],[null],Yes: XML  SOAP  AMF  Ext.Direct,Yes: RPC  RequestFactory,Yes: XML  HTML,Yes: XML  JSON  CSV  TSV[28],Yes: XML  HTML,[null],[null],[null],Yes: XML  WSDL  RSS  and Java-based SQL  Hibernate  POJO adapters,[null],[null],Yes: JSON-RPC  Wakanda REST,[null],Yes: XML  HTML  CS  JSON  JSArray  CSV
+Drag and drop,[null],Yes,Yes[38],[null],[null],Yes,With plugin[39],With plugins[40],Yes[41],Yes[42],Yes[43],Yes,Yes,Yes,Yes,[null],Yes,Yes,Yes[44]
+Simple visual effects,Yes,Yes,Yes[45],[null],Yes,Yes,Yes,Yes,Yes,Yes[46],Yes,Yes,Yes,Yes,Yes[47],[null],Yes,Yes,Yes
+Animation / advanced visual effects,Yes,[null],Yes[48],[null],Yes[49],Yes,Yes,Yes,Yes,Yes[50],[null],Yes,Yes,Yes,Yes[47],[null],Yes,Yes,Yes[51]
+Back button support / history management,[null],[null],Yes[52],Yes,Yes[53],Yes[54],Yes,With plugins[55],No,With plugin[56],[null],Yes,Yes,Yes,Yes,[null],[null],Yes,Yes
+Input form widgets & validation,Yes,Yes,Yes[57],[null],Yes,Yes,Yes  Validation requires plugin[58],With plugins[59],Yes[60],Yes,Yes,Yes,Yes,Yes,Yes,[null],Yes,Yes,Yes [61][62]
+[null],AngularJS,Apache Royale,Dojo,Ember.js,Enyo,ExtJS,Google Web Toolkit,jQuery,jQWidgets,MooTools,OpenUI5,Prototype & script. aculo.us[11],qooxdoo,SmartClient and SmartGWT,SproutCore,Vue,Wakanda,ZK,Webix
+Grid,[null],Yes,Yes[63],[null],[null],Yes,Yes,With plugins[64],Yes[65],With plugin[66],Yes,[null],Yes,Yes,Yes,[null],Yes[67],Yes,Yes[68]
+Hierarchical Tree,[null],Yes,Yes[69],[null],Yes[70],Yes[71],Yes,With plugins[72],Yes[73],With plugins[74],Yes,[null],Yes[75],Yes,Yes,[null],Yes (Auto Form)[76],Yes,Yes [77]
+Rich text editor,No,Yes,Yes[78],[null],[null],Yes[79],Yes,With plugins[80],Yes[81],Yes[82],[null],[null],Yes,Yes,Via plugin,[null],Yes[83],Yes,Yes[84]
+Autocompletion tools,No,[null],Yes[85],[null],[null],Yes,Yes,Yes[86],Yes[87],With plugin[88],[null],Yes,[null],Yes,With plugins,[null],Yes[89],Yes,Yes
+HTML generation tools,No,[null],Yes[90],[null],[null],Yes,Yes,Yes,Yes[81],Yes[91],[null],Yes,Yes,Yes,Yes,[null],No,Yes,Yes
+Widgets themeable / skinnable,[null],Yes,Yes[92],[null],Yes,Yes[93],Yes[94],Yes[95],[null],Yes,Yes,Yes,[null],Yes,Yes,[null],[null],Yes,Yes
+GUI resizable panels and modal dialogs,[null],Yes,Yes,[null],Yes,Yes,Yes,With plugins,Yes[96],Yes[97],[null],[null],Yes,Yes,Yes,[null],Yes[98],Yes[99],Yes
+GUI page layout,[null],[null],Yes,[null],[null],Yes,Yes,With plugin[100],Yes[101][102],Yes[97],[null],[null],Yes,Yes,Yes,[null],Yes[103],Yes[99],Yes [104]
+Canvas support,[null],Yes,Yes[105],[null],Yes,Yes,Yes,With plugin[106],Yes[107],Yes[108],[null],[null],Yes,Yes,Yes,[null],Yes[109],Yes[110],Yes
+Mobile/tablet support (touch events),Yes,Yes,Yes[111],Yes,Yes,Yes,With plugin[112],With plugin[113],Yes[114],With plugin[115],Yes,[null],Yes,Yes,Yes,[null],Yes[116][117],Yes[118],Yes[119]
+Accessibility / graceful degradation[120],Yes,[null],Yes[121],No,Yes,Yes[122],Yes[123],Yes,Yes[124],Yes,[null],[null],No[125],Degradation: No Accessibility: Yes,Degradation: No Accessibility: Yes,[null],[null],Yes,Yes[126]
+ARIA compliant,[null],[null],Yes[121],[null],[null],Yes[122],[null],Yes[127],Yes[124],[null],Yes,[null],No,Yes,Yes,[null],[null],Yes,Yes [128]
+Developer tools  Visual design,[null],[null],Yes[129][130],[null],in progress[131],Yes[132][133][134],Yes,Yes[135][136],Yes[137][138][139],Yes[140][141],[null],[null],Yes[142],Yes,No,[null],Yes[143],Yes,Yes[144][145]
+Offline storage[146],[null],Yes,No[147],[null],Yes,Yes[148],Via Google Gears[149],With plugin[150],Yes[151],[null],[null],[null],Yes,Yes,Yes,[null],planned,Yes,Yes
+Cross-browser 2d Vector Graphics[152],[null],[null],Yes[153],[null],[null],Yes,[null],With plugin[154],Yes[107],Yes[155],[null],[null],[null],Yes,No],[null],Yes (via Raphael),Yes[110],Yes (via Raphael)[156]
+Charting & Dashboard[157],[null],Yes,Yes[158],[null],[null],Yes[159],[null],With plugin[160][161],Yes[162][163],[null],[null],[null],[null],Yes,No,[null],Yes[164],Yes[165],Yes[166]
+RTL Support in UI Components,[null],Yes,Yes,[null],[null],Yes,[null],Depends on the plugin used,Yes[124],[null],Yes,[null],[null],Yes,Yes,[null],[null],[null],No

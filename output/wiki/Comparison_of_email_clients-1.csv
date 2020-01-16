@@ -1,0 +1,60 @@
+Client,Author/Developer,Operating system,Software license,User Interface
+Alpine,University of Washington,Cross-platform,[null],TUI
+Apple Mail,Apple,macOS  iOS  watchOS,[null],GUI (Cocoa)
+Balsa,Stuart Parmenter,Linux,[null],GUI (GTK+)
+Becky! Internet Mail,Rimarts,Windows,[null],GUI
+BlitzMail,Dartmouth College,[null],[null],GUI
+Citadel,citadel.org,Unix-like,[null],Webmail
+Claws Mail,the Claws Mail team,Cross-platform,[null],GUI (GTK+)
+Cone,Courier Mail Server developers,Unix-like,[null],TUI
+Courier (formerly Calypso),Micro Computer Systems  Inc.  continued by Rose City Software,Windows,[null],GUI
+Elm,Dave D. Taylor  Sydney Weinstein  Bill Pemberton  Michael Elkins  Kari Hurtta,Unix-like,<ref>Elm Mail System GPL</ref>,TUI
+eM Client,eM Client Inc.,Windows,[null],GUI
+EmailTray,Internet Promotion Agency S.A.,Windows  Android,[null],GUI
+Eudora OSE,Qualcomm,Windows  macOS,[null],GUI
+Eureka Email,Sean O'Connor,Windows,[null],GUI
+Evolution,The GNOME Project,Unix-like,[null],GUI (GTK+)
+FirstClass,Open Text,[null],[null],GUI
+Forté Agent,Mark Sidell,Windows,[null],GUI
+Geary,Yorba Foundation,Unix-like,[null],GUI (GTK+)
+GNUMail,Ludovic Marcotte and others,Unix-like  macOS,[null],GUI
+Gnus,Gnus team,Cross-platform,[null],TUI and GUI
+GroupWise,Micro Focus (formerly Novell),Cross-platform,[null],GUI
+Hiri,Hiri,Cross-platform,[null],GUI
+i.Scribe  InScribe,Memecode,Windows  macOS  Linux,[null],GUI
+IBM Notes (formerly IBM Lotus Notes),IBM Collaboration Solutions (formerly Lotus Software)  IBM,Windows  macOS  Linux,[null],GUI (Notes)  Web (iNotes) and Mobile (Traveler)
+IMP,Horde LLC,Cross-platform,[null],Webmail
+K-9 Mail,K-9 Dog Walkers: cketti  et al.,Android,[null],GUI
+KMail,KDE,Cross-platform,[null],GUI (Qt)
+Mailbird,Mailbird,Windows,[null],GUI
+Mailpile,Mailpile,Linux  Windows  macOS,[null],Webmail
+mailx,[null],Unix-like,[null],TUI
+Microsoft Entourage,Microsoft,macOS,[null],GUI
+Microsoft Outlook,Microsoft,Windows  macOS,[null],GUI
+Mozilla Mail & Newsgroups,Mozilla Foundation,[null],[null],GUI (XUL)
+Mozilla Thunderbird,Mozilla Foundation,Cross-platform,[null],GUI (XUL)
+Mulberry,Cyrus Daboo (formerly Cyrusoft International  Inc./ISAMET),Cross-platform,[null],GUI
+Mutt,Michael Elkins,Cross-platform,[null],TUI (ncurses)
+Netscape Messenger,Netscape Communications,[null],?,GUI
+Netscape Messenger 9,Netscape Communications,[null],[null],GUI
+Nylas Mail,Nylas,macOS  Linux  Windows,[null],GUI
+nmh / MH,RAND Corporation,Unix-like,[null],CLI
+Opera Mail,Opera Software,Cross-platform,[null],GUI
+Outlook Express,Microsoft,Windows,[null],GUI
+Pegasus Mail,David Harris,Windows,[null],GUI
+Pine,University of Washington,Cross-platform,<ref></ref>,TUI
+Pocomail,Poco Systems,Windows,[null],GUI
+RoundCube,The RoundCube Team,Cross-platform,[null],Webmail
+SeaMonkey Mail & Newsgroups,SeaMonkey Council,Cross-platform,[null],GUI (XUL)
+Spark,Readdle,macOS,[null],GUI
+Spicebird,Synovel,Windows  Linux  BSD,[null],GUI (XUL)
+SquirrelMail,The SquirrelMail Project Team,Cross-platform,[null],Webmail
+Sylpheed,Hiroyuki Yamamoto,Cross-platform,[null],GUI (GTK+)
+The Bat!,RitLabs,Windows,[null],GUI
+Trojitá,KDE,Cross-platform,[null],GUI (Qt)
+Turnpike,Thus PLC (Demon Internet),Windows,[null],GUI
+Windows Live Mail,Microsoft,Windows,[null],GUI
+Windows Mail,Microsoft,Windows,[null],GUI
+YAM,YAM Open Source Team and contributing authors,AmigaOS,[null],GUI
+Zimbra Desktop,Zimbra,Cross-platform,[null],GUI
+Client,Author/Developer,Operating system,Software license,User interface

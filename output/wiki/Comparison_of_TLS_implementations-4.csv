@@ -1,0 +1,23 @@
+Implementation,RSA<ref name=tls>RFC 5246</ref>,RSA-EXPORT (insecure)<ref name=tls/>,DHE-RSA (forward secrecy)<ref name=tls/>,DHE-DSS (forward secrecy)<ref name=tls/>,ECDH-ECDSA<ref name="rfc4492">RFC 4492</ref>,ECDHE-ECDSA (forward secrecy)<ref name="rfc4492"/>,ECDH-RSA<ref name="rfc4492"/>,ECDHE-RSA (forward secrecy)<ref name="rfc4492"/>,GOST R 34.10-94  34.10-2001<ref name=gostlink>[//tools.ietf.org/html/draft-chudov-cryptopro-cptls-04 draft-chudov-cryptopro-cptls-04 - GOST 28147-89 Cipher Suites for Transport Layer Security (TLS)]</ref>
+Botan,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+cryptlib,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+GnuTLS,[null],[null],[null],<ref name="GnuTLS-3.4.0"/>,[null],[null],[null],[null],[null]
+JSSE,[null],[null],[null],[null],[null],[null],[null],[null],<ref name="GOST-extensions-JSSE">Extensions to support JSSE in SChannel might be available.</ref>
+LibreSSL,[null],<ref name="OpenBSD5.6"/>,[null],[null],[null],[null],[null],[null],<ref name="libressl-2.1.2"></ref>
+MatrixSSL,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+mbed TLS,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NSS,[null],[null],<ref name="nss-3.20"></ref>,[null],[null],[null],[null],[null],<ref name=mozilla_bug518787></ref><ref name=mozilla_bug608725></ref>
+OpenSSL,[null],<ref name="openssl-1.1.0-note"/>,[null],<ref name="openssl-1.1.0-note"/>,[null],[null],[null],[null],<ref name="OpenSSL-GOST">openssl/engines/ccgost/README.gost</ref>
+RSA BSAFE,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+SChannel XP/2003,[null],[null],[null],[null],[null],[null],[null],[null],<ref name="GOST-extensions-SChannel">Extensions to support GOST in SChannel might be available.</ref>
+SChannel Vista/2008,[null],[null],[null],<ref name="MSA 3174644"></ref>,[null],[null],[null],[null],<ref name="GOST-extensions-SChannel"/>
+SChannel 8/2012,[null],[null],<ref name="ms14-066"></ref><ref name="20141111msblog"></ref><ref name="win8.1aesgcm">Update adds new TLS cipher suites and changes cipher suite priorities in Windows 8.1 and Windows Server 2012 R2</ref>,<ref name="MSA 3174644"></ref>,[null],[null],[null],[null],<ref name="GOST-extensions-SChannel"/>
+SChannel 7/2008R2  8.1/2012R2,[null],[null],[null],<ref name="MSA 3174644"></ref>,[null],[null],[null],[null],<ref name="GOST-extensions-SChannel"/>
+SChannel 10,[null],[null],[null],<ref name="MSA 3174644"></ref>,[null],[null],[null],[null],<ref name="GOST-extensions-SChannel"/>
+Secure Transport OS X 10.6,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Secure Transport OS X 10.8-10.10,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Secure Transport OS X 10.11,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+wolfSSL,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Erlang/OTP SSL application,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+Implementation,RSA<ref name=tls/>,RSA-EXPORT (insecure)<ref name=tls/>,DHE-RSA (forward secrecy)<ref name=tls/>,DHE-DSS (forward secrecy)<ref name=tls/>,ECDH-ECDSA<ref name="rfc4492"/>,ECDHE-ECDSA (forward secrecy)<ref name="rfc4492"/>,ECDH-RSA<ref name="rfc4492"/>,ECDHE-RSA (forward secrecy)<ref name="rfc4492"/>,GOST R 34.10-94  34.10-2001<ref name=gostlink/>

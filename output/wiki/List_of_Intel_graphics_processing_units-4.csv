@@ -1,0 +1,84 @@
++ Specifications of Intel HD Graphics series<ref name="IvybridgeArk" /><ref name="HaswellArk" /><ref name="sandybridgeopengl"></ref><ref name="ivybridgedesktop" /><ref name="ivybridgeopencl" /><ref name="intelDX11.1"/><ref name="Haswell_OpenGL4.0" />
+Graphics
+Direct3D
+HD Graphics
+Mobile
+HD Graphics 2500<ref></ref>
+Desktop
+HD Graphics 4000<ref name="ivybridgedesktop" />
+Mobile
+Core i3-3120M Core i5-3210M
+Core i3-3120ME
+Core i3-3217U Core i5-3317U
+Core i3-3217UE
+Core i3-3229Y Core i5-3339Y Core i5-3439Y
+Core i5-33x0M
+Core i5-3337U
+Core i5-3427U
+Core i5-3610ME
+Core i7-3520M Core i7-3xx7U Core i7-3xxxQM Core i7-3920XM
+HD Graphics P4000<ref name="P4000"></ref>
+HD Graphics
+Atom Z3680
+Atom Z3740 Atom Z3770
+Atom Z3680D Atom Z3740D Atom Z3770D
+Atom Z3745 Atom Z3775 Atom Z3795
+Atom Z3745D Atom Z3775D
+Atom Z3785
+Laptop
+Celeron N2807
+Celeron N2830 Pentium N3510
+Celeron N2806
+Celeron N2810 Celeron N2815 Celeron N2820 Celeron N2910
+Celeron N2808
+Celeron N2840
+Celeron N2920
+Celeron N2930 Celeron N2940 Pentium N3520
+Pentium N3530 Pentium N3540
+Embedded
+Atom E3825
+Atom E3826
+Atom E3827 Atom E3845
+Desktop
+Celeron J1800 Celeron J1850
+Celeron J1900 Pentium J2850
+Pentium J2900
+??
+HD Graphics<ref name="G3xx0"></ref>
+Pentium G3xxxT
+Celeron G18xx
+Celeron G18xxT
+Mobile
+Celeron 29xxU Pentium 35xxU
+Celeron 29xxY Pentium 35xxY
+HD Graphics 4200
+HD Graphics 4400
+Core i3-4130T Core i3-4150T Core i3-4160T Core i3-4170T
+Mobile
+Core i3-4010U Core i3-4100U Core i5-4200U Core i3-4030U Core i3-4120U
+Core i5-4300U Core i7-4500U Core i7-4600U
+HD Graphics 4600
+Core i3-4330T Core i5-4570T
+Core i5-4430 Core i5-4430S Core i5-4440 Core i5-4440S
+Core i5-4670 Core i5-4670K Core i5-4670S Core i5-4670T Core i5-4690 Core i5-4690K Core i5-4690S Core i5-4690T Core i7-4765T Core i7-4770 Core i7-4770S Core i7-4770T Core i7-4771
+Core i7-4770K Core i7-4790K
+Mobile
+Core i3-4xxxM
+Core i5-4200M Core i5-4200H Core i7-47xxMQ Core i7-4702HQ
+Core i5-43xxM
+Core i5-4400E Core i7-4700EQ
+Core i7-4700HQ
+Core i7-4xxxM Core i7-4800MQ Core i7-4900MQ
+Core i7-4930MX
+HD Graphics P4600
+Xeon E3-1275 v3 Xeon E3-1276 v3
+HD Graphics P4700
+Xeon E3-1285 v3 Xeon E3-1286 v3
+HD Graphics 5000
+Core i5-4350U Core i7-4550U Core i7-4650U
+Iris Graphics 5100
+Core i5-4288U Core i7-4558U
+Iris Pro Graphics 5200
+Core i5-4670R Core i7-4770R
+Mobile
+Core i7-49xxHQ

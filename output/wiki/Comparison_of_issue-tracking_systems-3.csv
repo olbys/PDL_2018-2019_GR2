@@ -1,0 +1,39 @@
+System,Web,Mobile web,Email,CLI,GUI,REST,SOAP,Mylyn<ref name="MylynList"></ref>,Visual Studio,Others
+Apache Bloodhound,[null],[null],<ref name="Pluggable email handler for Trac"></ref><ref name="email2trac utilities"></ref>,[null],[null],[null],[null],[null],[null],XMLRPC
+Assembla Tickets,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Axosoft,[null],[null],[null],[null],[null],[null],[null],[null],[null],- iPhone
+Bugzilla,[null],[null],[null],[null],[null],[null],[null],[null],<ref name="Tasktop Dev for Visual Studio"/>,XMLRPC<ref name="XML-RPC doesn't work in IIS"></ref>
+Debbugs,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Faveo Helpdesk,[null],[null],[null],[null],[null],[null],[null],[null],[null],- Android App iOS App
+FogBugz,[null],[null],[null],[null],[null],[null],[null],[null],[null],XML
+Fossil,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+FusionForge,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+GLPI,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+GNATS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+HP Quality Center,[null],[null],[null],[null],<ref></ref>,[null],[null],<ref></ref>,<ref name="Tasktop Dev for Visual Studio"></ref>,- IntelliJ IDEA
+IBM Rational ClearQuest,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+IBM Rational Team Concert,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Jira,[null],<ref>Using JIRA on a mobile device</ref>,[null],<ref>By third-party extension: plugins.atlassian.com</ref>,[null],[null],[null],[null],<ref name="Tasktop Dev for Visual Studio"/>,- Android App  iPhone App
+Launchpad,[null],[null],[null],[null],[null],[null],[null],[null],[null],- Python<ref name="launchpadlib">Launchpadlib is a Python client library for the Launchpad RESTful API.</ref>
+MantisBT,[null],[null],[null],[null],[null],[null],[null],[null],[null],- Android App
+Microsoft Dynamics CRM,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+org-mode,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+OTRS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Phabricator,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Pivotal Tracker,[null],[null],[null],[null],[null],[null],[null],[null],[null],- XML  iOS App
+Redmine,[null],<ref>Feature #19097: Responsive layout for mobile devices - Redmine</ref>,[null],<ref group="notes" name="CLI-ROR">The Ruby on Rails console can be used to manually create tickets or replies</ref>,[null],[null],[null],[null],[null],- Android App  iOS App
+Request Tracker,[null],[null],[null],[null],[null],<ref></ref>,[null],[null],[null],[null]
+Roundup,[null],[null],[null],[null],[null],[null],[null],[null],[null],XMLRPC<ref name="XML-RPC access to Roundup"></ref>
+StarTeam,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Supportworks,[null],[null],[null],[null],[null],<ref>Through 5005 API  but is undocumented</ref>,[null],[null],[null],[null]
+SysAid,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Team Foundation Server,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+TestTrack,[null],[null],[null],[null],[null],[null],[null],[null],[null],- XML  Eclipse
+Trac,[null],<ref>#11953 (Responsive design for user interface) – The Trac Project</ref>,<ref name="Pluggable email handler for Trac"/>,[null],[null],[null],[null],[null],[null],XMLRPC
+TrackerSuite.Net,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Tuleap,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Twproject,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Usersnap,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Wrike,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+YouTrack,[null],<ref>Introducing YouTrack Mobile</ref>,[null],[null],[null],[null],[null],<ref name="Eclipse Plugin Connector for YouTrack"></ref>,[null],[null]
+System,Web,Mobile Web,Email,CLI,GUI,REST,SOAP,Mylyn<ref name=MylynList/>,Visual Studio,Others

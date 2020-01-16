@@ -1,0 +1,35 @@
+Name,Can boot an OS on another disk partition as guest,USB support,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough
+KVM,[null],[null],<ref name="virt-manager" />,[null],(via AIGLX),[null],<ref name="sheepdog" />,<ref name="kvm" />,[null],[null],[null]
+User Mode Linux,[null],[null],[null],[null],[null],[null],[null],[null],[null],N/A,[null]
+Containers  or Zones,[null],[null],[null],[null],Not needed,<ref></ref>,[null],[null],[null],Not needed,Not needed
+DosBox,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Oracle VirtualBox (formerly OSE  GPLv2)  with Guest Additions (GPLv2)<ref name="vboxguestadditionslic" />,[null],[null],[null],[null],[null],branched<ref name="vbox310" />,[null],[null],[null],[null],[null]
+Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2)<ref name="vboxguestadditionslic" />,[null],[null],[null],[null],[null],branched<ref name="vbox310"/>,[null],[null],[null],[null],[null]
+Oracle VM Server for SPARC (LDoms),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+OKL4 Microvisor,[null],[null],VMs only,[null],[null],[null],[null],[null],[null],[null],[null]
+Virtual Iron 4.2,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Virtual PC 2007,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Windows Virtual PC,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VirtualPC 7 for Mac,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Microsoft Virtual Server 2005 R2,[null],[null],[null],[null],[null],?,[null],[null],[null],[null],[null]
+Microsoft Hyper-V Server 2008 R2,[null],[null],[null],[null],(via RemoteFX),branched,[null],[null],[null],[null],[null]
+Microsoft Hyper-V Server 2012 R2,[null],[null],[null],[null],(via RemoteFX),branched,[null],[null],[null],[null],[null]
+Virtuozzo,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VMware ESX Server 3.0 atp,[null],[null],[null],[null],[null],?,[null],[null],[null],[null],[null]
+VMware ESX Server 2.5.3,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VMware ESX Server 4.0 - 6.x (vSphere),[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref name=esxpci />
+VMware Fusion 2.0,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+VMware Server,[null],[null],[null],[null],[null],1,[null],[null],[null],[null],[null]
+VMware Workstation 5.5,[null],[null],[null],[null],; also supported with VMGL<ref name="VMGL" />,branched,[null],[null],[null],[null],[null]
+VMware Workstation 6.0,[null],[null],[null],[null],; Also supported with VMGL<ref name="VMGL"/>,branched,[null],[null],[null],[null],[null]
+VMware Workstation 7.0 and 8.0,[null],[null],[null],[null],.<ref name="vmware3" />,branched,[null],[null],[null],[null],[null]
+VMware Player,[null],[null],[null],[null],supported with VMGL<ref name="VMGL"/>,[null],[null],[null],[null],[null],[null]
+Wind River hypervisor,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Wind River VxWorks MILS Platform,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Xen,[null],<ref name="xenproject1"></ref>,<ref name="virt-manager" />,[null],Supported with VMGL<ref name="VMGL"/>,?,[null],[null],[null],[null],[null]
+XCP-ng,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+XenServer,[null],[null],<ref name="virt-manager" />,[null],Supported with VMGL<ref name="VMGL"/>,[null],[null],[null],[null],[null],[null]
+z/VM,[null],Not applicable,(zURM/HMC),[null],Not applicable,[null],[null],(2011),[null],Not applicable,Not applicable
+z LPARs,[null],Not applicable,(HMC),[null],Not applicable,[null],[null],(2007),[null],Not applicable,Not applicable
+[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+Name,Can boot an OS on another disk partition as guest,USB,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough

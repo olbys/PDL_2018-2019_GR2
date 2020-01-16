@@ -1,0 +1,9 @@
+[null],Creator,Latest stable version,Release date,OS,Software license,Open source,Programming language,Plugin support
+9menu,Arnold Robbins,1.8,[null],Linux,GPL,[null],C,[null]
+Avant Window Navigator,Neil J. Patel,0.4.2 <ref></ref>,[null],Linux,GPL,[null],C,[null]
+dmenu,dwm developers,4.5<ref></ref>,[null],Linux,MIT License,[null],C,[null]
+GNOME Do,GNOME Do Developers,0.95.1<ref></ref>,[null],Linux,GPL,[null],C#,[null]
+LXPanel,LXDE Developers,0.10.0<ref></ref>,February 26  2019<ref></ref>,Linux,GPL,[null],C,<ref></ref>
+Katapult,TDE Developers,R14.0.6<ref>https://mirror.git.trinitydesktop.org/cgit/katapult/tag/?h=r14.0.6</ref>,[null],Linux with TDE,GPL,[null],C++,[null]
+rofi,Dave Davenport,1.5.4<ref></ref>,[null],Linux,MIT/X11 License,[null],C,[null]
+Unity Dash,Canonical Ltd.,7.3.0<ref></ref>,[null],Ubuntu,GPLv3,[null],Vala,("lenses" and "scopes")

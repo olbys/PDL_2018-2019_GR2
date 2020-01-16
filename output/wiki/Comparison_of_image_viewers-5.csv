@@ -1,0 +1,25 @@
+Program,Fullscreen,slideshow,zoom (styles),cache decoded images,thumbnails (sizes),thumbnail caching,navigation views,print,sort (schemes)
+ACDSee,[null],[null],1:1  fit width and/or height  lock,previous  next,user-defined,database,directory-tree  albums  calendar  favourites  search results,[null],user-defined  name  date  size  type  ...
+CDisplay,[null],[null],1:1  fit over/under width/height  fullscreen  doublepage,[null],Fixed  with scroll,[null],Thumbnails(of current folder images or archive),[null],[null]
+Comix,[null],[null],1:1  fit over/under width/height  fullscreen  doublepage,[null],Fixed  with scroll,[null],Thumbnails(of current folder images or archive),[null],[null]
+digiKam,[null],[null],fit  in/out,previous  next,adjustable size,[null],album-tree  tags  calendar  searches  map (geolocation),[null],sort (schemes) --> tags  date  keywords  metadata; no user-defined order
+Eye of gnome,[null],[null],+/-  1:1  best fit,[null],image collection pane  only one row,[null],Thumbnails(of current folder images),[null],[null]
+F-Spot,[null],[null],[null],[null],[null],[null],list  file-tree,[null],keywords
+FastPictureViewer,[null],Auto-advance mode,1:1  fit  50%-6400% magnifier  click-and-hold zooming,dynamic  adaptive,96x96px  shown on navigation slider (Vista or later),(uses OS-managed cache on Windows Vista or later),Windowed or full-screen  back and forth navigation  bookmarks  navigation slider,[null],Filenames  file creation/modification date  Exif date taken  GPS timestamp
+FastStone Image Viewer,[null],[null],1:1  2%-5000% magnifier  click-and-hold zooming  fit width and/or height  lock,[null],6 predefined sizes,database,dir-tree  back and forth navigation  bookmarks,[null],user-defined  name  date  file size  image size  type
+Geeqie,[null],[null],fit  1:1  in/out,previous  next,24x24 - 256x256,as png-files centrally or in sub-dir,list  dir-tree  collection,[null],collections  keywords  directory
+gThumb,[null],random  forward  reverse,fit  1:1  remember  fit-if-larger  in/out,[null],48x48 - 256x256  9 sizes,Newer versions cache in a central directory,list  icon  subfolders  categories  catalog,[null],catalogs  categories
+Gwenview,[null],[null],fit  1:1  fit-if-larger  zoom to 1600%,[null],adjustable size,[null],fullscreen thumbnails  dir-tree,[null],name  size  date
+IrfanView,[null],[null],1:1  fit width and/or height  lock,[null],18 predefined sizes: 50×50–800×800,[null],dir-tree  search results,[null],name  date  file size  image width/height  type  user-defined
+KPhotoAlbum,[null],[null],fit  in/out  presets,[null],[null],[null],views search results,[null],by date
+Phase One Media Pro,[null],[null],Fit to viewing area/height/width  1:1  zoom to 1600%,[null],Yes  user-defined,Database,Catalog-sets  date  filetypes  events  author  people  by search  by keywords and all metadata,[null],name  date  size  user-defined
+Picasa,only in slideshow mode,[null],no view window  fit to viewing area  1:1  zoom to 400%,[null],user defined,database,directory-tree  albums  timeline,[null],name  date  size  user-defined
+ResourceSpace,[null],[null],[null],[null],user defined,database,thumbs  list  events  tags,contact sheet,date  relevance  colour
+Shotwell,[null],[null],[null],[null],fixed size,[null],Thumbs  Events (dates)  tags,[null],Title  Exposure Date
+Simple Comic,[null],[null],<br />Magnifying loupe on cursor,[null],[null],[null],<br />fullscreen thumbnails  thumbnails when hovering over progress bar  single page  double page,[null],Only by ascending file name.
+STDU Viewer,[null],[null],fit to width  fit to height  fit to size,[null],[null],[null],[null],[null],[null]
+Windows Photo Viewer,[null],[null],1:1  fit  in/out,[null],[null],[null],[null],[null],[null]
+XnView and XnViewMP,[null],[null],1:1  fit width and/or height  lock,previous  next,user-defined,database,dir-tree  favourites  categories,[null],name  date  size  type  etc.; no user-defined order
+xv,[null],[null],[null],[null],fixed size,in subdirectory (.xvpics),[null],[null],name
+Zoner Photo Studio,[null],[null],1:1  fit width and/or height  lock,in Viewer  previous and next,user-defined,database,dir-tree  albums  CD compilations  media archive  search results  web albums,contact sheet  templates  calendars  paper saver,name  date  size  type  etc.; user-defined order
+Program,Fullscreen,slideshow,zoom (styles),cache decoded images,thumbnails (sizes),thumbnail caching,navigation views,print,sort (schemes)

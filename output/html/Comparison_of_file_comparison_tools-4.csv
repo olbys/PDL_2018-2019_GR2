@@ -1,0 +1,27 @@
+Name,ZIP support,FTP support,SFTP support,Version Control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware
+Beyond Compare,Yes,Yes,Yes,SVN,Yes,Yes,Yes,Yes,[null]
+Compare++,[null],[null],[null],SVN  CVS  Git  Microsoft TFS  Perforce  VSS using command line,[null],[null],[null],Yes,[null]
+diff,No,No,[null],No,Yes,Yes with patch,Yes with patch,No,No
+diff3,No,No,[null],[null],[null],[null],[null],[null],No
+Eclipse (compare),[null],[null],[null],Yes CVS  Subversion  Git  Mercurial  Baazar,[null],[null],[null],Yes,[null]
+Ediff,Yes,Yes,[null],RCS  CVS  SVN  Mercurial  git (anything supported by Emacs' VC-mode)[31],Yes,Yes,Yes,[null],[null]
+ExamDiff Pro,Yes[32],Yes[33],[null],[null],normal diff only,[null],[null],Yes,[null]
+Far Manager (compare),No,No,[null],No,No,No,No,Yes,No
+fc,No,No,[null],[null],No,[null],[null],[null],[null]
+FileMerge (aka opendiff),No,supported by OS,[null],[null],No,[null],[null],No,No
+Guiffy SureMerge,Yes,[null],[null],[null],Yes,Yes,Yes,Yes[34],[null]
+IntelliJ IDEA (compare),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,[null]
+jEdit JDiff plugin,Yes,Yes,[null],Yes,Yes,Yes,Yes,Yes,[null]
+Kompare,[null],[null],[null],[null],Yes,[null],[null],[null],[null]
+Lazarus Diff,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Meld,[null],[null],[null],CVS  Subversion  Git  Mercurial  Baazar,Yes,[null],[null],Yes,[null]
+Notepad++ (compare),No,Yes[35],[null],Git  Subversion (compare against base),No,No,No,Yes,No
+Perforce P4Merge,[null],[null],[null],No,[null],[null],[null],Yes,[null]
+Pretty Diff,No,No,No,No,No,No,No,Yes,Yes
+Tkdiff,No,No,[null],CVS  RCS  Subversion,No,No,No,No,No
+Total Commander (compare),Yes,Yes,Yes,No,No,No,No,Yes,No
+vimdiff,Yes,Yes,[null],[null],Yes,[null],[null],Yes,[null]
+WinDiff,No,No,[null],[null],No,[null],[null],No,[null]
+WinMerge,Yes,No,[null],Mercurial [36] Subversion [37] Visual Source Safe  Rational ClearCase[38],Yes,[null],[null],Yes,[null]
+UCC,Yes,No,[null],[null],[null],[null],[null],Yes,[null]
+Name,ZIP support,FTP support,SFTP support,Version Control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware

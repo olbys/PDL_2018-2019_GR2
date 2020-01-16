@@ -1,0 +1,15 @@
+Card,Write protection switch<ref></ref>,DRM
+CompactFlash,[null],[null]
+SmartMedia,, sticker,(optional)
+MMC  RS-MMC,rowspan="2",[null]
+MMCMobile,, secureMMC,[added]
+SD,<ref>Some early SD cards may not have a write protection switch.</ref><ref>The write protect switch signals to the host  which is responsible for write protection. The write protect switch is not connected to the internal circuitry of the card. (SD Card Simplified Physical Layer Specification )</ref>,rowspan="3"   CPRM
+miniSD,[null],[added]
+microSD,[null],[added]
+Memory Stick Standard  PRO,[null],, MagicGate
+Memory Stick Duo  PRO Duo,[null],, MagicGate
+Memory Stick PRO-HG Duo,[null],, MagicGate
+Memory Stick Micro (M2),[null],, MagicGate
+PS Vita Memory Card,[null],, Proprietary
+xD,[null],<ref></ref>
+USB,Sometimes,[null]

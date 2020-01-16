@@ -1,0 +1,35 @@
+Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks
+Linux,[null],Monolithic with modules,C,1:1,Unix-like,3.16,elks
+FreeBSD,[null],Monolithic with modules,C,1:1,BSD  Unix-like,11,DragonFly BSD
+OpenBSD,[null],Monolithic,C,1:1,BSD  Unix-like,6.4,MirOS
+NetBSD,[null],Monolithic with modules,C,1:1,BSD  Unix-like,7.0,OpenBSD
+DragonFly BSD,[null],Hybrid,C,1:1,BSD  Unix-like,[null],[null]
+OpenSolaris  illumos,[null],Monolithic with modules,C,1:1  M:N,Unix,[null],[null]
+AuroraUX,[null],Monolithic with modules,C  Ada,1:1  M:N,Unix,[null],[null]
+Darwin  OpenDarwin,[null],Hybrid,C  C++,1:1,BSD  Unix  Unix-like  OS X,[null],[null]
+MINIX,[null],Microkernel,C,[null],Unix-like,[null],[null]
+RedoxOS,[null],Microkernel,Rust,[null],Unix-like,[null],[null]
+FreeRTOS,[null],RTOS,C,[null],RTOS,[null],[null]
+FreeDOS,[null],Monolithic,C,[null],DOS,1.1,[null]
+Genode,[null],Microkernel,C++,1:1,Genode,[null],[null]
+Haiku,[null],Hybrid,C  C++,[null],BeOS,[null],TiltOS
+House,[null],[null],Haskell,[null],own/original,[null],[null]
+KolibriOS,[null],Monolithic,ASM,[null],MenuetOS,[null],[null]
+MenuetOS,[null],Monolithic,ASM,[null],own/original,[null],KolibriOS
+GNU,[null],(Hurd kernel) or Monolithic (Linux-libre kernel  fork of Linux kernel  and other kernels which are not part of the GNU Project),C,1:1,Unix-like,2.4 on Linux-libre kernel (not on Hurd kernel),Linux
+ReactOS,[null],Hybrid,C  C++,[null],Windows-like,[null],[null]
+RISC OS,[null],Monolithic (with co-operative multitaslking),ARM assembly,[null],RISC OS,[null],RISC OS 6
+L4  Fiasco  Pistachio,[null],Microkernel,C++,[null],L4,[null],[null]
+Plan 9,[null],Hybrid,C,1:1  1:M Cothread style.,own  Unix informed,[null],Inferno  Plan B
+AROS,[null],Exokernel,C,[null],AmigaOS,[null],[null]
+Syllable,[null],Monolithic with modules,C  C++,1:1,Unix-like  BeOS  AmigaOS  POSIX,[null],[null]
+Inferno,[null],[null],C,[null],Plan 9,[null],OzInferno
+NuttX,[null],RTOS,C,[null],RTOS,[null],[null]
+eCos,[null],RTOS,C  C++,[null],RTOS,[null],[null]
+RTEMS,[null],RTOS,C and ASM with native support for other languages including C++ and Ada,POSIX  RTEID/ORKID  uITRON,RTOS,4.7.1,[null]
+HelenOS,[null],Microkernel,C,M:N,own/original,[null],[null]
+E/OS,[null],Monolithic,ASM  C,1:1,BeOS  Unix-like,[null],[null]
+TempleOS,[null],Monolithic,HolyC  C  C++,[null],Commodore 64-like,[null],[null]
+K42,[null],[null],[null],[null],[null],[null],[null]
+UnixLite,[null],[null],[null],[null],[null],[null],-->
+Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks

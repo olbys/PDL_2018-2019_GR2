@@ -1,0 +1,14 @@
+[null],Maximum file size,Partial file loading,Disk sector editing,Bit editing,Text editor,Insert/delete bytes,Character encodings(ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Data inspector
+beye,8 PiB,[null],[null],[null],[null],[null],ANSI  EBCDIC  ASCII  Macintosh,[null],[null],data-sort-value="Yes",[null],[null],[null],[added],[added]
+bvi,Unlimited,[null],[null],[null],[null],[null],ANSI  ASCII,[null],[null],[null],[null],and replace,[null],[added],[added]
+Emacs,Limited by RAM,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+FlexHex,Unlimited,[null],[null],[null],[null],[null],ANSI  OEM  UTF-16,[null],[null],[null],[null],[null],[null],[null],[null]
+Frhed,Limited by RAM,[null],(read only),[null],[null],[null],ANSI  OEM,[null],[null],[null],[null],[null],[null],[added],[added]
+Hiew,Unlimited,[null],[null],[null],[null],[null],ASCII OEM  Unicode Custom,[null],[null],data-sort-value="Yes",[null],[null],[null],[null],[added]
+HxD,Unlimited<ref name="hxd_features">HxD features</ref>,[null],[null],[null],[null],[null],ANSI  ASCII  OEM  EBCDIC  Macintosh,[null],[null],[null],[null],[null],[null],[null],[null]
+VEDIT,Standard  2 GiB  Pro 64  unlimited,[null],data-sort-value="Partial",[null],[null],[null],ANSI  OEM  EBCDIC  ASCII  custom,[null],[null],[null],[null],[null],[null],[null],[added]
+UltraEdit,>4 GiB,[null],[null],[null],[null],[null],ANSI  OEM  EBCDIC  ASCII  Mac  Unix  UTF-8,[null],[null],[null],[null],[null],[null],[added],[added]
+WinHex,Unlimited,[null],[null],[null],[null],[null],support of these formats: ANSI  UNICODE  OEM  UTF-8/UTF-16  EBCDIC  ASCII,[null],[null],[null],[null],data-sort-value="Yes" and replace,[null],<ref name="Winhex_macro">WinHex: Scripting</ref>,[null]
+[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+vim,Limited by RAM,<ref>CTRL+C default keybind</ref>,vim -b - </ref>,<ref>:help eval</ref>,[null],[null],ASCII  ISO-8859  DOS (OEM)  UTF-8  UTF-16  partial EBCDIC (compilation required)  unicode,[null],<ref>Vim has a popular NERDTree for this</ref>,[null],<ref>vimdiff</ref>,<ref>Vim has a popular TagList plug-in that provides a function list.</ref>,<ref>vim-bookmarks</ref>,[null],[null]
+[null],Maximum file size,Partial file loading,Disk sector editing,Bit editing,Text editor,Insert/delete bytes,Character encodings(ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Data inspector

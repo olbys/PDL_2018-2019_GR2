@@ -1,0 +1,9 @@
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+FreeBSD kernel,<ref name="freebsd-compat">Linux emulation in FreeBSD - 2 A look inside...</ref>,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],<ref name="freebsd-compat"/>,<ref name="freebsd-compat"/>
+Linux kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+NetBSD kernel,<ref name="netbsd-compat">NetBSD Binary Emulation</ref>,? http://hcpnet.free.fr/applebsd.html?,? http://pkgsrc.se/emulators/peace?,<ref name="netbsd-compat"/>,[null],<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,<ref name="netbsd-compat"/>,http://netbsd-soc.sourceforge.net/projects/ndis/,[null]
+OpenBSD kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Windows NT kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+ReactOS kernel,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+XNU,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4

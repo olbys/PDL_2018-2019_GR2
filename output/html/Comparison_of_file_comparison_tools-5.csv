@@ -1,0 +1,27 @@
+Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
+Beyond Compare,Yes,Yes,Yes,Yes,Yes
+Compare++,Yes,Yes,Yes,[null],Yes
+diff,Yes,No,No,No,Optional
+diff3,[null],[null],[null],[null],[null]
+Eclipse (compare),[null],[null],[null],[null],[null]
+Ediff,[null],[null],[null],[null],[null]
+ExamDiff Pro,No,Yes,Yes,Yes,Yes
+Far Manager (compare),Yes,No,Yes,No,Yes
+fc,No,[null],[null],[null],Optional
+FileMerge (aka opendiff),No,No,No,[null],Optional
+Guiffy SureMerge,filesystem dependent,[null],Yes,[null],Yes
+IntelliJ IDEA (compare),[null],[null],[null],[null],[null]
+jEdit JDiff plugin,[null],[null],[null],[null],[null]
+Kompare,Yes,[null],[null],[null],[null]
+Lazarus Diff,[null],[null],[null],[null],[null]
+Meld,[null],[null],[null],[null],[null]
+Notepad++ (compare),No,No,No,[null],Yes
+Perforce P4Merge,N/A,No,No,No,Yes
+Pretty Diff,N/A,No,No,No,Optional
+Tkdiff,[null],[null],[null],[null],[null]
+Total Commander (compare),[null],[null],Optional,Yes (in synchronize only),Optional
+vimdiff,No,No,No,No,Yes
+WinDiff,No,No,when different,Yes,Optional
+WinMerge,No,No,Optional,[null],Optional
+UCC,No,No,Yes,No,[null]
+Name,Filename casing,CRC,Filedate,Daylight saving,Character casing

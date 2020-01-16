@@ -1,0 +1,16 @@
+Application,Alembic Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,Light Paint,Light Layers
+Lat Long,sIBL,Light Extraction<ref>Auto HDRI Light Gen for Maya Creates Practical Lighting Setups from HDR Images  Lesterbanks  April 30  2013</ref>,[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added],[added]
+Maya,rowspan=3,Maya Hardware 2.0,{{?}},[null],<ref>Viewport 2.0 limitations Autodesk</ref>,rowspan=3,{{?}},{{?}},{{?}},{{?}},{{?}},[null],{{?}},{{?}}
+Maya Software,{{?}},{{?}},[null],[null],{{?}},{{?}},{{?}},{{?}},[null],{{?}},{{?}},[null],[null],[added]
+Arnold,[null],[null],[null],[null],[null],{{?}},[null],[null],[null],{{?}},{{?}},[null],[null],[added]
+3ds Max,rowspan=4,Quicksilver,{{?}},[null],<ref>Kelly L. Murdock's Autodesk 3ds Max 2016 Complete Reference Guide  P.685  Kelly Murdock  2015</ref>,rowspan=3,{{?}},{{?}},{{?}},{{?}},{{?}},{{?}},{{?}},{{?}}
+Scanline,{{?}},{{?}},[null],{{?}},{{?}},{{?}},{{?}},[null],{{?}},[null],{{?}},[null],[null],[added]
+[null],{{?}},{{?}},{{?}},[null],{{?}},{{?}},{{?}},{{?}},{{?}},{{?}},{{?}},[null],[null],[added]
+Arnold,[null],[null],<ref>Lights  Solid Angle</ref>,[null],[null],[null],[null],[null],[null],[null],{{?}},{{?}},[null],[null]
+Blender,rowspan=3,Workbench,[null],[null],{{?}},rowspan=3,[null],{{?}},rowspan=3,[null],{{?}},[null],{{?}},{{?}}
+EEVEE,[null],[null],{{?}},[null],[null],[null],[null],[null],{{?}},{{?}},[null],[null],[added],[added]
+Cycles,[null],[null],[null],[null],[null],[null],[null],[null],[null],{{?}},[null],[null],[added],[added]
+MODO,[null],MODO Renderer,[null],[null],[null],{{?}},[null],colspan=2,[null],[null],[null],[null],{{?}},[null]
+LightWave,[null],LightWave Renderer,[null],[null],{{?}},{{?}},[null],[null],[null],[null],[null],[null],original loader script  where most sIBL features were invented<ref></ref>,{{?}}
+Houdini,[null],Mantra (),[null],[null],[null],[null],[null],{{?}},{{?}},{{?}},[null],[null],{{?}},{{?}}
+Cinema 4D,[null],CineRender,{{?}},[null],[null],{{?}},[null],{{?}},{{?}},{{?}},[null],[null],{{?}},{{?}}

@@ -1,0 +1,27 @@
+[null],Tested software version,ODF version attribute in exported file<br />office:version="1.X",File type,Validation of simple<br />new document<ref name="opendocumentfellowship" /><ref name="openoffice.org" />,Notes
+AbiWord,2.6.4,1.0,ODT,[null],[null]
+Adobe Buzzword,beta 3  build 600113,1.0,ODT,[null],(errors in styles.xml and content.xml)
+EditGrid,11/2008,1.0,ODS,[null],[null]
+Gnumeric,1.9.3,1.0,ODS,[null],[null]
+Google Docs & Spreadsheets,11/2008,1.0,ODT  ODS,[null],[null]
+IBM Lotus Symphony,1.1.0,1.1,ODT  ODS  ODP,[null],[null]
+IBM Lotus Symphony,3.0.0 FP2,1.2,ODT  ODS  ODP,[null],[null]
+Inkscape,0.4.6,1.0,ODG,[null],[null]
+KOffice,1.6.3,attribute is missing,ODT  ODS  ODP,[null],ODT  ODS - valid<br />ODF 1.0 and 1.1
+KOffice,2.1.2,1.2,ODT  ODS  ODP,[null],[null]
+Microsoft Office,2007 SP2,1.1,ODT  ODS  ODP,[null],[null]
+Microsoft Office - SUN ODF Plugin,1.2,1.1,ODT  ODS  ODP,[null],[null]
+Microsoft Office - SUN ODF Plugin,3.1,1.2,ODT  ODS  ODP,[null],[null]
+Microsoft Office - OpenXML/ODF Translator Add-in,2.0,attribute is missing,ODT  ODS  ODP,[null],ODF 1.1 implemented<ref>http://odf-converter.sourceforge.net/</ref>
+NeoOffice,2.2.5,1.0,ODT,[null],(error in styles.xml)
+OpenOffice.org,2.0 - 2.3.0,1.0,ODT  ODS  ODP,[null],[null]
+OpenOffice.org,2.3.1 - 2.4.2,1.1,ODT  ODS  ODP,[null],[null]
+OpenOffice.org,3.0,1.1 and 1.2,ODT  ODS  ODP,[null],adjustable ODF version
+StarOffice,8.0 product update 10,1.1,ODT  ODS  ODP,[null],[null]
+RedOffice,4.0,1.0,ODT  ODS  ODP,[null],[null]
+TextEdit,1.5 (244),1.0,ODT,[null],(settings.xml is missing<ref name="opendocumentfellowship" />)
+TextMaker,2008 rev.494,1.0,ODT,[null],(error in styles.xml)
+TextMaker,2010,1.0,ODT,[null],[null]
+WordPad,6.1 (2009),attribute is missing,ODT,[null],(settings.xml is missing<ref name="opendocumentfellowship" /> - ODF 1.0/1.1 validation)
+Zoho Office Suite,11/2008,1.0,ODT  ODS  ODP,[null],[null]
+[null],Tested software version,ODF version attribute in exported file<br />office:version="1.X",File type,Validation of simple<br />new document<ref name="opendocumentfellowship" /><ref name="openoffice.org" />,Notes

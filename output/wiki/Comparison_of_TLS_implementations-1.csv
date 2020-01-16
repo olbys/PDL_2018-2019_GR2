@@ -1,0 +1,22 @@
+Implementation,Developed by,Open source,Software license,Copyright owner,Written in,Latest stable version  release date,Origin
+Botan,Jack Lloyd,[null],[null],Jack Lloyd,C++,[null],US (Vermont)
+[added],[added],[added],[added],[added],[added],[added],[added]
+BoringSSL,Google,[null],[null],Eric Young  Tim Hudson  Sun  OpenSSL project  Google  and others,C  C++  Go  assembly,??,Australia/EU
+Bouncy Castle,The Legion of the Bouncy Castle Inc.,[null],[null],Legion of the Bouncy Castle Inc.,Java  C#,[null],Australia
+cryptlib,Peter Gutmann,[null],and commercial license,Peter Gutmann,C,[null],NZ
+GnuTLS,GnuTLS project,[null],[null],Free Software Foundation,C,[null],EU (Greece and Sweden)
+Java Secure Socket Extension (JSSE),Oracle,[null],and commercial license,Oracle,Java,[null],US
+LibreSSL,OpenBSD Project,[null],[null],Eric Young  Tim Hudson  Sun  OpenSSL project  OpenBSD Project  and others,C  assembly,[null],Canada
+MatrixSSL<ref name=matrixssl>The features listed are for the closed source version</ref>,PeerSec Networks,[null],and commercial license,PeerSec Networks,C,[null],US
+mbed TLS (previously PolarSSL),ARM,[null],and commercial license,ARM Holdings,C,[null],EU (Netherlands)
+Network Security Services (NSS),Mozilla  AOL  Red Hat  Sun  Oracle  Google and others,[null],[null],NSS contributors,C  assembly,[null],US
+OpenSSL,OpenSSL project,[null],[null],Eric Young  Tim Hudson  Sun  OpenSSL project  and others,C  assembly,[null],Australia/EU
+RSA BSAFE SSL-J,RSA Security,[null],[null],RSA Security,Java,[null],Australia
+RSA BSAFE Micro-Edition Suite,RSA Security,[null],[null],RSA Security,C  assembly,[null],Australia
+S2n,Amazon,[null],and commercial license,Amazon  Inc.,C,Continuous,US
+SChannel,Microsoft,[null],[null],Microsoft Inc.,[null],Windows 10  2015-07-29,US
+Secure Transport,Apple Inc.,[null],[null],Apple Inc.,[null],57337.20.44 (OS X 10.11.2)  2015-12-08,US
+wolfSSL (previously CyaSSL),wolfSSL<ref name="wolfsslproduct"></ref>,[null],and commercial license,wolfSSL Inc.<ref name="wolfsslcompany"></ref>,C,[null],US
+Erlang/OTP SSL application,Ericsson,[null],[null],Ericsson,Erlang,OTP-21  2018-06-19,Sweden
+[added],[added],[added],[added],[added],[added],[added],[added]
+Implementation,Developed by,Open source,Software license,Copyright owner,Written in,Latest stable version  release date,Origin

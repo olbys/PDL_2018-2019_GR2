@@ -1,0 +1,4 @@
+Name,Architecture,Integrated firewall,SMP support,USB support,UDMA support,Package management,APIs
+Windows Phone 8,ARMv7,[null],[null],(USB 2.0),[null],Windows Phone Store,Silverlight
+Windows Phone 8.1,ARMv7,[null],[null],[null],[null],Windows Phone Store,Silverlight WinRT
+Windows 10 Mobile,ARMv7,[null],[null],[null],[null],Microsoft Store,[added]

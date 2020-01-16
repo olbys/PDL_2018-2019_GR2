@@ -1,0 +1,40 @@
+Virtual machine,Languages,Comments,Interpreter,JIT,Implementation language,SLoC
+Common Language Runtime (CLR),C#  C++/CLI  F#  VB.NET,bytecode is CIL; .NET Core Runtime on GitHub,[null],[null],C#  C++,[null]
+Adobe Flash Player (aka Tamarin),ActionScript  SWF (file format),interactive web authoring tool. bytecode is named "ActionScript Byte Code (.abc)",[null],[null],C++,135k (initially released)
+Dis (Inferno),Limbo,Dis Virtual Machine Specification,[null],[null],C,15k + 2850 per JIT arch + 500 per host OS
+DotGNU-Portable.NET,CLI languages including: C#,Common Language Runtime clone,[null],[null],C  C#,[null]
+Forth,Forth,Features are simplified  usually include assembler  compiler  text-level and binary-level interpreters  sometimes editor  debugger and OS. Compiling speeds are >20 SKLOC/S and behave much like JIT.,[null],[null],Forth  Forth Assembler,2.8K to 5.6K; advanced  professional implementations are smaller.
+Glulx,Inform 6  Inform 7  others,[null],[null],[null],Various implementations exist,[null]
+[added],[added],[added],[added],[added],[added],[added]
+HHVM,PHP  Hack,Is an open-source virtual machine designed for executing programs written in Hack and PHP.,[null],[null],C++  OCaml,[null]
+Icon,Icon,Base source code provides both the interpreter as well as an unsupported compile-to-C version. The runtime code  that is shared between the compiler and the interpreter  is written in a variant of C called RTT.,[null],[null],C  RTT (a custom front-end to C  provided with the base source for Icon).,~180k total. (source to bytecode: ~11k  bytecode interpreter: ~46k  iconc: ~23k  common/headers: ~13k  rtt: ~15k)
+JVM,Java  Kotlin  Jython  Groovy  JRuby  C  C++  Clojure  Scala and several others,Reference implementation by Sun ; OpenJDK: code under GPL ; IcedTea: code and tools under GPL,[null],[null],JDK  OpenJDK & IcedTea with regular JIT : Java  C  ASM ; IcedTea with the "Zero" JIT : Java  C,JVM is around 6500k lines; TCK is 80k tests and around 1000k lines
+LLVM,C  C++  Kotlin  Objective-C  Swift  Ada  Fortran  and Rust,MSIL  C and C++ output are supported. ActionScript Byte Code output is supported by Adobe Alchemy. bytecode is named "LLVM Bytecode (.bc)". assembly is named "LLVM Assembly Language (*.ll)".,[null],[null],C++,811k <ref name="ohloh-llvm">The LLVM Compiler Infrastructure  ohloh.net  2011 Nov 30</ref>
+Lua,Lua,[null],[null],LuaJIT,C,13k + 7k LuaJIT
+MMIX,MMIXAL,[null],[null],[null],[null],[null]
+Mono,CLI languages including: C#  VB.NET  IronPython  IronRuby  and others,Common Language Runtime clone,[null],[null],C#  C,2332k
+Oz,Oz  Alice,[null],[null],[null],[null],[null]
+NekoVM,currently Neko and Haxe,[null],[null],x86 only,C,46k
+O-code machine,BCPL,[null],[null],[null],[null],[null]
+p-code machine,Pascal,UCSD Pascal  widespread in late 70s including Apple II,[null],[null],[null],[null]
+Parrot,Perl 5  Raku  NQP-rx  PIR  PASM  PBC  BASIC  bc  C99  ECMAScript  Lisp  Lua  m4  Tcl  WMLScript  XML  and others,[null],[null],[null],C  Perl,111k C  240k Perl
+Perl virtual machine,Perl,op-code tree walker,[null],[null],C  Perl,175k C  9k Perl
+CPython,Python,[null],[null],Psyco,C,387k C  368k Python  10k ASM  31k Psyco
+PyPy,Python,Self-hosting implementation of Python  next generation of Psyco,[null],[null],Python,[null]
+Rubinius,Ruby,Virtual machine for another Ruby implementation,[null],[null],C++  Ruby,[null]
+Silverlight,C#  VB.NET,A Micro-version of Microsoft .NET Framework to let applications run sandboxed inside browser,[null],[null],C++,7MB (initially released)
+ScummVM,Scumm,Computer game engine,[null],[null],[null],[null]
+SECD,ISWIM  Lispkit Lisp,[null],[null],[null],[null],[null]
+Squirrel,Squirrel,[null],[null],Squirrel_JIT,C++,12k
+Smalltalk,Smalltalk,[null],[null],[null],[null],[null]
+SQLite,SQLite opcodes,Virtual database engine,[null],[null],[null],[null]
+Squeak,Squeak Smalltalk,Self hosting implementation of Squeak virtual machine. Rich multi-media support.,[null],[null],Smalltalk/Slang,110k Smalltalk  ~300K C
+TraceMonkey,JavaScript,Based on Tamarin,[null],[null],C++,173k
+TrueType,TrueType,Font rendering engine,[null],[null],C (typically),[null]
+Valgrind,x86/x86-64 binaries,Checking of memory accesses and leaks under Linux,[null],[null],C,467k <ref name="ohloh-valgrind">Valgrind  ohloh.net  2011 Nov 30.</ref>
+VisualWorks,Smalltalk,[null],[null],[null],C,[null]
+Vx32 virtual machine,x86 binaries,Application-level virtualization for native code,[null],[null],[null],[null]
+Waba,[null],Virtual machine for small devices  similar to Java,[null],[null],[null],[null]
+Yet Another Ruby VM (YARV),Ruby,Virtual machine of the reference implementation for Ruby 1.9 and newer versions,[null],[null],C,[null]
+Z-machine,Z-Code,[null],[null],[null],[null],[null]
+Zend Engine,PHP,[null],[null],[null],C,75k

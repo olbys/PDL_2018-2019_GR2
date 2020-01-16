@@ -1,0 +1,37 @@
+System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others
+Apache Bloodhound,[null],<ref name="SSL Authentication Plugin"></ref>,[null],<ref name="OpenID Authentication Plugin"></ref>,[null],[null],[null],[null]
+Assembla Tickets,[null],[null],[null],[null],[null],(private version),[null],[null]
+Axosoft,[null],[null],[null],[null],[null],[null],[null],[null]
+Bugzilla,[null],[null],[null],<ref name="OpenID Auth Plugin"></ref>,[null],[null],[null],[null]
+Debbugs,[null],[null],[null],[null],[null],[null],[null],[null]
+Faveo Helpdesk,[null],[null],[null],[null],[null],[null],[null],[null]
+FogBugz,[null],[null],[null],[null],[null],[null],[null],[null]
+Fossil,[null],[null],[null],[null],[null],[null],[null],[null]
+FusionForge,[null],[null],[null],[null],[null],[null],[null],, CAS
+GLPI,[null],[null],[null],[null],[null],[null],[null],[null]
+GNATS,[null],[null],[null],[null],[null],[null],[null],[null]
+HP Quality Center,[null],[null],[null],[null],[null],[null],[null],[null]
+IBM Rational ClearQuest,[null],[null],[null],[null],[null],[null],[null],[null]
+Jira,[null],[null],[null],[null],[null],[null],, via plugin<ref></ref><ref></ref>,, via Crowd<ref></ref>
+MantisBT,[null],[null],[null],<ref></ref>,<ref></ref>,[null],[null],[null]
+Microsoft Dynamics CRM,[null],[null],[null],[null],[null],[null],[null],[null]
+org-mode,[null],[null],[null],[null],[null],[null],[null],[null]
+OTRS,[null],[null],[null],[null],[null],[null],[null],[null]
+Phabricator,[null],[null],[null],[null],[null],[null],[null],[null]
+Pivotal Tracker,[null],[null],[null],, Google Account,[null],[null],[null],[null]
+Redmine,[null],<ref></ref>,[null],<ref></ref>,[null],[null],, via Apache (using mod_rails),[null]
+Request Tracker,[null],[null],[null],<ref>Needs a third-party extension (RT-Authen-OpenID on MetaCPAN.org)</ref>,[null],<ref>Needs a third-party extension (RT::Authen::ExternalAuth)</ref>,[null],<ref>See publicly available extensions</ref>
+Roundup,[null],[null],[null],<ref>developed by bugs.python.org team</ref>,[null],[null],<ref>See wiki page on ShibbolethLogin</ref>,<ref>Supports AUTHORIZATION header/var from front end authenticating web server/proxy.</ref>
+StarTeam,[null],[null],[null],[null],[null],[null],[null],[null]
+Supportworks,[null],[null],[null],[null],[null],[null],[null],[null]
+SysAid,[null],[null],[null],[null],[null],[null],[null],, CAS
+Team Foundation Server,[null],[null],[null],[null],[null],[null],[null],[null]
+TestTrack,[null],[null],[null],[null],[null],[null],[null],- custom DLL
+Trac,[null],<ref name="SSL Authentication Plugin"/>,[null],<ref name="OpenID Authentication Plugin"/>,[null],[null],[null],[null]
+TrackerSuite.Net,[null],[null],[null],[null],[null],[null],[null],[null]
+Tuleap,[null],[null],[null],[null],[null],[null],[null],[null]
+Twproject,[null],[null],[null],[null],[null],[null],[null],, Simple container auth.
+Usersnap,[null],[null],[null],[null],[null],[null],[null],[null]
+Wrike,[null],[null],[null],[null],[null],[null],[null],[null]
+YouTrack,[null],[null],[null],[null],[null],[null],[null],: JIRA account
+System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others

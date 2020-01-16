@@ -1,0 +1,28 @@
+Name,FAT16  dosfs; FAT32  vfat,NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,RAM disk  tmpfs,ZFS,Other special file systems
+Linux,Yes,Yes[Note 1][Note 2],Yes,Yes,Yes,Yes,Yes[Note 3],Yes[32],Yes,Yes[Note 4],Yes,Yes[Note 3],Yes,Yes,Yes,Yes,Yes,Yes,9P [Note 5] FUSE [Note 5] sysfs [Note 5] configfs [Note 5] Reiser4 [Note 5][Note 6] JFS  Btrfs  UnionFS  Ext4
+FreeBSD,Yes,Yes[Note 3][Note 2],Yes,Yes[Note 3],Yes[Note 1],Yes[Note 3],Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,FUSE  nullfs  UnionFS
+NetBSD,Yes,Yes[Note 3][Note 2],Yes,[null],No,No,Yes,Yes,[null],Yes[Note 3],No,No,Yes,Yes[Note 3],Yes,Yes,Yes,Yes,PUFFS  LFS  EFS
+OpenBSD,Yes,Yes[Note 3],Yes,[null],No,No,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,AFS
+DragonFly BSD,Yes,Yes[Note 3],Yes,No,No,No,Yes,No,No,No,No,No,Yes,Yes[Note 7],Yes,Yes,Yes,No,HAMMER  nullfs  PUFFS
+OpenSolaris  illumos,Yes,Yes [Note 2][Note 8],No,No,No,No,Yes,[null],No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,SMB (native)  QFS
+AuroraUX,Yes,Yes [Note 2][Note 8],Yes,Yes,No,No,Yes,[null],No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,SMB (native)  QFS
+Darwin  OpenDarwin,Yes,Yes[Note 3][Note 2],[null],[null],[null],[null],Yes,[null],Yes,Yes,[null],[null],Yes,Yes,Yes,Yes,[null],[null],[null]
+MINIX,Yes,No,Yes,[null],[null],[null],[null],[null],[null],[null],Yes,No,[null],[null],[null],[null],[null],[null],[null]
+FreeDOS,Yes,No,No,No,No,No,No,[null],[null],[null],No,No,Yes,[null],[null],[null],Yes,[null],[null]
+Genode,Yes,No,Yes,No,No,No,No,No,No,No,No,No,Yes,No,No,No,Yes,No,Extensible VFS layer
+Haiku,Yes,Yes [Note 2],Yes [Note 9],Yes [Note 9],[null],[null],[null],[null],[null],[null],[null],Yes,Yes,Yes,Yes,No[Note 10],[null],[null],[null]
+KolibriOS,Yes,Yes[Note 3],Yes[Note 3],Yes[Note 3],Yes[Note 3],[null],[null],[null],[null],[null],[null],[null],Yes,[null],[null],[null],Yes,[null],[null]
+MenuetOS,Yes,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+GNU,Yes,[null],Yes,Yes[Note 11],[null],[null],Yes[Note 12],[null],[null],[null],[null],[null],Yes,[null],Yes,[null],Yes,No,[null]
+ReactOS,Yes,[null],Yes,No,No,No,No,[null],[null],[null],No,No,[null],[null],[null],[null],[null],[null],[null]
+L4  Fiasco  Pistachio,Yes,No,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Plan 9,Yes,[null],Yes,No,No,No,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes,No,Fossil  Venti  most system services
+AROS,Yes,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Yes,[null],SFS  AFFS
+Syllable,Yes,Yes[Note 3],Yes[Note 3],Yes[Note 3],[null],[null],[null],[null],[null],[null],[null],Yes,Yes,[null],[null],[null],Yes,[null],AFS
+Inferno,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,Yes,[null],kfs  most system services
+FreeRTOS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],No,[null]
+eCos,Yes,[null],Yes[Note 3],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Yes,[null],MMFS  ROMfs  JFFS2  YAFFS
+RTEMS,Yes,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Yes,[null],Yes,[null],TarFS  TFTP FS  IMFS  miniIMFS
+HelenOS,Yes,No,Yes,Yes,No,No,No,No,No,No,Yes,No,Yes,Yes,No,No,Yes,[null],locfs  exFAT
+E/OS,Yes,No,Yes,No,No,No,No,No,No,No,Yes,Yes[Note 13],Yes,No,Yes,Yes,Yes,[null],[null]
+Name,FAT16  dosfs; FAT32  vfat,NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,RAM disk  tmpfs,ZFS,Other special file systems

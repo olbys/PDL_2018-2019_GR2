@@ -1,0 +1,101 @@
+Name,Parsing algorithm,Input grammar notation,Output languages,Grammar  code,Lexer,Development platform,IDE,License
+ANTLR4,ALL(*)<ref></ref>,EBNF,C#  Java  Python  JavaScript  C++  Swift  Go  PHP,[null],generated,[null],[null],, BSD
+ANTLR3,LL(*),EBNF,ActionScript  Ada95  C  C++  C#  Java  JavaScript  Objective-C  Perl  Python  Ruby,[null],generated,[null],[null],, BSD
+APG,Recursive descent  backtracking,ABNF,C  C++  JavaScript  Java,[null],none,[null],[null],, GNU GPL
+AXE,Recursive descent,AXE/C++,C++17  C++11,[null],none,[null],[null],, Boost
+Beaver,LALR(1),EBNF,Java,[null],external,[null],[null],, BSD
+Belr,Recursive descent,ABNF,C++17  C++11,[null],included,[null],[null],, GNU GPL  proprietary
+Bison,LALR(1)  LR(1)  IELR(1)  GLR,Yacc,C  C++  Java,[null],external,[null],[null],, GNU GPL with exception
+Bison++<ref group="note">Bison 1.19 fork</ref>,LALR(1),?,C++,[null],external,[null],[null],, GNU GPL
+Bisonc++,LALR(1),?,C++,[null],external,[null],[null],, GNU GPL
+Booze-tools,LALR(1) or LR(1) canonical or minimal,BNF with macros in place of EBNF,State machine can be runtime-generated or saved as JSON,, separable,included,[null],[null],, public domain
+BtYacc,Backtracking Bottom-up,?,C++,[null],external,[null],[null],, public domain
+byacc,LALR(1),Yacc,C,[null],external,[null],[null],, public domain
+BYACC/J,LALR(1),Yacc,C  Java,[null],external,[null],[null],, public domain
+CL-Yacc,LALR(1),Lisp,Common Lisp,[null],external,[null],[null],, MIT
+Coco/R,LL(1),EBNF,C  C++  C#  F#  Java  Ada  Object Pascal  Delphi  Modula-2  Oberon  Ruby  Swift  Unicon  Visual Basic .NET,[null],generated,[null],[null],, GNU GPL
+CookCC,LALR(1),Java annotations,Java,[null],generated,[null],[null],, Apache 2.0
+CppCC,LL(k),?,C++,[null],generated,[null],[null],, GNU GPL
+CSP,LR(1),?,C++,[null],generated,[null],[null],, Apache 2.0
+CUP,LALR(1),?,Java,[null],external,[null],[null],, BSD-like
+Dragon,LR(1)  LALR(1),?,C++  Java,[null],generated,[null],[null],, GNU GPL
+eli,LALR(1),?,C,[null],generated,[null],[null],, GNU GPL  GNU LGPL
+Tunnel Grammar Studio,Recursive descent  backtracking,ABNF,C++,[null],generated,[null],[null],[added]
+Essence,LR(?),?,Scheme 48,[null],external,[null],[null],, BSD
+Eto.Parse,LL(k),BNF  EBNF or C#,N/A (state machine is runtime generated),[null],internal,[null],[null],, MIT
+eyapp,LALR(1),?,Perl,[null],external or generated,[null],[null],, Artistic
+Frown,LALR(k),?,Haskell 98,[null],external,[null],[null],, GNU GPL
+geyacc,LALR(1),?,Eiffel,[null],external,[null],[null],, MIT
+GOLD,LALR(1),BNF,x86 assembly language  ANSI C  C#  D  Java  Pascal  Object Pascal  Python  Visual Basic 6  Visual Basic .NET  Visual C++,[null],generated,[null],[null],, zlib modified
+GPPG,LALR(1),Yacc,C#,[null],external,[null],[null],, BSD
+Grammatica,LL(k),BNF dialect,C#  Java,[null],generated,[null],[null],, BSD
+HiLexed,LL(*),EBNF or Java,Java,[null],internal,[null],[null],, GNU LGPL
+Hime Parser Generator,LALR(1)  GLR,BNF dialect,C#  Java  Rust,[null],generated,[null],[null],, GNU LGPL
+Hyacc,LR(1)  LALR(1)  LR(0),Yacc,C,[null],external,[null],[null],, GNU GPL
+Irony,LALR(1),C#,N/A (state machine is runtime generated),[null],internal,[null],[null],, MIT
+iyacc,LALR(1),Yacc,Icon,[null],external,[null],[null],, GNU LGPL
+jacc,LALR(1),?,Java,[null],external,[null],[null],, BSD
+JavaCC,LL(k),EBNF,Java  C++  JavaScript (via GWT compiler)<ref></ref>,[null],generated,[null],[null],, BSD
+jay,LALR(1),Yacc,C#  Java,[null],none,[null],[null],, BSD
+JFLAP,LL(1)  LALR(1),?,Java,?,?,[null],[null],?
+JetPAG,LL(k),?,C++,[null],generated,[null],[null],, GNU GPL
+JS/CC,LALR(1),EBNF,JavaScript  JScript  ECMAScript,[null],internal,[null],[null],, BSD
+KDevelop-PG-Qt,LL(1)  backtracking  shunting-yard,?,C++,[null],generated or external,[null],[null],, GNU LGPL
+Kelbt,Backtracking LALR(1),?,C++,[null],generated,[null],[null],, GNU GPL
+kmyacc,LALR(1),?,C  Java  Perl  JavaScript,[null],external,[null],[null],, GNU GPL
+Lapg,LALR(1),?,C  C++  C#  Java  JavaScript,[null],generated,[null],[null],, GNU GPL
+Lark,LALR(1)  Earley  CYK,EBNF,Python (no generation  library),[null],none,[null],[null],, MIT
+Lemon,LALR(1),?,C,[null],external,[null],[null],, public domain
+LEPL,Recursive descent,Python,Python (no generation  library),[null],none,[null],[null],, MPL  GNU LGPL
+Lime,LALR(1),?,PHP,[null],external,[null],[null],, GNU GPL
+LISA,LR(?)  LL(?)  LALR(?)  SLR(?),?,Java,[null],generated,[null],[null],, public domain
+LLgen,LL(1),?,C,[null],external,[null],[null],, BSD
+LLnextgen,LL(1),?,C,[null],external,[null],[null],, GNU GPL
+LLLPG,LL(k) + syntactic and semantic predicates,ANTLR-like,C#,[null],generated (?),[null],[null],, GNU LGPL
+LPG,Backtracking LALR(k),?,Java,[null],generated,[null],[null],, EPL
+LRSTAR,LALR(1)  LR(1)  LR(*),EBNF  Yacc-like,C++,[null],generated,[null],[null],, BSD
+Menhir,LR(1),?,OCaml,[null],generated,[null],[null],, QPL
+ML-Yacc,LALR(1),?,ML,[null],external,[null],[null],?
+Monkey,LR(1),?,Java,[null],generated,[null],[null],, GNU GPL
+Msta,LALR(k)  LR(k),YACC  EBNF,C  C++,[null],external or generated,[null],[null],, GNU GPL
+MTP (More Than Parsing),LL(1),?,Java,[null],generated,[null],[null],, GNU GPL
+MyParser,LL(*),Markdown,C++11,[null],internal,[null],[null],, MIT
+NLT,GLR,C#/BNF-like,C#,[null],mixed,[null],[null],, MIT
+ocamlyacc,LALR(1),?,OCaml,[null],external,[null],[null],, QPL
+olex,LL(1),?,C++,[null],generated,[null],[null],, GNU GPL
+parglare,Scannerless LALR(1)/SLR(1)/GLR,BNF-like  Python,N/A (state machine is runtime generated),[null],none,[null],[null],, MIT
+Parsec,LL  backtracking,Haskell,Haskell,[null],none,[null],[null],, BSD
+Parse::Yapp,LALR(1),?,Perl,[null],external,[null],[null],, GNU GPL
+Parser Objects,LL(k),?,Java,[null],?,[null],[null],, zlib
+PCCTS,LL,?,C  C++,?,?,[null],[null],?
+PLY,LALR(1),BNF,Python,[null],generated,[null],[null],, MIT
+PlyPlus,LALR(1),EBNF,Python,[null],generated,[null],[null],, MIT
+PRECC,LL(k),?,C,[null],generated,[null],[null],, GNU GPL
+QLALR,LALR(1),?,C++,[null],external,[null],[null],, GNU GPL
+RPATK,Recursive descent  backtracking,BNF,C (no generation  library),[null],none,[null],[null],, GNU GPL
+SableCC,LALR(1),?,C  C++  C#  Java  OCaml  Python,[null],generated,[null],[null],, GNU LGPL
+SLK<ref></ref>,LL(k) LR(k) LALR(k),EBNF,C  C++  C#  Java  JavaScript,[null],external,[null],[null],SLK<ref>http://www.H8dems.com/license.txt</ref>
+SP (Simple Parser),Recursive descent,Python,Python,[null],generated,[null],[null],, GNU LGPL
+Spirit,Recursive descent,?,C++,[null],internal,[null],[null],, Boost
+Sprache,LL  backtracking,C#,interpreted,[null],internal,[null],[null],, MIT
+Styx,LALR(1),?,C  C++,[null],generated,[null],[null],, GNU LGPL
+Sweet Parser,LALR(1),?,C++,[null],generated,[null],[null],, zlib
+Tap,LL(1),?,C++,[null],generated,[null],[null],, GNU GPL
+TextTransformer,LL(k),?,C++,[null],generated,[null],[null],[added]
+TinyPG,LL(1),?,C#  Visual Basic,?,?,[null],[null],, CPOL 1.0
+Toy Parser Generator,Recursive descent,?,Python,[null],generated,[null],[null],, GNU LGPL
+TP Yacc,LALR(1),?,Turbo Pascal,[null],external,[null],[null],, GNU GPL
+UltraGram,LALR(1)  LR(1)  GLR,BNF,C++  Java  C#  Visual Basic .NET,[null],external,[null],[null],, public domain
+UniCC,LALR(1),EBNF,C  C++  Python  JavaScript  JSON  XML,[null],generated,[null],[null],, BSD
+UrchinCC,LL(1),?,Java,?,generated,[null],[null],?
+Whale,LR(?)  some conjunctive stuff  see Whale Calf,?,C++,[null],external,[null],[null],[added]
+wisent,LALR(1),?,C++  Java,[null],external,[null],[null],, GNU GPL
+Yacc AT&T/Sun,LALR(1),Yacc,C,[null],external,[null],[null],, CPL & CDDL
+Yacc++,LR(1)  LALR(1),Yacc,C++  C#,[null],generated or external,[null],[null],[added]
+Yapps,LL(1),?,Python,[null],generated,[null],[null],, MIT
+yecc,LALR(1),?,Erlang,[null],generated,[null],[null],, Apache 2.0
+Visual BNF,LR(1)  LALR(1),?,C#,[null],generated,[null],[null],[added]
+YooParse,LR(1)  LALR(1),?,C++,[null],external,[null],[null],, MIT
+Parse,LR(1),BNF in C++ types,?,?,none,[null],[null],, MIT
+GGLL,LL(1),Graph,Java,[null],generated,[null],[null],, MIT
+Product,Parsing algorithm,Input grammar notation,Output languages,Grammar  code,Lexer,Development platform,IDE,License

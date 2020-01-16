@@ -1,0 +1,22 @@
+Format,Filename extension,DRM support,Image support,Table support,Sound support,Interactivity support,Word wrap support,Open standard,Embedded annotation support,Book- marking,Video support
+Comic Book Archive,.cbr  .cbz  .cb7  .cbt  .cba,?,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+DjVu,.djvu,?,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+DOC,.doc,?,[null],[null],[null],?,[null],[null],?,?,[null]
+DOCX,.docx,?,[null],[null],[null],?,[null],[null],[null],?,[null]
+EPUB (IDPF),.epub,[null],[null],[null],[null],[null],[null],[null],<ref name="depreader" group="f">Depends on the eReader application</ref>,<ref name="depreader" group="f">Depends on the eReader application</ref>,<ref group="f">With ePub 3</ref>
+FictionBook,.fb2,[null],[null],<ref group="f">Table support added in FictionBook V2.1. Not supported in V2.0</ref>,[null],[null],[null],[null],[null],?,?
+HTML,.html,[null],[null],[null],<ref group="f" name="html5">With HTML 5</ref>,[null],[null],[null],[null],[null],<ref group="f" name="html5" />
+iBooks,.ibook,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+INF,.inf,[null],[null],[null],[null],?,[null],[null],<ref name="depreader" group="f">Depends on the eReader application</ref>,<ref name="depreader" group="f">Depends on the eReader application</ref>,[null]
+Kindle,.azw,[null],[null],<ref group="f">Supported in all except 1st Generation Kindle. (Support level is as it is in mobipocket)</ref><ref></ref>,<ref group="f" name="iOS">Supported only in kindle for iPhone  iPod  iPad.</ref><ref name="amazon.com"></ref>,[null],[null],[null],[null],[null],<ref group="f" name="iOS"/><ref name="amazon.com"/>
+Microsoft Reader,.lit,[null],[null],?,[null],[null],[null],[null],?,[null],?
+Mobipocket,.prc  .mobi,[null],[null],[null],[null],[null],[null],[null],[null],[null],?
+Multimedia EBook,.exe,[null],[null],?,[null],[null],[null],[null],[null],[null],?
+Newton Book,.pkg,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+eReader,.pdb,[null],[null],?,[null],[null],[null],[null],[null],[null],?
+Plain text,.txt,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Plucker,.pdb,[null],[null],[null],[null],[null],[null],[null],[null],[null],?
+Portable Document Format,.pdf,[null],[null],[null],[null],[null],<ref group="f">"Reflow" is implemented by some readers.</ref><ref></ref>,[null],[null],[null],<ref group="f">With Flash Embedded</ref>
+PostScript,.ps,[null],[null],?,[null],[null],[null],[null],?,?,?
+Tome Raider,.tr2  .tr3,[null],[null],?,[null],[null],[null],[null],?,?,?
+OpenXPS,.oxps  .xps,?,[null],[null],?,[null],[null],[null],?,?,?

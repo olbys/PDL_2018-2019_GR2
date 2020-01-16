@@ -1,0 +1,10 @@
+Generics,Java,C#
+Implementation,[null],[added]
+Runtime realization,[null],[added]
+Type variance,[null],[added]
+Reference type constraint,; implicit,[added]
+Value/primitive type constraint,[null],[added]
+Constructor constraint,[null],(only for parameterless constructor)
+Subtype constraint,[null],[added]
+Supertype constraint,[null],[added]
+Migration compatibility,[null],[added]

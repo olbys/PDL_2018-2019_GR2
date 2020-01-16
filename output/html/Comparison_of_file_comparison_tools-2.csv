@@ -1,0 +1,27 @@
+Name,Show in-line changes,Directory comparison,Binary comparison,Moved lines,3-way comparison,Merge,Structured comparison[26],Manual compare alignment,Image Compare
+Beyond Compare,Yes,Yes,Yes,No,Yes (Files and Folders),Yes (Pro only),[null],Yes,Yes
+Compare++,Yes,Yes,[null],[null],Yes,Yes,Yes (C/C++ C# Java Javascript CSS3),[null],[null]
+diff,No,Yes,partly,No,No,No,[null],[null],[null]
+diff3,No,No,[null],[null],Yes (non-optional),[null],[null],[null],[null]
+Eclipse (compare),Yes,[null],[null],[null],No (only ancestor),Yes,[null],No,[null]
+Ediff,Yes,Yes,Yes,[null],Yes,Yes,[null],[null],[null]
+ExamDiff Pro,Yes,Yes,Yes,Yes[27],Yes (ExamDiff Pro Master only)[28],Yes,[null],manual synchronization,[null]
+Far Manager (compare),Yes (Via plugin) [29],Yes,Yes,Yes (Via plugin) [29],No,No,[null],[null],[null]
+fc,No,No,Yes,[null],No,No,[null],[null],[null]
+FileMerge (aka opendiff),Yes,Yes,Yes,[null],Yes (optional ancestor),Yes,[null],[null],[null]
+Guiffy SureMerge,Yes,Yes,Yes,[null],Yes,Yes,[null],Yes,Yes
+IntelliJ IDEA (compare),Yes,Yes,Yes,No,Yes,Yes,[null],Yes,Yes
+jEdit JDiff plugin,Yes,[null],[null],[null],No,Yes,[null],[null],[null]
+Kompare,[null],Yes,No,[null],No,Yes,[null],[null],[null]
+Lazarus Diff,[null],[null],[null],[null],[null],[null],[null],[null],[null]
+Meld,Yes,Yes,No,Yes,Yes,Yes,[null],line alignment  unlink scroll,[null]
+Notepad++ (compare),Yes,No,No,Yes,No,No,No,[null],[added]
+Perforce P4Merge,Yes,No,No,[null],Yes,Yes,[null],[null],Yes
+Pretty Diff,Yes,Yes,No,No,No,No,Yes,No,[null]
+Tkdiff,Yes,No,No,No,No,No,[null],[null],[null]
+Total Commander (compare),Yes,Yes,Yes,No,No,Yes,No,resync comparison,No
+vimdiff,Yes,Yes (via DirDiff plugin),[null],[null],Yes,Yes,[null],[null],[null]
+WinDiff,Yes,Yes,Yes,Yes,No,No,[null],[null],[null]
+WinMerge,Yes,Yes,No,Yes,Yes,Yes,[null],No,Yes
+UCC,Yes,Yes,Yes,Yes,No,Yes,[null],[null],[null]
+Name,Show in-line changes,Directory comparison,Binary comparison,Moved lines,3-way comparison,Merge,Structured comparison[26],Manual compare alignment,Image compare

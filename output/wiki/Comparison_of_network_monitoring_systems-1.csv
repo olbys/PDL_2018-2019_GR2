@@ -1,0 +1,48 @@
+Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Agentless,SNMP,Syslog,Plugins,Triggers / Alerts,MIB Compiler,WebApp,Distributed Monitoring,Inventory,Platform,Data Storage Method,License,Maps,Access Control,IPv6,Latest release date,Latest release version
+Argus - The all seeing,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl,Flat file  Berkeley DB,[null],[null],[null],[null],2013-02,3.7
+Avaya VPFM,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],MySQL,[null],[null],[null],[null],[added],[added]
+Cacti,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],PHP,RRDtool  MySQL,[null],[null],[null],[null],2019-06-07,1.2.4
+Check MK,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  Python,RRDtool,[null],[null],[null],[null],2019-11-11,1.6.0p6
+collectd,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C,RRDtool,[null],[null],[null],[null],2019-11-13,5.10
+Cruz,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Java  C++  .NET,MySQL  Oracle,[null],[null],[null],[null],2019-02,8.0.0
+Entuity,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  C++  Java,MariaDB,[null],[null],[null],[null],2017-12-22,16.5 P3
+FreeNATS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],PHP,MySQL,[null],[null],[null],[null],2011-07-09,1.13.3b
+Ganglia,[null],[null],[null],[null],Via gmond check in,[null],[null],[null],[null],[null],[null],[null],[null],[null],C  PHP,RRDtool,[null],[null],[null],[null],2016-06-14,3.7.2
+Hinemos,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Java,PostgreSQL,[null],[null],[null],[null],2017-06-09,6.0.1
+HPE Openview Network Node Manager (NNMi),[null],[null],[null],[null],[null],[null],[null],Via integration,[null],[null],[null],[null],[null],[null],C++  Java  Perl,PostgreSQL  Oracle Database,[null],[null],[null],[null],2016-08,10.20
+Icinga,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C<ref>https://wiki.icinga.org/display/icinga2/Intro</ref>,MySQL  PostgreSQL  Oracle Database,[null],[null],[null],[null],2019-03-19,2.10.4
+InterMapper,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Windows  Linux & Mac OS,PostgreSQL,[null],[null],[null],[null],2017-07,6.1.5
+isyVmon,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],PHP,RRDtool  MySQL,[null],[null],[null],[null],[added],[added]
+Kaseya Network Monitor,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],FirebirdSQL,[null],[null],[null],[null],[added],[added]
+Munin,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl,RRDtool,[null],[null],[null],[null],2016-09-19,2.0.26
+Nagios,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C,Flat file  SQL (via ndoutils)  MySql (Via Nconf),[null],[null],[null],<ref name=nagiosipv6></ref>,2019-07-29,4.4.4<ref name=nagiosversion></ref>
+NeDi,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl  PHP,Pg  MySQL  RRDTool  MariaDB,[null],[null],[null],[null],2016-04,1.6<ref name=NeDi></ref>
+Netdisco,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl,PostgreSQL,[null],[null],[null],[null],2017-10,2.036011<ref name=Netdisco></ref>
+NetXMS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  Java,Oracle  MySQL  MongoDB  PostgreSQL  IBM DB2  Tuxedo,[null],[null],[null],[null],2019-09-11,3.0
+NeuralStar,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],MS SQL,[null],[null],[null],[null],[added],[added]
+CA UIM fka Nimsoft Monitor,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],SQLServer  Oracle  MySQL,[null],[null],[null],[null],2013-06-30,1.8.6
+Octopussy,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl  ASP,MySQL,[null],[null],[null],[null],2017-06-03,1.0.16
+op5 Monitor,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  PHP,Flat file  SQL,[null],[null],[null],[null],Monthly,7.3.0
+OpenKBM,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[added],[added]
+OpenNMS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Java,JRobin / RRDTool / Apache Cassandra  PostgreSQL,[null],[null],[null],[null],2019-09-26,25.0.0
+Opmantek NMIS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl,MongoDB  RRDtool,[null],[null],[null],[null],2015-10,8.5.10G
+OPNET's AppResponse Xpert,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[added],[added]
+Opsview,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl  C  ExtJS,SQL,[null],[null],[null],[null],2019-08-07,6.2
+OSI NetExpert,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Java  C++,Oracle,[null],[null],[null],[null],2013-04,10.0
+PA Server Monitor,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C++,SQLite  Microsoft SQL Server,[null],[null],[null],[null],2014-07,5.5
+PacketTrap,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],SQL,[null],[null],[null],[null],[added],[added]
+Pandora FMS,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Perl  PHP  C++  JavaScript,MySQL  Oracle,[null],[null],[null],[null],2017-07,7.0 NG 707
+PathSolutions TotalView,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Windows,SQLite,[null],[null],[null],[null],2018-06-01,9.01
+Performance Co-Pilot,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C Perl  Python  POSIX  MinGW,Flat file,[null],[null],[null],[null],2016-11-15,3.11.6
+PRTG,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Windows,Flat file,[null],[null],[null],[null],2019-05-15,19.2.50
+ScienceLogic,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Python,MySQL,[null],[null],[null],[null],[added],[added]
+SevOne,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  C++  PHP,MySQL,[null],[null],[null],[null],2018-09,5.7.2.4<ref></ref>
+Shinken,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Python,Flat file  MySQL  Oracle  Graphite  Sqlite  MongoDB,[null],[null],[null],[null],2016-03-10,2.4.3
+Solarwinds,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],.NET,SQL,[null],[null],[null],[null],[null],[added]
+Spiceworks,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],PHP,Sqlite,[null],[null],[null],[null],2018-03-21,7.5.00107
+CA Spectrum,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C++  JavaScript,Sleepycat-QSL  MySQL,[null],[null],[null],[null],2018-03,10.2
+Xymon/Hobbit,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  Shell,Flat file  RRDTool  MySQL via plugin,[null],[null],[null],[null],2017-01-18,4.3.28
+Vigilo NMS,(NMS and NOC editions),[null],[null],via integration,via integration,[null],[null],via Prelude SIEM,[null],[null],[null],[null],(NMS and NOC editions),via GLPI,Python  Perl,PostgreSQL  RRDtool,[null],(NMS and NOC editions),(NMS and NOC editions),[null],2017-09-14,4.1.0
+Zabbix,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],C  PHP,Oracle  MySQL  PostgreSQL  IBM DB2  SQLite,[null],[null],[null],[null],2019-03-29,4.2
+Zenoss Core,[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],[null],Python  Java,ZODB  MariaDB  Apache HBase,[null],[null],[null],[null],2018-01-09,6.1.0
+Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Agentless,SNMP,Syslog,Plugins,Triggers / Alerts,MIB Compiler,WebApp,Distributed Monitoring,Inventory,Platform,Data Storage Method,License,Maps,Access Control,IPv6,Latest release date,Latest release version

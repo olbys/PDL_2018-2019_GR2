@@ -1,0 +1,13 @@
+Distribution,Target Boot Time,Whole OS Loads to RAM (Default),LIVE Medium,Target Users,SSD Write Optimization (SSD degradation  I/O optimization  etc.),Specific Supported Hardware
+Aurora 3.0,[null],[null],[null],[null],[null],[null]
+EasyPeasy 1.6,[null],[null],LIVE Medium,Beginner  highly mobile netbook users.,[null],[null]
+Eeedora<ref name="Eeedora project at Google Code" />,[null],[null],[null],[null],[null],[null]
+Firefly Linux 1.0 Beta 1,[null],[null],[null],[null],[null],[null]
+Joli OS 1.2,[null],[null],[null],[null],[null],[null]
+Kuki Linux 2.0,[null],[null],[null],[null],[null],[null]
+Linux4One 1.5,40 seconds<ref>Features of Light version of Linux4One</ref>,[null],[null],[null],[null],[null]
+Manjaro Netbook Edition,[null],[null],[null],[null],[null],[null]
+Moblin 2.0,5 seconds<ref>Fast boot in Moblin page </ref><ref>Youtube video showing Moblin 2.0 prerelease booting in 5 seconds.</ref>,[null],[null],[null],[null],[null]
+OpenGeeeU 8.10,[null],[null],[null],[null],[null],[null]
+Puppeee Linux 4.3X,30s,Loads to RAM,[null],[null],Layered filesystem - caches writes in RAM,Lightweight kernel compiled for EeePCs only
+Ubuntu Netbook Edition 10.10,[null],[null],[null],[null],[null],[null]

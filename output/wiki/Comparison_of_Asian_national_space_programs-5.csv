@@ -1,0 +1,10 @@
+Country,Engine,Thrust (vac.),Stage,Cycle,Active,Status
+[null],LE-5 cryogenic engine,LE-5 — ---------- LE-5A — ---------- LE-5B —,Upper stage,5 — Gas generator 5A and 5B — Expander,1986 — present,In service
+LE-7 cryogenic engine,LE-7 — ---------- LE-7A —,Booster,Staged combustion,1994 — present,In service,[added]
+[null],YF-73 cryogenic engine,[null],Upper stage,Gas generator,1987-2000,Retired
+YF-75 cryogenic engine,[null],Upper stage,Gas generator,1994 — present,In service,[added]
+YF-75D cryogenic engine,[null],Upper stage,Expander,2016 — present,In service,[added]
+YF-77 cryogenic engine,[null],Booster,Gas generator,2016 — present,In service,[added]
+[null],CE-7.5 cryogenic engine,[null],Upper stage,Staged combustion,2014 — present,In service
+CE-20 cryogenic engine,[null],Upper stage,Gas-generator,2017 — present,In service,[added]
+SCE-200 semi-cryogenic engine,[null],Booster,Staged combustion,After 2022,Under development,[added]

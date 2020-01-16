@@ -1,0 +1,33 @@
+Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats
+ACDSee,[null],[null],[null],[null],[null],[null],[null],[null],ACDSee reads 9 compression formats and writes to 2  reads 33 video formats  and supports 61 image formats and writes to 16  including EMF  PCX  PIC  PICT  PSD  PSP  SGI  TGA  WMF  XBM  various camera formats among others
+Adobe Bridge,[null],[null],[null],[null],[null],[null],[null],[null],Displays all file types supported by Adobe Creative Suite
+Aperture,[null],[null],[null],[null],[null],[null],[null],[null],PSD  OLY  Various video formats including: AVI  MOV  MPEG
+CDisplay,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Comix,[null],[null],[null],[null],[null],[null],[null],[null],...
+digiKam,[null],[null],[null],[null],[null],[null],[null],[null],JPEG 2000  PCX  WMF  PNM  PPM  XCF  XPM  PGX  MPEG  MPO  MPE  AVI  MOV  ASF  PGF
+Eye of GNOME,[null],[null],[null],[null],[null],[null],[null],[null],PNM  RAS  ICO  XPM  SVG
+F-Spot,[null],[null],[null],[null],[null],[null],[null],[null],PPM  SVG
+FastPictureViewer,[null],[null],[null],[null],[null],[null],[null],[null],HD Photo  HDP  WDP  JPEG XR (+ RLE  DIB  ICO  MTIFF in the registered edition  as well as DjVu  TGA  PSD  HDR  DDS  EXR  J2K  PNM  PBM  PGM  PBM  LRPREV  JPS through additional WIC codecs from the optional FastPictureViewer Codec Pack or from 3rd parties)
+FastStone Image Viewer,[null],[null],[null],[null],[null],[null],[null],[null],loading of: JPEG 2000  PCX  WMF  ICO  CUR  TGA  CRW  saving to: BMP  GIF  JPEG  JPEG 2000  PCX  PNG  PPM  TGA  TIFF  PDF
+Geeqie,[null],[null],[null],[null],[null],[null],[null],[null],ANI  APM  CUR  ICNS  ICO  JP2/JPC/JPX/J2K/JPF  JPS  MPO  PCX  PBM/PGM/PNM/PPM  QIF/QTIF (QuickTime Image Format)  RAS (Sun Raster)  SVG/SVGZ  TGA/TARGA  WBMP  WMF  XBM  XPM
+Gonvisor,[null],[null],[null],[null],[null],[null],[null],[null],Opens images contained in rar  zip  ace and 7zip files.
+GraphicConverter,[null],[null],[null],[null],[null],[null],[null],[null],190 types read  79 types saved
+gThumb,[null],[null],[null],[null],[null],[null],[null],[null],[added]
+Gwenview,[null],[null],[null],[null],[null],[null],[null],[null],MNG  SVG  XCF  RAW (NEF)  etc.
+iPhoto,[null],[null],[null],[null],[null],[null],[null],[null],RAW (All QuickTime supported images)  PSD (Leopard)  AVI (Leopard)  MOV (Leopard)
+IrfanView,[null],[null],[null],[null],[null],[null],[null],[null],~70 types including : AIF  ANI/CUR  ASF  AU/SND  AVI  B3D  DIB  CAM (Casio JPG)  CLP  DDS  Dicom/ACR  DJVU  ECW  EMF/WMF  EPS/PS  FITS  FlashPix (FPX)  FSH  G3  HDR  ICO/ICL/EXE/DLL  IFF/LBM  IMG (GEM)  JPEG 2000  JPM  KDC  LDF  LWF  MED  MID/RMI  MNG/JNG  MOV  MP3  MPG  MrSID  NLM/NOL/NGG  OGG  PBM/PGM/PPM  PCX/DCX  PhotoCD  PIC  PSD  PSP  RAS/SUN  RAW  Real Audio (RA)  RLE  SFF  SFW  SGI/RGB  SWF (Flash/Shockwave)  TGA  TTF  TXT  WAD  WAL  WAV  WBMP  WBZ/WBC  XBM  XPM  CAD formats. Partial support: MOV  QTIF  Mac PICT  FLI/FLC  SVG. Note that some modes don't display large animated GIF files entirely (for example the Slideshow mode).
+KSquirrel,[null],[null],[null],[null],[null],[null],[null],[null],51 types
+KPhotoAlbum,[null],[null],[null],[null],[null],[null],[null],[null],Photo formats supported by KDE; AVI  MPEG  RAW
+Lphoto,[null],[null],[null],[null],[null],[null],[null],[null],iPhoto Clone
+Phase One Media Pro,[null],[null],[null],[null],[null],[null],[null],[null],Supports over 100 file formats for images  videos and documents  including: PSD  IIQ  CR  EIP  DOC
+Picasa,[null],[null],[null],[null],[null],[null],[null],[null],8 types including TGA  RAW  and some movie formats
+Preview,[null],[null],[null],[null],[null],[null],[null],[null],All QuickTime images:
+ResourceSpace,[null],[null],[null],[null],[null],[null],[null],[null],Hundreds; all types supported by ImageMagick and FFmpeg plus InDesign
+Shotwell,[null],[null],[null],[null],[null],[null],[null],[null],RAW and some video formats
+Simple Comic,[null],[null],[null],[null],[null],[null],[null],[null],JPEG2000  any other Core Image supported format. Also opens 7-Zip  LHA  RAR  ZIP
+STDU Viewer,[null],[null],[null],[null],[null],[null],[null],[null],TXT  EMF  WMF  DjVu  XPS
+Windows Photo Viewer,[null],[null],[null],[null],[null],[null],[null],[null],WMF  EMF  ICO
+XnView and XnViewMP,[null],[null],[null],[null],[null],[null],[null],[null],reads over 500 formats <ref>http://dottech.org/129555/windows-review-top-best-free-image-viewer-program/</ref> including: FAX  EPS  WMF  DICOM  DPX; writes about 75 formats<ref>Supported formats by XnView & by XnViewMP.</ref>
+Xv,[null],[null],[null],[null],[null],[null],[null],[null],PBM  PGM  PPM  XPM  Sun Rasterfile  Targa  RGB  PCX  FITS  PM  PostScript
+Zoner Photo Studio,[null],[null],[null],[null],[null],[null],[null],[null],HDP/WDP  PSD  PSB  PSP/PSPIMAGE  DIB/RLE  J2K/JPC/JP2  PAM  PBM  PGM  PNM  PCD  PCX  WBMP/WBM  TGA  ICO  MAC  WPG  BMI  MDM  THN  DCM  stereo pictures: JPS  PNS  BMS.
+Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats

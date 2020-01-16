@@ -1,0 +1,14 @@
+Virtual machine,Machine model,Memory management,Code security,Interpreter,JIT,AOT,Shared libraries,Common Language Object Model,Dynamic typing
+Android Runtime (ART),register,automatic,[null],[null],[null],[null],[null],[null],[null]
+Common Language Runtime (CLR),stack,automatic or manual,[null],[null],[null],[null],[null],[null],[null]
+Dis (Inferno),register,automatic,[null],[null],[null],[null],[null],[null],[null]
+DotGNU Portable.NET,stack,automatic or manual,[null],[null],[null],[null],[null],[null],[null]
+Java virtual machine (JVM),stack,automatic,[null],[null],[null],[null],[null],[null],<ref></ref>
+JikesRVM,stack,automatic,[null],[null],[null],[null],[null],[null],[null]
+LLVM,register,manual,[null],[null],[null],[null],[null],[null],[null]
+Mono,stack,automatic or manual,[null],[null],[null],[null],[null],[null],[null]
+Parrot,register,automatic,[null],[null],<ref></ref>,[null],[null],[null],[null]
+Dalvik,register,automatic,[null],[null],[null],[null],[null],[null],[null]
+Squeak,stack,automatic,[null],[null],[null],[null],[null],[null],[null]
+BEAM (Erlang),register,automatic,[null],[null],[null],[null],[null],[null],[null]
+MoarVM,register,automatic,[null],[null],[null],[null],[null],[null],[null]

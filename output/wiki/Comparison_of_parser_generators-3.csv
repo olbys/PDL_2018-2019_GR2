@@ -1,0 +1,49 @@
+Name,Parsing algorithm,Output languages,Grammar  code,Development platform,License
+Arpeggio,PEG parser interpreter  Packrat,Python (no generation  interpreted),[null],[null],, MIT
+AustenX,Packrat (modified),Java,[null],[null],, BSD
+Aurochs,Packrat,C  OCaml  Java,[null],[null],, GNU GPL
+BNFlite,Recursive descent,C++,[null],[null],, MIT
+Canopy,Packrat,Java  JavaScript  Python  Ruby,[null],[null],, GNU GPL
+CL-peg,Packrat,Common Lisp,[null],[null],, MIT
+Drat!,Packrat,D,[null],[null],, GNU GPL
+Frisby,Packrat,Haskell,[null],[null],, BSD
+grammar::peg,Packrat,Tcl,[null],[null],, BSD
+Grako,Packrat + Cut + Left Recursion,Python  C++ (beta),[null],[null],, BSD
+IronMeta,Packrat,C#,[null],[null],, BSD
+Katahdin,Packrat (modified)  mutating interpreter,C#,[null],[null],, public domain
+Laja,2-phase scannerless top-down backtracking + runtime support,Java,[null],[null],, GNU GPL
+lars::Parser,Packrat (supporting left-recursion and grammar ambiguity),C++,Identical,[null],, BSD
+LPeg,Parsing machine,Lua,[null],[null],, MIT
+lug,Parsing machine,C++17,[null],[null],, MIT
+Mouse,Recursive descent,Java,[null],[null],, Apache 2.0
+Narwhal,Packrat,C,[null],[null],, BSD
+Nearley,Earley,JavaScript,[null],[null],, MIT
+Nemerle.Peg,Recursive descent + Pratt,Nemerle,[null],[null],, BSD
+neotoma,Packrat,Erlang,[null],[null],, MIT
+NPEG,Recursive descent,C#,[null],[null],, MIT
+OMeta,Packrat (modified  partial memoization),JavaScript  Squeak  Python,[null],[null],, MIT
+PackCC,Packrat (modified),C,[null],[null],, MIT
+Packrat,Packrat,Scheme,[null],[null],, MIT
+Pappy,Packrat,Haskell,[null],[null],, BSD
+parboiled,Recursive descent,Java  Scala,[null],[null],, Apache 2.0
+Lambda PEG,Recursive descent,Java,[null],[null],, Apache 2.0
+parsepp,Recursive descent,C++,[null],[null],, public domain
+Parsnip,Packrat,C++,[null],[null],, GNU GPL
+peg,Recursive descent,C,[null],[null],, MIT
+PEG.js,Packrat (partial memoization),JavaScript,[null],[null],, MIT
+peg-parser,PEG parser interpreter,Dylan,[null],[null],?
+Pegasus,Recursive descent  Packrat (selectively),C#,[null],[null],, MIT
+pegc,Recursive descent,C,[null],[null],, public domain
+pest,Recursive descent,Rust,[null],[null],, MPL
+PetitParser,Packrat,Smalltalk  Java  Dart,[null],[null],, MIT
+PEGTL,Recursive descent,C++11,[null],[null],, MIT
+Parser Grammar Engine (PGE),Hybrid recursive descent / operator precedence<ref></ref>,Parrot bytecode,[null],[null],, Artistic 2.0
+PyPy rlib,Packrat,Python,[null],[null],, MIT
+pyPEG,PEG parser interpreter  Packrat,Python,[null],[null],, GNU GPL
+Rats!,Packrat,Java,[null],[null],, GNU LGPL
+Spirit2,Recursive descent,C++,[null],[null],, Boost
+textX,PEG parser interpreter  Packrat,Python (no generation  interpreted),[null],[null],, MIT
+Treetop,Recursive descent,Ruby,[null],[null],, MIT
+Yard,Recursive descent,C++,[null],[null],, MIT or public domain
+Waxeye,Parsing machine,C  Java  JavaScript  Python  Racket  Ruby,[null],[null],, MIT
+PHP PEG,PEG Parser?,PHP,[null],[null],, BSD
