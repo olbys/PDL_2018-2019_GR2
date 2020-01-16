@@ -1,21 +1,21 @@
-package fr.univrennes1.istic.wikipediamatrix;
-
-import static org.junit.Assert.*;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-
-import org.jsoup.nodes.Document;
-import org.junit.Test;
-
-import connexionAPI.ExtractionToHTML;
-import connexionAPI.ExtractionToWiki;
-
-public class BenchTest {
-	
-	
+//package fr.univrennes1.istic.wikipediamatrix;
+//
+//import static org.junit.Assert.*;
+//
+//import java.io.BufferedReader;
+//import java.io.File;
+//import java.io.FileReader;
+//import java.io.FileWriter;
+//
+//import org.jsoup.nodes.Document;
+//import org.junit.Test;
+//
+//import connexionAPI.ExtractionToHTML;
+//import connexionAPI.ExtractionToWiki;
+//
+//public class BenchTest {
+//	
+//	
 //	/*
 //	*  the challenge is to extract as many relevant tables as possible
 //	*  and save them into CSV files  
@@ -77,9 +77,9 @@ public class BenchTest {
 //	    assertEquals(nurl, 336);
 //	    
 //	}
-
-	private String mkCSVFileName(String url, int n) {
-		return url.trim() + "-" + n + ".csv";
-	}
-
-}
+//
+//	private String mkCSVFileName(String url, int n) {
+//		return url.trim() + "-" + n + ".csv";
+//	}
+//
+//}
