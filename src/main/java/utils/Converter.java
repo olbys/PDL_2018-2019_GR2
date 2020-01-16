@@ -1,4 +1,4 @@
-package abstractClass;
+package utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,37 +18,22 @@ import InterfaceExtractor.Extractor;
 import connexionAPI.ExtractionToHTML;
 import connexionAPI.ExtractionToWiki;
 import createfileCSV.GestionnaireCSV;
-import utils.Messages;
 
-public abstract class Converter {
+public class Converter {
 	
 	protected Extractor extractor;
 	protected GestionnaireCSV filehandler;
 	protected char separator = ',';
 
-	public StringBuilder processCurrentTDText(StringBuilder tdText) {	
-		for (int k = 0; k < tdText.length(); k++) {	
-			if (tdText.charAt(k) == separator) {		
-				if (k > 0) {					
-					if (!isNumeric(tdText.charAt(k - 1))) {						
-						tdText.setCharAt(k, ' ');
-					} else {						
-						if ((k + 1) < tdText.length()) {							
-							if (isNumeric(tdText.charAt(k + 1))) {						
-								tdText.setCharAt(k, '.');
-							} else
-								tdText.setCharAt(k, ' ');
-						}
-					}
-				}
-				if (k == tdText.length() - 1)
-					tdText.setCharAt(k, ' ');
-			}
-		}
-		return tdText;
+	public Converter(Extractor ext) {
+		
+		 if (ext instanceof ExtractionToHTML) {
+			this.extractor = (ExtractionToHTML) ext;	
+		} else if (ext instanceof ExtractionToWiki) {
+			 this.extractor = (ExtractionToWiki) ext;
+		}	
+		this.filehandler = new GestionnaireCSV();
 	}
-
-	
 	/**
 	 * Checks whether or not a character is a number Used to process td text 
 	 * @param character the character to check
@@ -125,7 +110,7 @@ public abstract class Converter {
 			StringBuilder currentTdText;
 			int filenameCounter = 1;
 			try {
-				Elements tableElements = this.extractor.extractTables(doc, baseUrl + pageTitle);
+				Elements tableElements = this.extractor.getExtractedTables(doc, baseUrl + pageTitle);
 				if (tableElements != null) {
 					for (Element currentTable : tableElements) {
 						Elements currentTableTrs = currentTable.select("tr");
@@ -148,8 +133,8 @@ public abstract class Converter {
 								line = "";
 							}
 						}
-						filename = this.filehandler.extractFilenameFromUrl(pageTitle, filenameCounter);
-						this.filehandler.write(filePath, filename, data);
+						filename = this.filehandler.getFilenameFromUrl(pageTitle, filenameCounter);
+						this.filehandler.writeIntoFile(filePath, filename, data);
 						System.out.println(filename + "has created");
 						filenameCounter++;
 						data.clear();
@@ -171,6 +156,28 @@ public abstract class Converter {
 				sb.setCharAt(i, ' ');
 		}	
 		return sb.toString();
+	}
+	
+	private StringBuilder processCurrentTDText(StringBuilder tdText) {	
+		for (int k = 0; k < tdText.length(); k++) {	
+			if (tdText.charAt(k) == separator) {		
+				if (k > 0) {					
+					if (!isNumeric(tdText.charAt(k - 1))) {						
+						tdText.setCharAt(k, ' ');
+					} else {						
+						if ((k + 1) < tdText.length()) {							
+							if (isNumeric(tdText.charAt(k + 1))) {						
+								tdText.setCharAt(k, '.');
+							} else
+								tdText.setCharAt(k, ' ');
+						}
+					}
+				}
+				if (k == tdText.length() - 1)
+					tdText.setCharAt(k, ' ');
+			}
+		}
+		return tdText;
 	}
 	
 }

@@ -35,7 +35,7 @@ class ExtractionToHTMLTest {
 	@Tag("robustness")
 	public void testComparison_of_Exchange_ActiveSync_clients() throws IOException {
 		Document doc = extractor.getDocumentFromHtml("en", "Comparison_of_Android_e-book_reader_software");
-		Elements tables= extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL+"Comparison_of_Android_e-book_reader_software");
+		Elements tables= extractor.getExtractedTables(doc, Messages.ENGLISH_WIKI_URL+"Comparison_of_Android_e-book_reader_software");
 		assertEquals(6, tables.size());	 
 	}
 	
@@ -58,7 +58,7 @@ class ExtractionToHTMLTest {
 	@Tag("robustness")
 	public void testComparison_of_audio_player_software() throws IOException, PageNotFoundException {
 		Document doc = extractor.getDocumentFromHtml("en", "Comparison_of_e-book_formats");
-		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_e-book_formats");
+		Elements tables = extractor.getExtractedTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_e-book_formats");
 		assertEquals(31, tables.size());
 	}
 	
@@ -66,7 +66,7 @@ class ExtractionToHTMLTest {
 	@DisplayName("Comparison_of_SSH_clients")
 	public void testComparison_of_SSH_clients() throws IOException, PageNotFoundException{
 		Document doc =extractor.getDocumentFromHtml("en", "Comparison_of_SSH_clients");
-		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_SSH_clients");
+		Elements tables = extractor.getExtractedTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_SSH_clients");
 		assertEquals(3, tables.size());
 	}
 	
@@ -74,7 +74,7 @@ class ExtractionToHTMLTest {
 	@DisplayName("Comparison_of_TLS_implementations") 
 	public void testComparison_of_TLS_implementations() throws IOException, PageNotFoundException {
 		Document doc = extractor.getDocumentFromHtml("en", "Comparison_of_TLS_implementations");
-		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_TLS_implementations");
+		Elements tables = extractor.getExtractedTables(doc, Messages.ENGLISH_WIKI_URL + "Comparison_of_TLS_implementations");
 		assertEquals(18, tables.size());
 	}
 	
@@ -82,7 +82,7 @@ class ExtractionToHTMLTest {
 	@DisplayName("Test Python_(langage)")
 	public void testComparison_of_PythonLangage() throws IOException, PageNotFoundException {
 		Document doc =extractor.getDocumentFromHtml("fr", "Python_(langage)");
-		Elements tables = extractor.extractTables(doc, Messages.ENGLISH_WIKI_URL + "Python_(langage)");
+		Elements tables = extractor.getExtractedTables(doc, Messages.ENGLISH_WIKI_URL + "Python_(langage)");
 		assertEquals(0, tables.size());
 	}
 	
@@ -128,6 +128,5 @@ class ExtractionToHTMLTest {
 		} catch (Exception e) {
 		}
 		System.out.println("total CSV Valid files extracted : "+counter);
-		
 	}
 }

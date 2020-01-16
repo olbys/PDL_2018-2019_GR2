@@ -33,9 +33,8 @@ public class ExtractionToWikiTest {
 	}  	
 	
 	@Test
-	@AfterAll
 	@DisplayName("Test validity of all CSV file extracted by WikiExtractor ")
-	public void testAreCsvFilesValid() {
+	public void testAreCsvFilesValidFromHtml() {
 		GestionnaireCSV gestionnaire=new GestionnaireCSV();
 		File[] files = null;
 		int counter = 0;

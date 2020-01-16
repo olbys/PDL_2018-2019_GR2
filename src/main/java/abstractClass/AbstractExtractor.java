@@ -20,14 +20,15 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+
 import InterfaceExtractor.Extractor;
-import createfileCSV.GestionnaireCSV;
 import utils.Messages;
 
 
 public abstract class AbstractExtractor implements Extractor {
 	
 	protected List<String> urls;
+	
 	
 	/**
 	 * Test si les urls de l'extractor sont valide 
@@ -75,7 +76,7 @@ public abstract class AbstractExtractor implements Extractor {
 	}
 	
 	@Override
-	public Elements ignoredClasses(Elements tableElements) {
+	public Elements ignoreClasses(Elements tableElements) {
 		String[] currentTableClasses;
 		for (Element currentTable : tableElements) {
 			currentTableClasses = currentTable.className().split(" ");
@@ -95,21 +96,21 @@ public abstract class AbstractExtractor implements Extractor {
 	}
 	
 	@Override
-	public Elements extractTables(Document doc, String url) throws IOException, HttpStatusException {
+	public Elements getExtractedTables(Document doc, String url) throws IOException, HttpStatusException {
 		Elements tableElements = null;
 		if (!isUrlValid(url)) {
 			System.out.println(url + " is not valid");
 		} else {
 			tableElements = doc.select("table"); 
 			int initialSize = tableElements.size();
-			tableElements = convertThsToTds(tableElements);
+			tableElements = replaceThsByTds(tableElements);
 			tableElements = formatTables(tableElements);
 			tableElements = fillEmptyTds(tableElements);
-			tableElements = ignoredElements("div", tableElements);
-			tableElements = ignoredElements("code", tableElements);
-			tableElements = ignoredElements("ul", tableElements);
-			tableElements = ignoredClasses(tableElements);
-			tableElements = ignoredElements("p", tableElements);
+			tableElements = ignoreElements("div", tableElements);
+			tableElements = ignoreElements("code", tableElements);
+			tableElements = ignoreElements("ul", tableElements);
+			tableElements = ignoreClasses(tableElements);
+			tableElements = ignoreElements("p", tableElements);
 			
 		}
 		return tableElements;
@@ -121,7 +122,7 @@ public abstract class AbstractExtractor implements Extractor {
 	 * @param tableElements the tables whose ths are transformed to tds
 	 * @return the processed tables
 	 */
-	private Elements convertThsToTds(Elements tableElements) {
+	private Elements replaceThsByTds(Elements tableElements) {
 		for (Element currentTable : tableElements) {
 			Elements currentTableRowElements = currentTable.select("tr");
 			for (int i = 0; i < currentTableRowElements.size(); i++) {
@@ -151,7 +152,7 @@ public abstract class AbstractExtractor implements Extractor {
 		return tableElements;
 	}
 	@Override
-	public Elements ignoredElements(String tag, Elements tableElements) {
+	public Elements ignoreElements(String tag, Elements tableElements) {
 		
 		for (Element currentTable : tableElements) {
 			Elements currentTableRowElements = currentTable.select("tr"); 
@@ -191,10 +192,10 @@ public abstract class AbstractExtractor implements Extractor {
 	}
 	
 	@Override
-	public Elements ignoreTablesWithLessRows(Elements tableElements, int numberOfRows) {
+	public Elements ignoreNotPertinentTables(Elements tableElements, int minimumRow) {
 		for (Element currentTable : tableElements) {
 			Elements currentTableRowElements = currentTable.select("tr");
-			if (currentTableRowElements.size() < numberOfRows) {
+			if (currentTableRowElements.size() < minimumRow) {
 				currentTable.addClass(Messages.CLASS_TO_REMOVE);
 			}
 

@@ -6,6 +6,9 @@ import org.jsoup.HttpStatusException;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+import utils.Converter;
+
+
 public interface Extractor {
     
     
@@ -28,7 +31,7 @@ public interface Extractor {
  	 * @param tableElements the tables whose elements are processed
  	 * @return the processed tables
  	 */
- 	public Elements ignoredClasses(Elements tableElements);
+ 	public Elements ignoreClasses(Elements tableElements);
  	
  	/**
  	 * Extracts table from a given url
@@ -39,7 +42,7 @@ public interface Extractor {
  	 * @throws IOException if is not possible to get the html-like representation
  	 * @throws HttpStatusException if the page does not exist
  	 */
- 	public Elements extractTables(Document doc, String url) throws IOException, HttpStatusException;
+ 	public Elements getExtractedTables(Document doc, String url) throws IOException, HttpStatusException;
  	
  	/**
  	 * Ignores some elements supposed to make tables non-pertinent such as navbox
@@ -48,7 +51,7 @@ public interface Extractor {
  	 * @param tableElements the tables whose elements are processed
  	 * @return the processed tables
  	 */
- 	public Elements ignoredElements(String tag ,Elements tableElements);
+ 	public Elements ignoreElements(String tag ,Elements tableElements);
  	
  	/**
  	 * Ignore tables with number of rows less than a given number of row
@@ -57,10 +60,8 @@ public interface Extractor {
  	 * @param numberOfRows the minimum number of rows for a table not to be ignored
  	 * @return the processed tables
  	 */
- 	public Elements ignoreTablesWithLessRows(Elements tableElements, int numberOfRows);
+ 	public Elements ignoreNotPertinentTables(Elements tableElements, int numberOfRows);
      
-     
-    
     
 
 }

@@ -12,13 +12,12 @@ import com.opencsv.*;
 public class GestionnaireCSV {
 	
 	/**
-	 * Extract the filename from url
-	 * 
+	 * get the name of the file from url
 	 * @param url the url of that page
 	 * @param number of the current table on the current page
 	 * @return String
 	 */
-	public String extractFilenameFromUrl(String url, int number) {
+	public String getFilenameFromUrl(String url, int number) {
 		return url + "-" + number + ".csv";
 	}
 	
@@ -52,7 +51,13 @@ public class GestionnaireCSV {
 		}
 	}
 	
-	public boolean isCsvFileValid(char separator, File file) {
+	/**
+	 * verifie if the number of header is equals to number of colums rows
+	 * @param separator
+	 * @param file
+	 * @return
+	 */
+	private boolean isCsvFileValid(char separator, File file) {
 		FileReader fr = null;
 		BufferedReader br = null;
 		String line;
@@ -102,7 +107,7 @@ public class GestionnaireCSV {
 	 * @param filename the name of that file
 	 * @param data the text to be written
 	 */
-	public void write(String filePath, String filename, List<String> data) {
+	public void writeIntoFile(String filePath, String filename, List<String> data) {
 		FileWriter fw = null;
 		BufferedWriter bw = null;
 		File f = null;

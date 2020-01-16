@@ -10,14 +10,14 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import abstractClass.AbstractExtractor;
-import utils.ConcreteConverter;
+import utils.Converter;
 import utils.Messages;
 
 public class ExtractionToHTML extends AbstractExtractor {
-	ConcreteConverter converter;
+	Converter converter;
 
 	public ExtractionToHTML() {
-		this.converter = new ConcreteConverter(this);
+		this.converter = new Converter(this);
 		this.urls=new ArrayList<String>();
 	}
 
@@ -32,7 +32,8 @@ public class ExtractionToHTML extends AbstractExtractor {
 	public List<String> getUrls() {
 		return super.urls;
 	}
-	public ConcreteConverter getConverter() {
+
+	public Converter getConverter() {
 		return converter;
 	}
 	public Document getDocumentFromHtml(String langage, String url) throws IOException {
