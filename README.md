@@ -6,8 +6,8 @@ A program to extract tables from wikipedia pages and generate their CSV.
   ### Features:
 
 - [x] Extract tables from wikipedia pages via HTML and via Wikitext
-- [ ] Structure and export data in csv format
-- [ ] Evaluate the extractors
+- [x] Structure and export data in csv format
+- [x] Evaluate the extractors
 - [ ] Build a truth-ground => The extraction is good? we validate it : we create a way to edit the csv file
 
  ### Some useful links:
