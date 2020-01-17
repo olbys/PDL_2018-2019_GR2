@@ -1,7 +1,7 @@
 # PDL_2019-2020 : Improve PDL_2018-2019_GR2
 ## Wikipedia Matrix
 A program to extract tables from wikipedia pages and generate their CSV.
- Have a look at the [documentation](https://github.com/olbys/PDL_2018-2019_GR2/docs) to find additional information.
+ Have a look at the [documentation](http://blog.mathieuacher.com/WikipediaMatrixChallenge) to find additional information.
 
   ### Features:
 
