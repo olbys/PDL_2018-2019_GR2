@@ -8,8 +8,7 @@ so you will find in this model the following diagrams:
 
 Explaining the composition and structure of the classes, 
 <br/>
-![Class Diagram Schema](.settings/CLASS DIAGRAM.jpeg)
-
+![Class Diagram Schema](.settings/CLASS_DIAGRAM.jpeg)
 <br/>
 
 
