@@ -15,7 +15,7 @@ A program to extract tables from wikipedia pages and generate their CSV.
 - [install.md](INSTALL.md)
 - [design.md](DESIGN.md)
 - [examples.md]("")
-- [Running the tests]("") 
+- [Running the tests](.settings/qualites_extration.PNG) 
 
 
  ### Authors :construction_worker: 
